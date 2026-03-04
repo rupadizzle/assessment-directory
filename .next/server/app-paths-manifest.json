@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/clinics/route": "app/api/clinics/route.js",
+  "/api/contact/route": "app/api/contact/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/page": "app/page.js",
+  "/autism-assessment/[town]/page": "app/autism-assessment/[town]/page.js",
+  "/list-your-clinic/page": "app/list-your-clinic/page.js",
+  "/guides/[slug]/page": "app/guides/[slug]/page.js",
+  "/autism-assessment/page": "app/autism-assessment/page.js",
+  "/adhd-assessment/[town]/page": "app/adhd-assessment/[town]/page.js",
+  "/clinic/[slug]/page": "app/clinic/[slug]/page.js",
+  "/pricing/page": "app/pricing/page.js",
+  "/adhd-assessment/page": "app/adhd-assessment/page.js"
+}

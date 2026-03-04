@@ -1,0 +1,2659 @@
+[
+  {
+    "id": "clinic-001",
+    "name": "The ADHD Centre London",
+    "slug": "the-adhd-centre-london",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "london",
+      "croydon",
+      "sutton",
+      "wimbledon",
+      "kingston-upon-thames"
+    ],
+    "address": "123 Harley Street, London",
+    "city": "London",
+    "postcode": "W1G 9QD",
+    "lat": 51.5189,
+    "lng": -0.1487,
+    "phone": "020 7946 5000",
+    "email": "info@adhdcentrelondon.co.uk",
+    "website": "https://www.adhdcentrelondon.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 1000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Specialist ADHD assessment centre offering comprehensive diagnostic evaluations for adults and children. Our experienced team provides evidence-based assessments and ongoing support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Coaching",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. James Mitchell, Consultant Psychiatrist",
+      "Dr. Sarah Chen, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-002",
+    "name": "Clinical Partners",
+    "slug": "clinical-partners",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "croydon",
+      "bromley",
+      "beckenham"
+    ],
+    "address": "456 Oxford Street, London",
+    "city": "London",
+    "postcode": "W1D 1BS",
+    "lat": 51.5158,
+    "lng": -0.129,
+    "phone": "020 3903 1000",
+    "email": "contact@clinicalpartners.co.uk",
+    "website": "https://www.clinicalpartners.co.uk",
+    "pricing": {
+      "adhd_adult": 1400,
+      "adhd_child": 1100,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Comprehensive neurodevelopmental assessment services for ADHD and autism. We provide rapid access to expert evaluations with a focus on personalised care plans.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Emma Thompson, Consultant Psychiatrist",
+      "Dr. Michael Wong, Developmental Psychologist",
+      "Ms. Rebecca Harris, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-003",
+    "name": "Psymplicity Healthcare",
+    "slug": "psymplicity-healthcare",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "central",
+      "west-london",
+      "south-london"
+    ],
+    "address": "789 Regent Street, London",
+    "city": "London",
+    "postcode": "W1B 4TR",
+    "lat": 51.5154,
+    "lng": -0.1429,
+    "phone": "020 4504 8000",
+    "email": "enquiries@psymplicityhealth.co.uk",
+    "website": "https://www.psymplicityhealth.co.uk",
+    "pricing": {
+      "adhd_adult": 1350,
+      "adhd_child": 1050,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Integrated mental health and neurodevelopmental services with multi-disciplinary teams. Offering rapid diagnostics and holistic treatment pathways.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Psychological Therapy",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Alexander Morris, Consultant Psychiatrist",
+      "Dr. Lisa Patel, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-004",
+    "name": "Harley Psychiatrists",
+    "slug": "harley-psychiatrists",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "fitzrovia",
+      "bloomsbury",
+      "marylebone"
+    ],
+    "address": "234 Harley Street, London",
+    "city": "London",
+    "postcode": "W1G 7HA",
+    "lat": 51.5191,
+    "lng": -0.1481,
+    "phone": "020 7616 5000",
+    "email": "admin@harleypsychiatrists.co.uk",
+    "website": "https://www.harleypsychiatrists.co.uk",
+    "pricing": {
+      "adhd_adult": 1500,
+      "adhd_child": 1200,
+      "autism_adult": 2800,
+      "autism_child": 2300
+    },
+    "wait_time": "1-3 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Prestigious private psychiatry practice with specialists in neurodevelopmental conditions. Providing gold-standard assessments in central London.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management",
+      "Specialist Consultations"
+    ],
+    "professionals": [
+      "Dr. Christopher Hamilton, Consultant Psychiatrist",
+      "Dr. Jennifer Walsh, Developmental Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-005",
+    "name": "The Autism Clinic London",
+    "slug": "the-autism-clinic-london",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "southwark",
+      "lambeth",
+      "vauxhall"
+    ],
+    "address": "567 Borough High Street, London",
+    "city": "London",
+    "postcode": "SE1 1RB",
+    "lat": 51.505,
+    "lng": -0.0865,
+    "phone": "020 3456 7890",
+    "email": "info@autismclinic-london.co.uk",
+    "website": "https://www.autismclinic-london.co.uk",
+    "pricing": {
+      "autism_adult": 2500,
+      "autism_child": 2100
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Specialist autism diagnostic centre focusing exclusively on comprehensive evaluations. We provide detailed reports and support for both adults and children.",
+    "services": [
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Psychological Assessment"
+    ],
+    "professionals": [
+      "Dr. Patricia Brown, Consultant Psychologist",
+      "Dr. David Kumar, Clinical Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-006",
+    "name": "ADHD Associates",
+    "slug": "adhd-associates",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "london",
+      "islington",
+      "finsbury-park",
+      "highbury"
+    ],
+    "address": "890 Upper Street, London",
+    "city": "London",
+    "postcode": "N1 0RB",
+    "lat": 51.5376,
+    "lng": -0.106,
+    "phone": "020 7226 5555",
+    "email": "contact@adhdassociates.co.uk",
+    "website": "https://www.adhdassociates.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Dedicated ADHD assessment service with experienced clinicians. We provide comprehensive evaluations and evidence-based recommendations.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Coaching"
+    ],
+    "professionals": [
+      "Dr. Robert Williams, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-007",
+    "name": "Neurodevelopment UK",
+    "slug": "neurodevelopment-uk",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "wandsworth",
+      "clapham",
+      "battersea"
+    ],
+    "address": "345 Lavender Hill, London",
+    "city": "London",
+    "postcode": "SW11 5TH",
+    "lat": 51.4569,
+    "lng": -0.1768,
+    "phone": "020 8191 5000",
+    "email": "info@neurodevelopment-uk.co.uk",
+    "website": "https://www.neurodevelopment-uk.co.uk",
+    "pricing": {
+      "adhd_adult": 1250,
+      "adhd_child": 1000,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Multi-disciplinary neurodevelopmental assessment service. We combine expertise in ADHD and autism to provide integrated care pathways.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Margaret Foster, Consultant Psychiatrist",
+      "Dr. Kevin O'Brien, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-008",
+    "name": "Horizon Mental Health",
+    "slug": "horizon-mental-health",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "twickenham",
+      "richmond",
+      "barnes"
+    ],
+    "address": "567 Richmond Road, London",
+    "city": "London",
+    "postcode": "TW9 1NA",
+    "lat": 51.4596,
+    "lng": -0.3005,
+    "phone": "020 8940 1234",
+    "email": "referrals@horizonmentalheath.co.uk",
+    "website": "https://www.horizonmentalhealth.co.uk",
+    "pricing": {
+      "adhd_adult": 1300,
+      "adhd_child": 1050,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Comprehensive mental health and neurodevelopmental assessment centre. Rapid access to specialist diagnostics and evidence-based treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Susan Blake, Consultant Psychiatrist",
+      "Dr. Thomas Hardy, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-009",
+    "name": "Neurodiversity Clinic Surrey",
+    "slug": "neurodiversity-clinic-surrey",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "surrey",
+      "guildford",
+      "woking",
+      "farnham"
+    ],
+    "address": "123 High Street, Guildford",
+    "city": "Guildford",
+    "postcode": "GU1 3AA",
+    "lat": 51.2381,
+    "lng": -0.5734,
+    "phone": "01483 456789",
+    "email": "info@neurodiversitysurrey.co.uk",
+    "website": "https://www.neurodiversitysurrey.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Surrey-based neurodiversity specialist centre offering ADHD and autism assessments. Providing comprehensive evaluations with flexible appointment times.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Helen Morris, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-010",
+    "name": "Assessment Plus Kent",
+    "slug": "assessment-plus-kent",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "kent",
+      "maidstone",
+      "tunbridge-wells",
+      "ashford"
+    ],
+    "address": "456 Week Street, Maidstone",
+    "city": "Maidstone",
+    "postcode": "ME14 1RQ",
+    "lat": 51.2697,
+    "lng": 0.5183,
+    "phone": "01622 567890",
+    "email": "contact@assessmentplus-kent.co.uk",
+    "website": "https://www.assessmentplus-kent.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 900,
+      "autism_adult": 2100,
+      "autism_child": 1700
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Kent-based assessment clinic specialising in ADHD and autism diagnostics. Fast, thorough evaluations with detailed reports.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Nicholas Ellis, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-011",
+    "name": "Sussex Neurodevelopmental",
+    "slug": "sussex-neurodevelopmental",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "sussex",
+      "brighton",
+      "eastbourne",
+      "hastings"
+    ],
+    "address": "789 East Street, Brighton",
+    "city": "Brighton",
+    "postcode": "BN1 1HP",
+    "lat": 50.8225,
+    "lng": -0.1372,
+    "phone": "01273 789012",
+    "email": "info@sussex-neuro.co.uk",
+    "website": "https://www.sussex-neuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "East Sussex clinic providing comprehensive neurodevelopmental assessments. Experienced team with focus on patient-centred care.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Victoria Smart, Clinical Psychologist",
+      "Dr. Andrew Price, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-012",
+    "name": "Oxford Assessment Centre",
+    "slug": "oxford-assessment-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "oxford",
+      "reading",
+      "swindon",
+      "wantage"
+    ],
+    "address": "234 High Street, Oxford",
+    "city": "Oxford",
+    "postcode": "OX1 4AH",
+    "lat": 51.752,
+    "lng": -1.2578,
+    "phone": "01865 234567",
+    "email": "info@oxfordassessment.co.uk",
+    "website": "https://www.oxfordassessment.co.uk",
+    "pricing": {
+      "adhd_adult": 1300,
+      "adhd_child": 1050,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Oxford-based centre for neurodevelopmental assessment. Providing expert diagnostics with research-informed practice.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Psychological Assessment"
+    ],
+    "professionals": [
+      "Dr. Frances Johnson, Developmental Psychologist",
+      "Dr. Martin Davies, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-013",
+    "name": "Cambridge Neurodiversity Clinic",
+    "slug": "cambridge-neurodiversity-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "cambridge",
+      "peterborough",
+      "huntingdon",
+      "ely"
+    ],
+    "address": "567 King's Parade, Cambridge",
+    "city": "Cambridge",
+    "postcode": "CB2 1SJ",
+    "lat": 52.2046,
+    "lng": 0.1224,
+    "phone": "01223 345678",
+    "email": "referrals@cambridgeneuro.co.uk",
+    "website": "https://www.cambridgeneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1350,
+      "adhd_child": 1100,
+      "autism_adult": 2500,
+      "autism_child": 2100
+    },
+    "wait_time": "1-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Cambridge-based clinic with specialist expertise in neurodevelopmental assessment. Rapid access and comprehensive diagnostic services.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Eleanor Thompson, Consultant Neuropsychologist",
+      "Dr. George Wilson, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-014",
+    "name": "Essex Psychiatry Clinic",
+    "slug": "essex-psychiatry-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "essex",
+      "chelmsford",
+      "southend",
+      "harlow"
+    ],
+    "address": "890 High Street, Chelmsford",
+    "city": "Chelmsford",
+    "postcode": "CM1 1AF",
+    "lat": 51.736,
+    "lng": 0.4793,
+    "phone": "01245 456789",
+    "email": "info@essexpsychiatry.co.uk",
+    "website": "https://www.essexpsychiatry.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Essex-based ADHD specialist clinic offering comprehensive diagnostic assessments. Experienced team providing detailed reports.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Richard Fletcher, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-015",
+    "name": "London Autism Centre",
+    "slug": "london-autism-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "hackney",
+      "tower-hamlets",
+      "newham"
+    ],
+    "address": "123 Bethnal Green Road, London",
+    "city": "London",
+    "postcode": "E1 6AN",
+    "lat": 51.5273,
+    "lng": -0.0594,
+    "phone": "020 7123 4567",
+    "email": "contact@londonautismcentre.co.uk",
+    "website": "https://www.londonautismcentre.co.uk",
+    "pricing": {
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Specialist autism assessment centre in East London. Providing gold-standard diagnostics with compassionate care.",
+    "services": [
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Specialist Consultations"
+    ],
+    "professionals": [
+      "Dr. Sophia Patel, Clinical Psychologist",
+      "Dr. Oliver Chen, Developmental Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-016",
+    "name": "Manchester ADHD Clinic",
+    "slug": "manchester-adhd-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "manchester",
+      "stockport",
+      "tameside",
+      "oldham"
+    ],
+    "address": "456 Deansgate, Manchester",
+    "city": "Manchester",
+    "postcode": "M3 2BW",
+    "lat": 53.4808,
+    "lng": -2.2426,
+    "phone": "0161 234 5678",
+    "email": "info@manchesteradhd.co.uk",
+    "website": "https://www.manchesteradhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 900,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Manchester-based neurodevelopmental clinic offering rapid ADHD and autism assessments. Multi-disciplinary team with extensive expertise.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Jonathan Smith, Consultant Psychiatrist",
+      "Dr. Rachel Green, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-017",
+    "name": "Neurodiversity Northwest",
+    "slug": "neurodiversity-northwest",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "manchester",
+      "cheshire",
+      "bury",
+      "bolton"
+    ],
+    "address": "789 Market Street, Manchester",
+    "city": "Manchester",
+    "postcode": "M1 1WD",
+    "lat": 53.483,
+    "lng": -2.2343,
+    "phone": "0161 345 6789",
+    "email": "contact@neurodiversity-nw.co.uk",
+    "website": "https://www.neurodiversity-nw.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "North West clinic specialising in comprehensive neurodevelopmental assessments. Offering ADHD and autism diagnostics with detailed support plans.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Laura Wilson, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-018",
+    "name": "Liverpool Assessment Centre",
+    "slug": "liverpool-assessment-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "liverpool",
+      "wirral",
+      "sefton",
+      "st-helens"
+    ],
+    "address": "567 Bold Street, Liverpool",
+    "city": "Liverpool",
+    "postcode": "L1 4EZ",
+    "lat": 53.4084,
+    "lng": -2.9916,
+    "phone": "0151 456 7890",
+    "email": "info@liverpooldiscover.co.uk",
+    "website": "https://www.liverpooldiscover.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900,
+      "autism_adult": 2100,
+      "autism_child": 1700
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Liverpool-based neurodevelopmental assessment clinic. Providing professional ADHD and autism diagnostics with compassionate care.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Michael Brown, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-019",
+    "name": "Cheshire ADHD Specialists",
+    "slug": "cheshire-adhd-specialists",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "cheshire",
+      "chester",
+      "crewe",
+      "macclesfield"
+    ],
+    "address": "234 Northgate, Chester",
+    "city": "Chester",
+    "postcode": "CH1 2HG",
+    "lat": 53.1904,
+    "lng": -2.8904,
+    "phone": "01244 567890",
+    "email": "referrals@cheshireadhd.co.uk",
+    "website": "https://www.cheshireadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Cheshire-based ADHD specialist clinic with experienced team. Offering comprehensive assessments and ongoing support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Coaching"
+    ],
+    "professionals": [
+      "Dr. Amanda Ross, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-020",
+    "name": "Lancashire Neurodevelopmental",
+    "slug": "lancashire-neurodevelopmental",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "lancashire",
+      "preston",
+      "blackburn",
+      "lancaster"
+    ],
+    "address": "890 Fishergate, Preston",
+    "city": "Preston",
+    "postcode": "PR1 8AD",
+    "lat": 53.7585,
+    "lng": -2.7034,
+    "phone": "01772 234567",
+    "email": "info@lancsneurodevelop.co.uk",
+    "website": "https://www.lancsneurodevelop.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 850,
+      "autism_adult": 2100,
+      "autism_child": 1700
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Lancashire clinic offering professional neurodevelopmental assessments. Specialized in ADHD and autism with rapid access appointments.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Christopher Bell, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-021",
+    "name": "Birmingham Neurodiversity Centre",
+    "slug": "birmingham-neurodiversity-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "birmingham",
+      "solihull",
+      "dudley",
+      "wolverhampton"
+    ],
+    "address": "567 Corporation Street, Birmingham",
+    "city": "Birmingham",
+    "postcode": "B4 6SD",
+    "lat": 52.5098,
+    "lng": -1.8843,
+    "phone": "0121 234 5678",
+    "email": "info@birminghamneuro.co.uk",
+    "website": "https://www.birminghamneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1250,
+      "adhd_child": 1000,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Birmingham's leading neurodiversity assessment centre. Multi-disciplinary team offering comprehensive ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. David Matthews, Consultant Psychiatrist",
+      "Dr. Karen Price, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-022",
+    "name": "West Midlands ADHD",
+    "slug": "west-midlands-adhd",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "birmingham",
+      "wolverhampton",
+      "walsall",
+      "coventry"
+    ],
+    "address": "234 Broad Street, Birmingham",
+    "city": "Birmingham",
+    "postcode": "B1 2DS",
+    "lat": 52.5109,
+    "lng": -1.8901,
+    "phone": "0121 345 6789",
+    "email": "contact@wmidadhd.co.uk",
+    "website": "https://www.wmidadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "West Midlands ADHD clinic providing expert diagnostic assessments. Experienced team focused on thorough evaluation and support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Valerie Jackson, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-023",
+    "name": "Coventry Assessment Clinic",
+    "slug": "coventry-assessment-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "coventry",
+      "warwick",
+      "leamington",
+      "nuneaton"
+    ],
+    "address": "890 Hertford Street, Coventry",
+    "city": "Coventry",
+    "postcode": "CV1 1LJ",
+    "lat": 52.4081,
+    "lng": -1.5108,
+    "phone": "024 7634 5678",
+    "email": "info@coventryassess.co.uk",
+    "website": "https://www.coventryassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Coventry-based neurodevelopmental assessment centre. Professional ADHD and autism diagnostics with detailed reporting.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Stephen Collins, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-024",
+    "name": "Worcestershire Neurodiversity",
+    "slug": "worcestershire-neurodiversity",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "worcester",
+      "redditch",
+      "kidderminster",
+      "bromsgrove"
+    ],
+    "address": "567 Foregate Street, Worcester",
+    "city": "Worcester",
+    "postcode": "WR1 1DB",
+    "lat": 52.1896,
+    "lng": -2.2176,
+    "phone": "01905 234567",
+    "email": "referrals@worcester-neuro.co.uk",
+    "website": "https://www.worcester-neuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 850,
+      "autism_adult": 2100,
+      "autism_child": 1700
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Worcestershire clinic offering comprehensive neurodevelopmental assessments. Specialist team in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Lorna Hamilton, Consultant Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-025",
+    "name": "Staffordshire ADHD Clinic",
+    "slug": "staffordshire-adhd-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "stafford",
+      "stoke-on-trent",
+      "wolverhampton",
+      "newcastle-under-lyme"
+    ],
+    "address": "234 High Street, Stafford",
+    "city": "Stafford",
+    "postcode": "ST16 2PL",
+    "lat": 52.8066,
+    "lng": -2.1215,
+    "phone": "01785 345678",
+    "email": "contact@staffsadhd.co.uk",
+    "website": "https://www.staffsadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Staffordshire ADHD specialist clinic with experienced practitioners. Offering rapid diagnostic assessments and support plans.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Marcus Reed, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-026",
+    "name": "Leeds Neurodevelopment Clinic",
+    "slug": "leeds-neurodevelopment-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "leeds",
+      "wakefield",
+      "castleford",
+      "pontefract"
+    ],
+    "address": "890 Briggate, Leeds",
+    "city": "Leeds",
+    "postcode": "LS1 6AH",
+    "lat": 53.8008,
+    "lng": -1.5491,
+    "phone": "0113 234 5678",
+    "email": "info@leedsneuro.co.uk",
+    "website": "https://www.leedsneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1250,
+      "adhd_child": 1000,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Leeds-based centre for neurodevelopmental assessment. Offering rapid access to expert ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Natalie Turner, Consultant Psychiatrist",
+      "Dr. Paul Anderson, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-027",
+    "name": "Sheffield Assessment Centre",
+    "slug": "sheffield-assessment-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "sheffield",
+      "rotherham",
+      "doncaster",
+      "barnsley"
+    ],
+    "address": "567 High Street, Sheffield",
+    "city": "Sheffield",
+    "postcode": "S1 2DL",
+    "lat": 53.3808,
+    "lng": -1.4668,
+    "phone": "0114 345 6789",
+    "email": "referrals@sheffieldassess.co.uk",
+    "website": "https://www.sheffieldassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Sheffield clinic providing comprehensive neurodevelopmental assessments. Expert team specialising in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Elizabeth Ward, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-028",
+    "name": "York Neurodiversity Clinic",
+    "slug": "york-neurodiversity-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "york",
+      "harrogate",
+      "selby",
+      "tadcaster"
+    ],
+    "address": "234 Coney Street, York",
+    "city": "York",
+    "postcode": "YO1 9QN",
+    "lat": 53.9581,
+    "lng": -1.0793,
+    "phone": "01904 456789",
+    "email": "contact@yorkneuro.co.uk",
+    "website": "https://www.yorkneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "York-based neurodevelopmental assessment centre. Professional ADHD and autism diagnostics with compassionate approach.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Graham Russell, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-029",
+    "name": "Edinburgh Neurodevelopment",
+    "slug": "edinburgh-neurodevelopment",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "edinburgh",
+      "leith",
+      "dalkeith",
+      "penicuik"
+    ],
+    "address": "890 Princes Street, Edinburgh",
+    "city": "Edinburgh",
+    "postcode": "EH2 2ER",
+    "lat": 55.9533,
+    "lng": -3.1976,
+    "phone": "0131 234 5678",
+    "email": "info@edinburghneuro.co.uk",
+    "website": "https://www.edinburghneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1350,
+      "adhd_child": 1100,
+      "autism_adult": 2500,
+      "autism_child": 2100
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Edinburgh's premier neurodevelopmental assessment centre. Multi-disciplinary team offering expert ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Jennifer Scott, Consultant Psychiatrist",
+      "Dr. Andrew Forbes, Clinical Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-030",
+    "name": "Glasgow Neurodiversity Hub",
+    "slug": "glasgow-neurodiversity-hub",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "glasgow",
+      "paisley",
+      "hamilton",
+      "motherwell"
+    ],
+    "address": "567 Sauchiehall Street, Glasgow",
+    "city": "Glasgow",
+    "postcode": "G2 3PU",
+    "lat": 55.8642,
+    "lng": -4.259,
+    "phone": "0141 345 6789",
+    "email": "referrals@glasgowneuro.co.uk",
+    "website": "https://www.glasgowneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1300,
+      "adhd_child": 1050,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Glasgow-based centre specialising in neurodevelopmental assessments. Comprehensive ADHD and autism diagnostics with expert support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Psychological Therapy"
+    ],
+    "professionals": [
+      "Dr. Robert MacDonald, Consultant Psychiatrist",
+      "Dr. Mary MacLeod, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-031",
+    "name": "Aberdeen Assessment Clinic",
+    "slug": "aberdeen-assessment-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "aberdeen",
+      "dundee",
+      "perth",
+      "inverness"
+    ],
+    "address": "234 Union Street, Aberdeen",
+    "city": "Aberdeen",
+    "postcode": "AB10 1SQ",
+    "lat": 57.1497,
+    "lng": -2.0943,
+    "phone": "01224 567890",
+    "email": "contact@aberdeenassess.co.uk",
+    "website": "https://www.aberdeenassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Aberdeen clinic providing professional neurodevelopmental assessments. Specialist team in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. William Thomson, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-032",
+    "name": "Stirling Neurodiversity",
+    "slug": "stirling-neurodiversity",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "stirling",
+      "falkirk",
+      "alloa",
+      "clackmannan"
+    ],
+    "address": "890 King Street, Stirling",
+    "city": "Stirling",
+    "postcode": "FK8 1BH",
+    "lat": 56.1165,
+    "lng": -3.9369,
+    "phone": "01786 234567",
+    "email": "info@stirlingneuro.co.uk",
+    "website": "https://www.stirlingneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Stirling-based ADHD specialist clinic. Experienced team providing comprehensive diagnostic assessments and support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Catherine Mitchell, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-033",
+    "name": "Bristol Neurodevelopment Centre",
+    "slug": "bristol-neurodevelopment-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "bristol",
+      "bath",
+      "weston-super-mare",
+      "yate"
+    ],
+    "address": "567 Park Street, Bristol",
+    "city": "Bristol",
+    "postcode": "BS1 5NH",
+    "lat": 51.4545,
+    "lng": -2.5879,
+    "phone": "0117 234 5678",
+    "email": "referrals@bristolneuro.co.uk",
+    "website": "https://www.bristolneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1250,
+      "adhd_child": 1000,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Bristol's leading neurodevelopmental assessment centre. Comprehensive diagnostics for ADHD and autism with expert support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Sophie Alexander, Consultant Psychiatrist",
+      "Dr. Thomas Nelson, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-034",
+    "name": "Bath Assessment Clinic",
+    "slug": "bath-assessment-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "bath",
+      "bristol",
+      "keynsham",
+      "corsham"
+    ],
+    "address": "234 Milsom Street, Bath",
+    "city": "Bath",
+    "postcode": "BA1 1DA",
+    "lat": 51.3814,
+    "lng": -2.361,
+    "phone": "01225 345678",
+    "email": "contact@bathassess.co.uk",
+    "website": "https://www.bathassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Bath clinic offering professional neurodevelopmental assessments. Expert team providing ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Margaret Foster, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-035",
+    "name": "Exeter Neurodiversity Clinic",
+    "slug": "exeter-neurodiversity-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "exeter",
+      "plymouth",
+      "torquay",
+      "newton-abbot"
+    ],
+    "address": "890 High Street, Exeter",
+    "city": "Exeter",
+    "postcode": "EX4 3DQ",
+    "lat": 50.7184,
+    "lng": -3.5339,
+    "phone": "01392 456789",
+    "email": "info@exeterneuro.co.uk",
+    "website": "https://www.exeterneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 900,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Exeter-based centre for neurodevelopmental assessment. Offering comprehensive ADHD and autism diagnostics with expert support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Richard Chapman, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-036",
+    "name": "Plymouth Assessment Services",
+    "slug": "plymouth-assessment-services",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "plymouth",
+      "exeter",
+      "torquay",
+      "totnes"
+    ],
+    "address": "567 Royal Parade, Plymouth",
+    "city": "Plymouth",
+    "postcode": "PL1 1DZ",
+    "lat": 50.3755,
+    "lng": -4.1427,
+    "phone": "01752 567890",
+    "email": "referrals@plymouthassess.co.uk",
+    "website": "https://www.plymouthassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Plymouth ADHD specialist clinic with experienced practitioners. Offering rapid diagnostic assessments.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Helen Bradley, Consultant Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-037",
+    "name": "Norwich Neurodevelopment",
+    "slug": "norwich-neurodevelopment",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "norwich",
+      "great-yarmouth",
+      "dereham",
+      "aylsham"
+    ],
+    "address": "234 London Street, Norwich",
+    "city": "Norwich",
+    "postcode": "NR2 1JF",
+    "lat": 52.6289,
+    "lng": 1.2974,
+    "phone": "01603 234567",
+    "email": "contact@norwichneuro.co.uk",
+    "website": "https://www.norwichneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Norwich clinic providing professional neurodevelopmental assessments. Specialist team in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Susan Walker, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-038",
+    "name": "Peterborough Assessment Centre",
+    "slug": "peterborough-assessment-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "peterborough",
+      "cambridge",
+      "ely",
+      "wisbech"
+    ],
+    "address": "890 Broadway, Peterborough",
+    "city": "Peterborough",
+    "postcode": "PE1 1SG",
+    "lat": 52.5747,
+    "lng": -0.2533,
+    "phone": "01733 345678",
+    "email": "info@peterborough-assess.co.uk",
+    "website": "https://www.peterborough-assess.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Peterborough ADHD specialist clinic. Offering comprehensive diagnostic assessments and support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Brian Knight, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-039",
+    "name": "Nottingham Neurodiversity Clinic",
+    "slug": "nottingham-neurodiversity-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "nottingham",
+      "derby",
+      "leicester",
+      "loughborough"
+    ],
+    "address": "567 Low Pavement, Nottingham",
+    "city": "Nottingham",
+    "postcode": "NG1 7DA",
+    "lat": 52.9521,
+    "lng": -1.1488,
+    "phone": "0115 234 5678",
+    "email": "referrals@nottinghamneuro.co.uk",
+    "website": "https://www.nottinghamneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Nottingham's neurodevelopmental assessment centre. Comprehensive ADHD and autism diagnostics with expert team.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Alison Grant, Consultant Psychiatrist",
+      "Dr. Peter Mason, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-040",
+    "name": "Leicester Assessment Services",
+    "slug": "leicester-assessment-services",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "leicester",
+      "leicestershire",
+      "loughborough",
+      "market-harborough"
+    ],
+    "address": "234 Belgrave Gate, Leicester",
+    "city": "Leicester",
+    "postcode": "LE1 3GA",
+    "lat": 52.6369,
+    "lng": -1.1398,
+    "phone": "0116 345 6789",
+    "email": "contact@leicesterdiscover.co.uk",
+    "website": "https://www.leicesterdiscover.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Leicester ADHD assessment clinic with experienced team. Offering rapid diagnostic services.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Monica Roberts, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-041",
+    "name": "Derby Neurodevelopment",
+    "slug": "derby-neurodevelopment",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "derby",
+      "nottingham",
+      "loughborough",
+      "belper"
+    ],
+    "address": "890 Cathedral Road, Derby",
+    "city": "Derby",
+    "postcode": "DE1 3GY",
+    "lat": 52.9216,
+    "lng": -1.4769,
+    "phone": "01332 456789",
+    "email": "info@derbyneuro.co.uk",
+    "website": "https://www.derbyneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 900,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Derby clinic providing comprehensive neurodevelopmental assessments. Expert team in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Geoffrey Lewis, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-042",
+    "name": "Newcastle Assessment Centre",
+    "slug": "newcastle-assessment-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "newcastle",
+      "gateshead",
+      "sunderland",
+      "durham"
+    ],
+    "address": "567 Grey Street, Newcastle",
+    "city": "Newcastle",
+    "postcode": "NE1 6EE",
+    "lat": 54.9738,
+    "lng": -1.6131,
+    "phone": "0191 234 5678",
+    "email": "referrals@newcastleassess.co.uk",
+    "website": "https://www.newcastleassess.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Newcastle's neurodevelopmental assessment centre. Rapid access to expert ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Jessica Taylor, Consultant Psychiatrist",
+      "Dr. Mark Hudson, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-043",
+    "name": "Durham ADHD Clinic",
+    "slug": "durham-adhd-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "durham",
+      "darlington",
+      "stockton",
+      "bishop-auckland"
+    ],
+    "address": "234 Old Elvet, Durham",
+    "city": "Durham",
+    "postcode": "DH1 3RL",
+    "lat": 54.7754,
+    "lng": -1.5825,
+    "phone": "0191 345 6789",
+    "email": "contact@durhamadhd.co.uk",
+    "website": "https://www.durhamadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Durham ADHD specialist clinic. Offering professional diagnostic assessments and ongoing support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Samantha Wells, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-044",
+    "name": "Sunderland Neurodiversity",
+    "slug": "sunderland-neurodiversity",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "sunderland",
+      "newcastle",
+      "gateshead",
+      "south-shields"
+    ],
+    "address": "890 Fawcett Street, Sunderland",
+    "city": "Sunderland",
+    "postcode": "SR1 1RE",
+    "lat": 54.905,
+    "lng": -1.3808,
+    "phone": "0191 567 8901",
+    "email": "info@sunderlandneuro.co.uk",
+    "website": "https://www.sunderlandneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Sunderland clinic providing neurodevelopmental assessments. Specialist team in ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Victoria White, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-045",
+    "name": "Cardiff Neurodiversity Centre",
+    "slug": "cardiff-neurodiversity-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "cardiff",
+      "swansea",
+      "newport",
+      "caerphilly"
+    ],
+    "address": "567 St Mary Street, Cardiff",
+    "city": "Cardiff",
+    "postcode": "CF1 1SA",
+    "lat": 51.4769,
+    "lng": -3.1778,
+    "phone": "029 2023 4567",
+    "email": "referrals@cardiffneuro.co.uk",
+    "website": "https://www.cardiffneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1250,
+      "adhd_child": 1000,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Cardiff's leading neurodevelopmental assessment centre. Comprehensive ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Rhys Davies, Consultant Psychiatrist",
+      "Dr. Emma Lewis, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-046",
+    "name": "Swansea Assessment Services",
+    "slug": "swansea-assessment-services",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "swansea",
+      "neath",
+      "port-talbot",
+      "carmarthen"
+    ],
+    "address": "234 Wind Street, Swansea",
+    "city": "Swansea",
+    "postcode": "SA1 1PE",
+    "lat": 51.6211,
+    "lng": -3.9436,
+    "phone": "01792 345678",
+    "email": "contact@swanseaadhd.co.uk",
+    "website": "https://www.swanseaadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Swansea ADHD specialist clinic with experienced practitioners. Offering rapid diagnostic services.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Gareth Jones, Consultant Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-047",
+    "name": "Newport Neurodevelopment",
+    "slug": "newport-neurodevelopment",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "newport",
+      "cardiff",
+      "caerphilly",
+      "pontypool"
+    ],
+    "address": "890 Commercial Street, Newport",
+    "city": "Newport",
+    "postcode": "NP20 1LF",
+    "lat": 51.5875,
+    "lng": -3.0216,
+    "phone": "01633 456789",
+    "email": "info@newportneuro.co.uk",
+    "website": "https://www.newportneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1150,
+      "adhd_child": 950,
+      "autism_adult": 2200,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Newport clinic providing comprehensive neurodevelopmental assessments. Expert team in ADHD and autism.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment"
+    ],
+    "professionals": [
+      "Dr. Bryn Powell, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-048",
+    "name": "Belfast Neurodiversity Centre",
+    "slug": "belfast-neurodiversity-centre",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "belfast",
+      "lisburn",
+      "bangor",
+      "lurgan"
+    ],
+    "address": "567 Royal Avenue, Belfast",
+    "city": "Belfast",
+    "postcode": "BT1 1DA",
+    "lat": 54.5973,
+    "lng": -5.9301,
+    "phone": "028 9023 4567",
+    "email": "referrals@belfastneuro.co.uk",
+    "website": "https://www.belfastneuro.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 950,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Belfast's neurodevelopmental assessment centre. Comprehensive ADHD and autism diagnostics with expert support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Aileen Murphy, Consultant Psychiatrist",
+      "Dr. Sean O'Brien, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-049",
+    "name": "Derry Assessment Clinic",
+    "slug": "derry-assessment-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "derry",
+      "londonderry",
+      "strabane",
+      "ballymena"
+    ],
+    "address": "234 Strand Road, Derry",
+    "city": "Derry",
+    "postcode": "BT48 7NW",
+    "lat": 55.0017,
+    "lng": -7.3101,
+    "phone": "028 7136 7890",
+    "email": "contact@derryadhd.co.uk",
+    "website": "https://www.derryadhd.co.uk",
+    "pricing": {
+      "adhd_adult": 1100,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Derry ADHD specialist clinic. Offering professional diagnostic assessments and support.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment"
+    ],
+    "professionals": [
+      "Dr. Patricia McGrath, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-050",
+    "name": "Online ADHD Assessment UK",
+    "slug": "online-adhd-assessment-uk",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "london",
+      "manchester",
+      "birmingham",
+      "leeds",
+      "edinburgh",
+      "cardiff",
+      "belfast",
+      "bristol",
+      "glasgow",
+      "nottingham"
+    ],
+    "address": "Remote/Online Service",
+    "city": "Online",
+    "postcode": "N/A",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "phone": "020 7123 8901",
+    "email": "support@onlineadhduk.co.uk",
+    "website": "https://www.onlineadhduk.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "adhd_child": 700
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Nationwide online ADHD assessment service. Convenient remote consultations with qualified specialists available across the UK.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Online Consultations"
+    ],
+    "professionals": [
+      "Dr. Laura Bennett, Consultant Psychiatrist",
+      "Dr. Kevin Murphy, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-051",
+    "name": "Telehealth Autism Assessments",
+    "slug": "telehealth-autism-assessments",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "manchester",
+      "birmingham",
+      "bristol",
+      "edinburgh",
+      "cardiff",
+      "glasgow",
+      "leeds",
+      "liverpool",
+      "newcastle"
+    ],
+    "address": "Remote/Online Service",
+    "city": "Online",
+    "postcode": "N/A",
+    "lat": 51.5074,
+    "lng": -0.1278,
+    "phone": "020 8456 7890",
+    "email": "admin@telehealth-autism.co.uk",
+    "website": "https://www.telehealth-autism.co.uk",
+    "pricing": {
+      "autism_adult": 2000,
+      "autism_child": 1600
+    },
+    "wait_time": "1-3 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Specialist online autism assessment service providing remote diagnostics. Accessible across the UK with flexible appointment times.",
+    "services": [
+      "Autism Diagnostic Assessment",
+      "Online Consultations",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Hannah Cooper, Developmental Psychologist",
+      "Dr. Jacob Williams, Clinical Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-052",
+    "name": "The Assessment Partnership",
+    "slug": "the-assessment-partnership",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "essex",
+      "surrey",
+      "kent",
+      "sussex"
+    ],
+    "address": "123 Southwark Street, London",
+    "city": "London",
+    "postcode": "SE1 9RP",
+    "lat": 51.5058,
+    "lng": -0.0997,
+    "phone": "020 3944 5000",
+    "email": "info@theassessmentpartnership.co.uk",
+    "website": "https://www.theassessmentpartnership.co.uk",
+    "pricing": {
+      "adhd_adult": 1350,
+      "adhd_child": 1100,
+      "autism_adult": 2500,
+      "autism_child": 2100
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "premium",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Premier assessment service with flexible locations across South East. Rapid access to expert ADHD and autism diagnostics.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management",
+      "Post-Diagnostic Support"
+    ],
+    "professionals": [
+      "Dr. Nicholas Taylor, Consultant Psychiatrist",
+      "Dr. Rosie Cross, Clinical Psychologist",
+      "Dr. James Hunt, Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-053",
+    "name": "Neurodevelopmental Specialists UK",
+    "slug": "neurodevelopmental-specialists-uk",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "birmingham",
+      "manchester",
+      "leeds",
+      "bristol"
+    ],
+    "address": "456 Moorgate, London",
+    "city": "London",
+    "postcode": "EC2R 6EH",
+    "lat": 51.5194,
+    "lng": -0.0883,
+    "phone": "020 7253 4444",
+    "email": "referrals@neurodevelopmental-specialists.co.uk",
+    "website": "https://www.neurodevelopmental-specialists.co.uk",
+    "pricing": {
+      "adhd_adult": 1400,
+      "adhd_child": 1150,
+      "autism_adult": 2600,
+      "autism_child": 2200
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "featured",
+    "featured_until": "2026-12-31",
+    "logo": null,
+    "description": "Multi-centre specialist service with locations nationwide. Gold-standard diagnostics from leading neurodevelopmental experts.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Medication Management",
+      "Specialist Consultations"
+    ],
+    "professionals": [
+      "Dr. Professor Martin Clarke, Consultant Psychiatrist",
+      "Dr. Rachel Foster, Developmental Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-054",
+    "name": "Rapid Assessment Clinic",
+    "slug": "rapid-assessment-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "london",
+      "croydon",
+      "kingston",
+      "woking"
+    ],
+    "address": "789 George Street, London",
+    "city": "London",
+    "postcode": "W1H 5NN",
+    "lat": 51.5161,
+    "lng": -0.1531,
+    "phone": "020 7616 8888",
+    "email": "urgent@rapidassessment.co.uk",
+    "website": "https://www.rapidassessment.co.uk",
+    "pricing": {
+      "adhd_adult": 1000,
+      "adhd_child": 800
+    },
+    "wait_time": "1 week",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Fast-track ADHD assessment clinic specialising in rapid diagnostics. Priority appointments available for urgent referrals.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Urgent Consultations"
+    ],
+    "professionals": [
+      "Dr. David Norton, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-055",
+    "name": "Private Psychiatry Associates",
+    "slug": "private-psychiatry-associates",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "manchester",
+      "cheshire",
+      "lancashire",
+      "yorkshire"
+    ],
+    "address": "567 King Street, Manchester",
+    "city": "Manchester",
+    "postcode": "M2 4WB",
+    "lat": 53.4815,
+    "lng": -2.2383,
+    "phone": "0161 832 7000",
+    "email": "enquiries@privatepsych-assoc.co.uk",
+    "website": "https://www.privatepsych-assoc.co.uk",
+    "pricing": {
+      "adhd_adult": 1300,
+      "adhd_child": 1050,
+      "autism_adult": 2400,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Multi-location private psychiatry group offering comprehensive neurodevelopmental assessments. Experienced team across North West and beyond.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Medication Management"
+    ],
+    "professionals": [
+      "Dr. Simon Rogers, Consultant Psychiatrist",
+      "Dr. Claire Bennett, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-056",
+    "name": "Educational Psychology Associates",
+    "slug": "educational-psychology-associates",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "bristol",
+      "bath",
+      "weston-super-mare",
+      "gloucester"
+    ],
+    "address": "234 Park Street, Bristol",
+    "city": "Bristol",
+    "postcode": "BS1 5PB",
+    "lat": 51.4545,
+    "lng": -2.5879,
+    "phone": "0117 929 0000",
+    "email": "contact@edu-psych.co.uk",
+    "website": "https://www.edu-psych.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 1000,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Educational psychology specialists offering neurodevelopmental assessment. Particular focus on school-age assessments and educational recommendations.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Educational Psychology"
+    ],
+    "professionals": [
+      "Dr. Margaret Stone, Educational Psychologist",
+      "Dr. James Scott, Developmental Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-057",
+    "name": "Healthcare Plus Clinics",
+    "slug": "healthcare-plus-clinics",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "surrey",
+      "sussex",
+      "hampshire"
+    ],
+    "address": "890 Oxford Street, London",
+    "city": "London",
+    "postcode": "W1D 2HD",
+    "lat": 51.5158,
+    "lng": -0.129,
+    "phone": "020 7434 3111",
+    "email": "info@healthcareplus-clinics.co.uk",
+    "website": "https://www.healthcareplus-clinics.co.uk",
+    "pricing": {
+      "adhd_adult": 1280,
+      "adhd_child": 1050,
+      "autism_adult": 2380,
+      "autism_child": 1980
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Multi-disciplinary healthcare clinic offering comprehensive neurodevelopmental services. Integrated approach with various specialist professionals.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Psychological Therapy"
+    ],
+    "professionals": [
+      "Dr. Thomas Reynolds, Consultant Psychiatrist",
+      "Dr. Lisa Green, Clinical Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-058",
+    "name": "The Neurobiology Clinic",
+    "slug": "the-neurobiology-clinic",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "london",
+      "cambridge",
+      "oxford",
+      "norwich"
+    ],
+    "address": "567 High Street, Cambridge",
+    "city": "Cambridge",
+    "postcode": "CB2 1TN",
+    "lat": 52.2046,
+    "lng": 0.1224,
+    "phone": "01223 567899",
+    "email": "info@neurobiology-clinic.co.uk",
+    "website": "https://www.neurobiology-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 1350,
+      "adhd_child": 1100
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Research-informed ADHD clinic with neurobiology focus. Offering comprehensive assessment based on latest scientific understanding.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Research Consultations"
+    ],
+    "professionals": [
+      "Dr. Edward Price, Consultant Neurobiologist",
+      "Dr. Fiona James, Clinical Neuropsychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-059",
+    "name": "Comprehensive Diagnostic Services",
+    "slug": "comprehensive-diagnostic-services",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "leeds",
+      "manchester",
+      "birmingham",
+      "nottingham"
+    ],
+    "address": "234 Cross Street, Leeds",
+    "city": "Leeds",
+    "postcode": "LS1 4DA",
+    "lat": 53.8008,
+    "lng": -1.5491,
+    "phone": "0113 245 9999",
+    "email": "refer@comprehensive-diagnostic.co.uk",
+    "website": "https://www.comprehensive-diagnostic.co.uk",
+    "pricing": {
+      "adhd_adult": 1200,
+      "adhd_child": 1000,
+      "autism_adult": 2300,
+      "autism_child": 1900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Comprehensive diagnostic service across major UK cities. Full neuropsychological testing and expert ADHD/autism assessment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Autism Diagnostic Assessment",
+      "Psychological Testing"
+    ],
+    "professionals": [
+      "Dr. William Foster, Consultant Neuropsychologist",
+      "Dr. Angela Moore, Developmental Psychologist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-060",
+    "name": "Spectrum Neurodevelopmental",
+    "slug": "spectrum-neurodevelopmental",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "london",
+      "edinburgh",
+      "glasgow",
+      "cardiff",
+      "belfast"
+    ],
+    "address": "890 Great Portland Street, London",
+    "city": "London",
+    "postcode": "W1W 6QB",
+    "lat": 51.522,
+    "lng": -0.1382,
+    "phone": "020 7307 7000",
+    "email": "info@spectrum-neuro.co.uk",
+    "website": "https://www.spectrum-neuro.co.uk",
+    "pricing": {
+      "autism_adult": 2600,
+      "autism_child": 2200
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Specialist autism clinic with multi-centre UK presence. Expert team providing gold-standard autism diagnostics and support.",
+    "services": [
+      "Autism Diagnostic Assessment",
+      "Post-Diagnostic Support",
+      "Specialist Consultations"
+    ],
+    "professionals": [
+      "Dr. Charlotte Young, Developmental Psychologist",
+      "Dr. Owen Davies, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-01-15",
+    "updated_at": "2026-03-01"
+  }
+]
