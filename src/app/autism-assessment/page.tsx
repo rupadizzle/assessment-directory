@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Private Autism Assessment Clinics Across the UK",
   description:
     "Find private autism assessment clinics near you. Comprehensive ADOS-2 diagnostic assessments for adults and children. Skip the multi-year NHS wait.",
+  alternates: {
+    canonical: "https://assessmentdirectory.co.uk/autism-assessment/",
+  },
 };
 
 const allTowns = towns as Town[];

@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://assessmentdirectory.co.uk/sitemap.xml

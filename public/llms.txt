@@ -1,0 +1,21 @@
+# UK Assessment Directory
+> A free directory helping people find private ADHD and autism assessment clinics across the United Kingdom.
+
+## About
+UK Assessment Directory (assessmentdirectory.co.uk) is a healthcare directory listing 60+ verified private clinics offering ADHD and autism diagnostic assessments in the UK. The directory covers 1,200+ towns and provides clinic pricing, waiting times, services, and professional credentials to help people compare options when NHS waiting times are too long.
+
+## Key Facts
+- Private ADHD assessments in the UK typically cost £495-£1,500 for adults
+- Private autism assessments typically cost £1,200-£3,000 for adults
+- NHS waiting times for neurodevelopmental assessments are typically 2-5 years
+- The Right to Choose (England only) allows GP referral to private providers funded by the NHS
+- Gold-standard autism assessment tools include ADOS-2 and ADI-R
+
+## Content Types
+- Clinic profiles: /clinic/{slug}/ — Individual clinic details with pricing, services, professionals
+- ADHD town pages: /adhd-assessment/{town}/ — Find ADHD clinics near a specific UK town
+- Autism town pages: /autism-assessment/{town}/ — Find autism clinics near a specific UK town
+- Guides: /guides/{slug}/ — Educational content about assessments, costs, and processes
+
+## Contact
+clinics@assessmentdirectory.co.uk

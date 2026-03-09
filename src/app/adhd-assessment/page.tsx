@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Private ADHD Assessment Clinics Across the UK",
   description:
     "Find private ADHD assessment clinics near you. Compare prices from £495, check waiting times and book your ADHD assessment. Skip the 2+ year NHS wait.",
+  alternates: {
+    canonical: "https://assessmentdirectory.co.uk/adhd-assessment/",
+  },
 };
 
 const allTowns = towns as Town[];

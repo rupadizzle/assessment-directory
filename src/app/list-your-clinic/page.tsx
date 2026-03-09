@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "List Your Clinic — Join the UK Assessment Directory",
   description:
     "Get your clinic in front of thousands of people searching for private ADHD and Autism assessments. Free listing available. Upgrade for priority placement.",
+  alternates: {
+    canonical: "https://assessmentdirectory.co.uk/list-your-clinic/",
+  },
 };
 
 export default function ListYourClinicPage() {
@@ -17,8 +20,8 @@ export default function ListYourClinicPage() {
           </h1>
           <p className="text-lg text-gray-300 mb-6">
             Thousands of people search for private ADHD and Autism assessments
-            every month. List your clinic on the UK&apos;s fastest-growing
-            assessment directory and start receiving enquiries.
+            every month. List your clinic on our assessment directory and start
+            receiving enquiries.
           </p>
         </div>
       </section>

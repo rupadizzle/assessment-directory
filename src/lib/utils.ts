@@ -113,6 +113,37 @@ export function slugify(str: string): string {
 }
 
 /**
+ * Get dynamic pricing stats from a list of clinics for a given condition
+ */
+export function getClinicStats(
+  clinicList: Clinic[],
+  condition: Condition
+): { lowestPrice: string; waitRange: string } {
+  if (clinicList.length === 0) {
+    return { lowestPrice: "N/A", waitRange: "N/A" };
+  }
+
+  const prices: number[] = [];
+  for (const c of clinicList) {
+    if (condition === "adhd") {
+      if (c.pricing.adhd_adult) prices.push(c.pricing.adhd_adult);
+      if (c.pricing.adhd_child) prices.push(c.pricing.adhd_child);
+    } else {
+      if (c.pricing.autism_adult) prices.push(c.pricing.autism_adult);
+      if (c.pricing.autism_child) prices.push(c.pricing.autism_child);
+    }
+  }
+
+  const lowestPrice =
+    prices.length > 0 ? `From £${Math.min(...prices).toLocaleString()}` : "Contact clinic";
+
+  const waits = clinicList.map((c) => c.wait_time).filter(Boolean);
+  const waitRange = waits.length > 0 ? waits[0] : "Contact clinic";
+
+  return { lowestPrice, waitRange };
+}
+
+/**
  * Capitalise first letter of each word
  */
 export function titleCase(str: string): string {

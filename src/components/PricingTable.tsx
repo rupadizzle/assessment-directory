@@ -59,19 +59,24 @@ export default function PricingTable() {
       {tiers.map((tier) => (
         <div
           key={tier.name}
-          className={`rounded-2xl p-6 flex flex-col ${
+          className={`rounded-2xl p-7 flex flex-col transition-all duration-300 ${
             tier.highlighted
-              ? "bg-blue-600 text-white shadow-xl ring-2 ring-blue-600 scale-105"
-              : "bg-white border border-gray-200 shadow-sm"
+              ? "bg-gradient-to-br from-blue-600 to-blue-700 text-white shadow-xl shadow-blue-500/20 ring-1 ring-blue-500/50 scale-105"
+              : "bg-white border border-gray-200/60 shadow-sm hover:shadow-md hover:-translate-y-0.5"
           }`}
         >
+          {tier.highlighted && (
+            <span className="text-xs font-semibold bg-white/20 text-white px-3 py-1 rounded-full w-fit mb-4">
+              Most Popular
+            </span>
+          )}
           <h3
             className={`text-lg font-semibold ${tier.highlighted ? "text-white" : "text-gray-900"}`}
           >
             {tier.name}
           </h3>
-          <div className="mt-2 flex items-baseline gap-1">
-            <span className="text-3xl font-bold">{tier.price}</span>
+          <div className="mt-3 flex items-baseline gap-1">
+            <span className="text-4xl font-bold tracking-tight">{tier.price}</span>
             <span
               className={`text-sm ${tier.highlighted ? "text-blue-100" : "text-gray-500"}`}
             >
@@ -84,11 +89,11 @@ export default function PricingTable() {
             {tier.description}
           </p>
 
-          <ul className="mt-6 space-y-3 flex-1">
+          <ul className="mt-7 space-y-3.5 flex-1">
             {tier.features.map((feature) => (
-              <li key={feature} className="flex items-start gap-2 text-sm">
+              <li key={feature} className="flex items-start gap-2.5 text-sm">
                 <svg
-                  className={`w-5 h-5 shrink-0 mt-0.5 ${tier.highlighted ? "text-blue-200" : "text-green-500"}`}
+                  className={`w-5 h-5 shrink-0 mt-0.5 ${tier.highlighted ? "text-blue-200" : "text-emerald-500"}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -107,10 +112,10 @@ export default function PricingTable() {
 
           <Link
             href={tier.href}
-            className={`mt-6 block text-center py-3 rounded-lg font-medium transition-colors ${
+            className={`mt-7 block text-center py-3 rounded-xl font-medium transition-all ${
               tier.highlighted
-                ? "bg-white text-blue-600 hover:bg-blue-50"
-                : "bg-blue-600 text-white hover:bg-blue-700"
+                ? "bg-white text-blue-600 hover:bg-blue-50 shadow-sm"
+                : "bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800 shadow-sm hover:shadow-md"
             }`}
           >
             {tier.cta}
