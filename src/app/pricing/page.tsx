@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Pricing — Clinic Listing Plans",
   description:
     "Choose a plan for your clinic listing. Free basic listing, Featured from £49/mo, Premium from £149/mo. No long-term contracts.",
+  alternates: {
+    canonical: "https://assessmentdirectory.co.uk/pricing/",
+  },
 };
 
 export default function PricingPage() {

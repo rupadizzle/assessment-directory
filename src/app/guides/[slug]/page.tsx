@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import guides from "@/data/guides.json";
 import { Guide } from "@/lib/types";
-import { generateGuidePageMeta } from "@/lib/seo";
+import { generateGuidePageMeta, generateArticleSchema, generateBreadcrumbSchema, SITE_URL } from "@/lib/seo";
 import Link from "next/link";
 
 const allGuides = guides as Guide[];
@@ -26,12 +26,31 @@ export default function GuidePage({ params }: PageProps) {
 
   const otherGuides = allGuides.filter((g) => g.slug !== slug).slice(0, 4);
 
+  const breadcrumbs = [
+    { name: "Home", url: SITE_URL },
+    { name: "Guides", url: `${SITE_URL}/guides/` },
+    { name: guide.title, url: `${SITE_URL}/guides/${guide.slug}/` },
+  ];
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateArticleSchema(guide.title, guide.meta_description, guide.slug, guide.created_at)),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(generateBreadcrumbSchema(breadcrumbs)),
+        }}
+      />
+
       <nav className="text-sm text-gray-500 mb-6">
         <Link href="/" className="hover:text-blue-600">Home</Link>
         {" / "}
-        <Link href="/guides/how-much-does-private-adhd-assessment-cost/" className="hover:text-blue-600">Guides</Link>
+        <Link href="/guides/" className="hover:text-blue-600">Guides</Link>
         {" / "}
         <span className="text-gray-900">{guide.title}</span>
       </nav>

@@ -66,17 +66,17 @@ export default function SearchBar({
 
   return (
     <div ref={wrapperRef} className="w-full max-w-2xl mx-auto">
-      <div className="flex gap-2 mb-3 justify-center">
+      <div className="flex gap-2 mb-4 justify-center">
         {(["adhd", "autism"] as Condition[]).map((c) => (
           <button
             key={c}
             onClick={() => setCondition(c)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+            className={`px-5 py-2.5 rounded-full text-sm font-medium transition-all duration-200 ${
               condition === c
                 ? c === "adhd"
-                  ? "bg-blue-600 text-white"
-                  : "bg-purple-600 text-white"
-                : "bg-white text-gray-600 border border-gray-300 hover:border-gray-400"
+                  ? "bg-white text-blue-700 shadow-md"
+                  : "bg-white text-purple-700 shadow-md"
+                : "bg-white/20 text-white/90 hover:bg-white/30 border border-white/20"
             }`}
           >
             {CONDITIONS[c].name} Assessment
@@ -85,9 +85,9 @@ export default function SearchBar({
       </div>
 
       <div className="relative">
-        <div className="flex items-center bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+        <div className="flex items-center bg-white rounded-2xl shadow-xl border border-white/50 overflow-hidden">
           <svg
-            className="w-5 h-5 text-gray-400 ml-4"
+            className="w-5 h-5 text-gray-400 ml-5"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -114,22 +114,30 @@ export default function SearchBar({
                 navigateToTown(suggestions[0].slug);
               }
             }}
-            className="bg-blue-600 text-white px-6 py-4 font-medium hover:bg-blue-700 transition-colors"
+            className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-7 py-4 font-medium hover:from-blue-700 hover:to-blue-800 transition-all m-1.5 rounded-xl"
           >
             Search
           </button>
         </div>
 
         {showSuggestions && (
-          <div className="absolute top-full left-0 right-0 mt-1 bg-white rounded-xl shadow-lg border border-gray-200 overflow-hidden z-50">
-            {suggestions.map((town) => (
+          <div className="absolute top-full left-0 right-0 mt-2 bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden z-50 animate-fade-in">
+            {suggestions.map((town, i) => (
               <button
                 key={town.slug}
                 onClick={() => navigateToTown(town.slug)}
-                className="w-full text-left px-4 py-3 hover:bg-gray-50 flex justify-between items-center"
+                className={`w-full text-left px-5 py-3.5 hover:bg-blue-50 flex justify-between items-center transition-colors ${
+                  i !== suggestions.length - 1 ? "border-b border-gray-50" : ""
+                }`}
               >
-                <span className="font-medium text-gray-900">{town.name}</span>
-                <span className="text-sm text-gray-500">{town.county}</span>
+                <div className="flex items-center gap-3">
+                  <svg className="w-4 h-4 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  <span className="font-medium text-gray-900">{town.name}</span>
+                </div>
+                <span className="text-sm text-gray-400">{town.county}</span>
               </button>
             ))}
           </div>
