@@ -35,6 +35,12 @@ export default function Header() {
               Autism Assessment
             </Link>
             <Link
+              href="/clinics/"
+              className="px-4 py-2 text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg font-medium transition-all text-sm"
+            >
+              Clinic Map
+            </Link>
+            <Link
               href="/guides/"
               className="px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg font-medium transition-all text-sm"
             >
@@ -95,6 +101,13 @@ export default function Header() {
                 onClick={() => setMenuOpen(false)}
               >
                 Autism Assessment
+              </Link>
+              <Link
+                href="/clinics/"
+                className="px-4 py-3 text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-xl font-medium transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Clinic Map
               </Link>
               <Link
                 href="/guides/"
