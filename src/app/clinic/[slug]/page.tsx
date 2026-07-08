@@ -5,6 +5,7 @@ import guides from "@/data/guides.json";
 import { Clinic, Guide, CONDITIONS } from "@/lib/types";
 import { formatPrice } from "@/lib/utils";
 import { generateClinicPageMeta, generateMedicalClinicSchema, generateBreadcrumbSchema, SITE_URL } from "@/lib/seo";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 import Link from "next/link";
 
 const allClinics = clinics as unknown as Clinic[];
@@ -192,9 +193,18 @@ export default function ClinicProfilePage({ params }: PageProps) {
             })}
           </p>
 
-          {/* Contact */}
+          {/* Lead Capture Form */}
+          <LeadCaptureForm
+            condition={clinic.conditions[0]}
+            clinicId={clinic.id}
+            clinicName={clinic.name}
+            townName={clinic.city}
+            variant="inline"
+          />
+
+          {/* Direct Contact */}
           <div className="bg-gradient-to-br from-gray-50 to-gray-100/50 rounded-2xl p-7 border border-gray-100">
-            <h2 className="text-lg font-semibold text-gray-900 mb-5">Contact This Clinic</h2>
+            <h2 className="text-lg font-semibold text-gray-900 mb-5">Contact Directly</h2>
             <div className="flex flex-wrap gap-3">
               {clinic.phone && (
                 <a

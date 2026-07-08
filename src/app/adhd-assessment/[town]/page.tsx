@@ -8,6 +8,7 @@ import { generateTownPageMeta, generateFAQSchema, generateBreadcrumbSchema, SITE
 import ClinicCard from "@/components/ClinicCard";
 import NearbyTowns from "@/components/NearbyTowns";
 import FAQ from "@/components/FAQ";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 import Link from "next/link";
 
 const condition: Condition = "adhd";
@@ -168,6 +169,11 @@ export default function ADHDTownPage({ params }: PageProps) {
         )}
       </section>
 
+      {/* Lead Capture Form */}
+      <section className="mb-14">
+        <LeadCaptureForm condition="adhd" townName={town.name} variant="inline" />
+      </section>
+
       {/* Cost guide */}
       <section className="bg-white rounded-2xl border border-gray-200/60 p-7 mb-14 shadow-sm">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">
@@ -233,6 +239,11 @@ export default function ADHDTownPage({ params }: PageProps) {
       {/* Nearby towns */}
       <section className="mb-14">
         <NearbyTowns towns={nearbyTowns} condition={condition} currentTown={town.name} />
+      </section>
+
+      {/* Lead Capture Banner */}
+      <section className="mb-14">
+        <LeadCaptureForm condition="adhd" townName={town.name} variant="banner" />
       </section>
 
       {/* CTA */}

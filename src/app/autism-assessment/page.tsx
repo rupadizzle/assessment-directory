@@ -3,6 +3,7 @@ import towns from "@/data/towns.json";
 import { Town, Condition } from "@/lib/types";
 import TownGrid from "@/components/TownGrid";
 import SearchBar from "@/components/SearchBar";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -73,6 +74,11 @@ export default function AutismLandingPage() {
             </div>
           );
         })}
+      </section>
+
+      {/* Lead Capture */}
+      <section className="max-w-3xl mx-auto px-4 py-12">
+        <LeadCaptureForm condition="autism" variant="inline" />
       </section>
 
       <section className="bg-white py-12 px-4">

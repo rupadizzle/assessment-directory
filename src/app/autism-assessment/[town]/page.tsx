@@ -8,6 +8,7 @@ import { generateTownPageMeta, generateFAQSchema, generateBreadcrumbSchema, SITE
 import ClinicCard from "@/components/ClinicCard";
 import NearbyTowns from "@/components/NearbyTowns";
 import FAQ from "@/components/FAQ";
+import LeadCaptureForm from "@/components/LeadCaptureForm";
 import Link from "next/link";
 
 const condition: Condition = "autism";
@@ -156,6 +157,11 @@ export default function AutismTownPage({ params }: PageProps) {
         )}
       </section>
 
+      {/* Lead Capture Form */}
+      <section className="mb-14">
+        <LeadCaptureForm condition="autism" townName={town.name} variant="inline" />
+      </section>
+
       <section className="bg-white rounded-2xl border border-gray-200/60 p-7 mb-14 shadow-sm">
         <h2 className="text-xl font-semibold text-gray-900 mb-4">
           Autism Assessment Cost in {town.name}
@@ -203,6 +209,11 @@ export default function AutismTownPage({ params }: PageProps) {
 
       <section className="mb-14">
         <NearbyTowns towns={nearbyTowns} condition={condition} currentTown={town.name} />
+      </section>
+
+      {/* Lead Capture Banner */}
+      <section className="mb-14">
+        <LeadCaptureForm condition="autism" townName={town.name} variant="banner" />
       </section>
 
       <section className="bg-gray-950 text-white rounded-2xl p-10 text-center">
