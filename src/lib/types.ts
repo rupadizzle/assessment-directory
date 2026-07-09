@@ -49,6 +49,21 @@ export interface Guide {
   created_at: string;
 }
 
+export interface NhsIcb {
+  id: string;
+  name: string;
+  short_name: string;
+  region: string;
+  counties: string[];
+  adhd_wait_months: number;
+  autism_wait_months: number;
+  rtc_status: "accepted" | "not_applicable";
+  rtc_notes: string;
+  local_nhs_provider: string;
+  support_groups: string[];
+  useful_links: string[];
+}
+
 export type Condition = "adhd" | "autism";
 
 export interface ConditionConfig {

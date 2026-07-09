@@ -1,4 +1,5 @@
-import { Town, Clinic, Condition } from "./types";
+import { Town, Clinic, Condition, NhsIcb } from "./types";
+import icbData from "@/data/nhs-icb.json";
 
 /**
  * Calculate distance between two points using Haversine formula
@@ -151,4 +152,74 @@ export function titleCase(str: string): string {
     /\w\S*/g,
     (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()
   );
+}
+
+/**
+ * Find the NHS ICB that covers a given town (by county match, then region fallback)
+ */
+const allIcbs = icbData as NhsIcb[];
+
+export function findIcbForTown(town: Town): NhsIcb | null {
+  // Try exact county match first
+  const countyMatch = allIcbs.find((icb) =>
+    icb.counties.some(
+      (c) => c.toLowerCase() === town.county.toLowerCase()
+    )
+  );
+  if (countyMatch) return countyMatch;
+
+  // Try partial county match (e.g. "Greater Manchester" matches county "Manchester")
+  const partialMatch = allIcbs.find((icb) =>
+    icb.counties.some(
+      (c) =>
+        town.county.toLowerCase().includes(c.toLowerCase()) ||
+        c.toLowerCase().includes(town.county.toLowerCase())
+    )
+  );
+  if (partialMatch) return partialMatch;
+
+  // Fall back to region match
+  const regionMatch = allIcbs.find(
+    (icb) => icb.region.toLowerCase() === town.region.toLowerCase()
+  );
+  return regionMatch || null;
+}
+
+/**
+ * Format wait time in months to a human-readable string
+ */
+export function formatWaitMonths(months: number): string {
+  if (months < 12) return `${months} months`;
+  const years = Math.floor(months / 12);
+  const remaining = months % 12;
+  if (remaining === 0) return `${years} year${years > 1 ? "s" : ""}`;
+  return `${years} year${years > 1 ? "s" : ""} ${remaining} months`;
+}
+
+/**
+ * Find clinics near a town with distance info included
+ */
+export function findClinicsNearTownWithDistance(
+  town: Town,
+  clinicsList: Clinic[],
+  condition: Condition,
+  radiusMiles: number = 50,
+  limit: number = 10
+): { clinic: Clinic; distance: number; driveMinutes: number }[] {
+  return clinicsList
+    .filter((c) => c.conditions.includes(condition))
+    .map((c) => {
+      const distance = getDistance(town.lat, town.lng, c.lat, c.lng);
+      // Rough drive time estimate: ~1.5 min per mile for UK roads
+      const driveMinutes = Math.round(distance * 1.5);
+      return { clinic: c, distance: Math.round(distance * 10) / 10, driveMinutes };
+    })
+    .filter((c) => c.distance <= radiusMiles)
+    .sort((a, b) => {
+      const tierOrder = { premium: 0, featured: 1, free: 2 };
+      const tierDiff = tierOrder[a.clinic.tier] - tierOrder[b.clinic.tier];
+      if (tierDiff !== 0) return tierDiff;
+      return a.distance - b.distance;
+    })
+    .slice(0, limit);
 }
