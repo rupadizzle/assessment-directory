@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState, useMemo, useCallback } from "react";
 import Link from "next/link";
 import { Clinic, CONDITIONS } from "@/lib/types";
-import { formatPrice } from "@/lib/utils";
+import { formatPrice, getDistance } from "@/lib/utils";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 
@@ -40,15 +40,33 @@ function createPinIcon(conditions: ("adhd" | "autism")[], isActive: boolean): L.
   });
 }
 
+function createUserLocationIcon(): L.DivIcon {
+  return L.divIcon({
+    className: "custom-pin",
+    html: `<div style="
+      width:16px;height:16px;
+      background:#3b82f6;
+      border:3px solid white;
+      border-radius:50%;
+      box-shadow:0 0 0 6px rgba(59,130,246,0.25), 0 2px 8px rgba(0,0,0,0.3);
+      animation: pulse-ring 2s ease-out infinite;
+    "></div>`,
+    iconSize: [22, 22],
+    iconAnchor: [11, 11],
+  });
+}
+
 // Sidebar clinic card (compact version for map view)
 function MapClinicCard({
   clinic,
   isActive,
+  distanceMiles,
   onHover,
   onClick,
 }: {
   clinic: Clinic;
   isActive: boolean;
+  distanceMiles?: number;
   onHover: () => void;
   onClick: () => void;
 }) {
@@ -101,6 +119,13 @@ function MapClinicCard({
         <span className="text-[10px] px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 font-medium">
           {clinic.wait_time}
         </span>
+        {distanceMiles !== undefined && (
+          <span className="text-[10px] px-2 py-0.5 rounded-md bg-orange-50 text-orange-700 font-medium">
+            {distanceMiles < 1
+              ? "< 1 mile"
+              : `${Math.round(distanceMiles)} mile${Math.round(distanceMiles) !== 1 ? "s" : ""}`}
+          </span>
+        )}
       </div>
 
       <div className="mt-2.5">
@@ -123,12 +148,15 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
   const mapRef = useRef<L.Map | null>(null);
   const mapContainerRef = useRef<HTMLDivElement>(null);
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
+  const userMarkerRef = useRef<L.Marker | null>(null);
   const sidebarRef = useRef<HTMLDivElement>(null);
   const cardRefs = useRef<Map<string, HTMLDivElement>>(new Map());
 
   const [filter, setFilter] = useState<FilterCondition>("all");
   const [activeClinicId, setActiveClinicId] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [locatingState, setLocatingState] = useState<"idle" | "loading" | "denied">("idle");
 
   // Filter clinics
   const filteredClinics = useMemo(() => {
@@ -150,6 +178,27 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
 
     return result;
   }, [clinics, filter, searchQuery]);
+
+  // Sort by distance when user location is available
+  const sortedClinics = useMemo(() => {
+    if (!userLocation) return filteredClinics;
+
+    return [...filteredClinics].sort((a, b) => {
+      const distA = getDistance(userLocation.lat, userLocation.lng, a.lat, a.lng);
+      const distB = getDistance(userLocation.lat, userLocation.lng, b.lat, b.lng);
+      return distA - distB;
+    });
+  }, [filteredClinics, userLocation]);
+
+  // Compute distances per clinic
+  const clinicDistances = useMemo(() => {
+    if (!userLocation) return new Map<string, number>();
+    const map = new Map<string, number>();
+    sortedClinics.forEach((c) => {
+      map.set(c.id, getDistance(userLocation.lat, userLocation.lng, c.lat, c.lng));
+    });
+    return map;
+  }, [sortedClinics, userLocation]);
 
   // Initialize map
   useEffect(() => {
@@ -187,17 +236,23 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
     markersRef.current.clear();
 
     // Add markers for filtered clinics (skip Online/Nationwide with default coords)
-    filteredClinics
+    sortedClinics
       .filter((c) => c.city !== "Online" && c.city !== "Nationwide")
       .forEach((clinic) => {
         const marker = L.marker([clinic.lat, clinic.lng], {
           icon: createPinIcon(clinic.conditions, clinic.id === activeClinicId),
         });
 
+        const dist = clinicDistances.get(clinic.id);
+        const distText = dist !== undefined
+          ? `<span style="font-size:11px;color:#c2410c;font-weight:500">${Math.round(dist)} miles away</span><br/>`
+          : "";
+
         marker.bindPopup(
           `<div style="min-width:180px">
             <strong style="font-size:13px">${clinic.name}</strong><br/>
             <span style="font-size:11px;color:#666">${clinic.city} · ${clinic.postcode}</span><br/>
+            ${distText}
             ${clinic.pricing.adhd_adult ? `<span style="font-size:12px;font-weight:600">From ${formatPrice(clinic.pricing.adhd_adult)}</span><br/>` : ""}
             <span style="font-size:11px;color:#059669">Wait: ${clinic.wait_time}</span><br/>
             <a href="/clinic/${clinic.slug}/" style="font-size:11px;color:#2563eb;text-decoration:none;font-weight:500">View profile →</a>
@@ -220,7 +275,68 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
         marker.addTo(map);
         markersRef.current.set(clinic.id, marker);
       });
-  }, [filteredClinics, activeClinicId]);
+  }, [sortedClinics, activeClinicId, clinicDistances]);
+
+  // Handle geolocation
+  const handleLocateMe = useCallback(() => {
+    if (!navigator.geolocation) {
+      setLocatingState("denied");
+      return;
+    }
+
+    setLocatingState("loading");
+
+    navigator.geolocation.getCurrentPosition(
+      (position) => {
+        const { latitude, longitude } = position.coords;
+        setUserLocation({ lat: latitude, lng: longitude });
+        setLocatingState("idle");
+
+        const map = mapRef.current;
+        if (!map) return;
+
+        // Remove old user marker
+        if (userMarkerRef.current) {
+          userMarkerRef.current.remove();
+        }
+
+        // Add user location marker
+        const userMarker = L.marker([latitude, longitude], {
+          icon: createUserLocationIcon(),
+          zIndexOffset: 1000,
+        });
+
+        userMarker.bindPopup(
+          `<div style="text-align:center;min-width:120px">
+            <strong style="font-size:13px">You are here</strong><br/>
+            <span style="font-size:11px;color:#666">Clinics sorted by distance</span>
+          </div>`,
+          { closeButton: false, offset: [0, -8] }
+        );
+
+        userMarker.addTo(map);
+        userMarkerRef.current = userMarker;
+
+        // Fly to user location
+        map.flyTo([latitude, longitude], 10, { duration: 1.2 });
+
+        // Open the popup briefly
+        setTimeout(() => userMarker.openPopup(), 1300);
+        setTimeout(() => userMarker.closePopup(), 4000);
+      },
+      (error) => {
+        console.warn("Geolocation error:", error.message);
+        setLocatingState("denied");
+        // Reset after 3 seconds
+        setTimeout(() => setLocatingState("idle"), 3000);
+      },
+      {
+        enableHighAccuracy: false,
+        timeout: 10000,
+        maximumAge: 300000, // Cache for 5 min
+      }
+    );
+  }, []);
 
   // Handle clicking a card -> fly to pin
   const handleCardClick = useCallback(
@@ -296,6 +412,46 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
           </button>
         </div>
 
+        {/* Location button */}
+        <button
+          onClick={handleLocateMe}
+          disabled={locatingState === "loading"}
+          className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all inline-flex items-center gap-1.5 ${
+            userLocation
+              ? "bg-blue-600 text-white shadow-sm"
+              : locatingState === "denied"
+              ? "bg-red-50 text-red-600 border border-red-200"
+              : locatingState === "loading"
+              ? "bg-gray-100 text-gray-400 cursor-wait"
+              : "bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200"
+          }`}
+        >
+          {locatingState === "loading" ? (
+            <>
+              <svg className="w-3.5 h-3.5 animate-spin" fill="none" viewBox="0 0 24 24">
+                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+              </svg>
+              Locating...
+            </>
+          ) : locatingState === "denied" ? (
+            <>
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+              </svg>
+              Location denied
+            </>
+          ) : (
+            <>
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
+              {userLocation ? "Near me" : "Find my location"}
+            </>
+          )}
+        </button>
+
         <div className="relative flex-1 max-w-xs">
           <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -310,7 +466,8 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
         </div>
 
         <p className="text-xs text-gray-400 ml-auto">
-          {filteredClinics.length} clinic{filteredClinics.length !== 1 ? "s" : ""} shown
+          {sortedClinics.length} clinic{sortedClinics.length !== 1 ? "s" : ""} shown
+          {userLocation && " · sorted by distance"}
         </p>
       </div>
 
@@ -336,6 +493,12 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
                 <div className="w-3 h-3 rounded-full bg-teal-600 border-2 border-white shadow-sm" />
                 <span className="text-xs text-gray-600">ADHD &amp; Autism</span>
               </div>
+              {userLocation && (
+                <div className="flex items-center gap-2 mt-1 pt-1 border-t border-gray-100">
+                  <div className="w-3 h-3 rounded-full bg-blue-500 border-2 border-white shadow-sm ring-2 ring-blue-200" />
+                  <span className="text-xs text-gray-600">Your location</span>
+                </div>
+              )}
             </div>
           </div>
         </div>
@@ -344,13 +507,17 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
         <div className="w-[380px] border-l border-gray-200 bg-white flex flex-col shrink-0 hidden md:flex">
           <div className="px-4 py-3 border-b border-gray-100 bg-gray-50/50">
             <h2 className="text-sm font-semibold text-gray-800">
-              {filteredClinics.length} Clinic{filteredClinics.length !== 1 ? "s" : ""}
+              {sortedClinics.length} Clinic{sortedClinics.length !== 1 ? "s" : ""}
             </h2>
-            <p className="text-xs text-gray-500 mt-0.5">Click a clinic to zoom on the map</p>
+            <p className="text-xs text-gray-500 mt-0.5">
+              {userLocation
+                ? "Sorted by distance from you"
+                : "Click a clinic to zoom on the map"}
+            </p>
           </div>
 
           <div ref={sidebarRef} className="flex-1 overflow-y-auto">
-            {filteredClinics.map((clinic) => (
+            {sortedClinics.map((clinic) => (
               <div
                 key={clinic.id}
                 ref={(el) => {
@@ -360,13 +527,14 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
                 <MapClinicCard
                   clinic={clinic}
                   isActive={clinic.id === activeClinicId}
+                  distanceMiles={clinicDistances.get(clinic.id)}
                   onHover={() => handleCardHover(clinic)}
                   onClick={() => handleCardClick(clinic)}
                 />
               </div>
             ))}
 
-            {filteredClinics.length === 0 && (
+            {sortedClinics.length === 0 && (
               <div className="p-8 text-center">
                 <p className="text-sm text-gray-500">No clinics match your filters.</p>
                 <button
