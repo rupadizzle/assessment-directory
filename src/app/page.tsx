@@ -1,8 +1,7 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
-import TownGrid from "@/components/TownGrid";
 import towns from "@/data/towns.json";
-import { Town, Condition } from "@/lib/types";
+import { Town } from "@/lib/types";
 
 const topCities = [
   "london",
@@ -160,23 +159,39 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Top cities */}
-      <section className="max-w-7xl mx-auto px-4 py-12">
-        <TownGrid
-          towns={majorTowns}
-          condition={"adhd" as Condition}
-          title="Find ADHD Assessments by City"
-          limit={20}
-        />
-      </section>
-
-      <section className="max-w-7xl mx-auto px-4 pb-16">
-        <TownGrid
-          towns={majorTowns}
-          condition={"autism" as Condition}
-          title="Find Autism Assessments by City"
-          limit={20}
-        />
+      {/* Top cities — combined grid */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="text-2xl font-bold text-gray-900 text-center mb-3">
+          Browse Assessments by City
+        </h2>
+        <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+          Find ADHD and autism assessment clinics in major UK cities
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+          {majorTowns.slice(0, 20).map((town) => (
+            <div
+              key={town.slug}
+              className="bg-white border border-gray-200/60 rounded-xl px-4 py-4 hover:shadow-md transition-all"
+            >
+              <p className="font-medium text-gray-900 text-sm">{town.name}</p>
+              <p className="text-xs text-gray-400 mt-0.5 mb-3">{town.county}</p>
+              <div className="flex gap-2">
+                <Link
+                  href={`/adhd-assessment/${town.slug}/`}
+                  className="text-[11px] font-medium px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors"
+                >
+                  ADHD
+                </Link>
+                <Link
+                  href={`/autism-assessment/${town.slug}/`}
+                  className="text-[11px] font-medium px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 hover:bg-purple-100 transition-colors"
+                >
+                  Autism
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* How it works */}
@@ -229,30 +244,23 @@ export default function HomePage() {
       {/* About */}
       <section className="bg-gradient-to-br from-gray-50 to-white py-16 px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-900 mb-5">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">
             About UK Assessment Directory
           </h2>
-          <div className="prose prose-sm text-gray-600 leading-relaxed">
-            <p>
-              UK Assessment Directory is a free service helping people find
-              trusted private ADHD and autism assessment clinics across the
-              United Kingdom. With NHS waiting times for neurodevelopmental
-              assessments stretching to 2-5 years in many areas, we make it
-              easier to compare private options by listing clinic pricing,
-              waiting times, professional credentials, and services in one
-              place.
-            </p>
-            <p>
-              Every clinic in our directory is verified before listing. We check
-              professional credentials, confirm pricing, and regularly review
-              listings for accuracy. Paid listings are clearly labelled as
-              &ldquo;Featured&rdquo; or &ldquo;Premium&rdquo; so you always
-              know which clinics have paid for enhanced visibility.
-            </p>
-          </div>
+          <p className="text-gray-600 text-sm leading-relaxed mb-3">
+            A free service helping people find trusted private ADHD and autism
+            assessment clinics across the UK. NHS waiting times stretch to
+            2-5 years in many areas — we list pricing, waiting times, and
+            credentials in one place so you can compare private options.
+          </p>
+          <p className="text-gray-600 text-sm leading-relaxed">
+            Every clinic is verified before listing. Paid listings are clearly
+            labelled so you always know which clinics have paid for enhanced
+            visibility.
+          </p>
           <Link
             href="/about/"
-            className="text-blue-600 hover:text-blue-800 font-medium text-sm mt-5 inline-flex items-center gap-1 transition-colors"
+            className="text-blue-600 hover:text-blue-800 font-medium text-sm mt-4 inline-flex items-center gap-1 transition-colors"
           >
             Learn more about us
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

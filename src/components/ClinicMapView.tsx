@@ -157,6 +157,7 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [locatingState, setLocatingState] = useState<"idle" | "loading" | "denied">("idle");
+  const [mobileView, setMobileView] = useState<"map" | "list">("map");
 
   // Filter clinics
   const filteredClinics = useMemo(() => {
@@ -452,7 +453,7 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
           )}
         </button>
 
-        <div className="relative flex-1 max-w-xs">
+        <div className="relative flex-1 min-w-[180px] max-w-xs">
           <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
           </svg>
@@ -473,12 +474,12 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
 
       {/* Map + Sidebar */}
       <div className="flex flex-1 min-h-0">
-        {/* Map */}
-        <div className="flex-1 relative">
+        {/* Map — hidden on mobile when list view is active */}
+        <div className={`flex-1 relative ${mobileView === "list" ? "hidden md:block" : ""}`}>
           <div ref={mapContainerRef} className="absolute inset-0" />
 
-          {/* Legend */}
-          <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200/60 px-4 py-3 z-[1000]">
+          {/* Legend — hide on mobile for more map space */}
+          <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200/60 px-4 py-3 z-[1000] hidden sm:block">
             <p className="text-xs font-semibold text-gray-700 mb-2">Clinic Types</p>
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-2">
@@ -501,10 +502,74 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
               )}
             </div>
           </div>
+
+          {/* Mobile toggle button — bottom center of map */}
+          <button
+            onClick={() => setMobileView("list")}
+            className="absolute bottom-6 left-1/2 -translate-x-1/2 z-[1000] md:hidden bg-white shadow-lg border border-gray-200 rounded-full px-5 py-2.5 flex items-center gap-2 text-sm font-semibold text-gray-800 active:scale-95 transition-transform"
+          >
+            <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
+            </svg>
+            View list ({sortedClinics.length})
+          </button>
         </div>
 
-        {/* Sidebar */}
-        <div className="w-[380px] border-l border-gray-200 bg-white flex flex-col shrink-0 hidden md:flex">
+        {/* Mobile list view — shown only on mobile when list is active */}
+        <div className={`flex-1 flex flex-col bg-white ${mobileView === "list" ? "flex md:hidden" : "hidden"}`}>
+          <div className="px-4 py-3 border-b border-gray-100 bg-gray-50/50 flex items-center justify-between">
+            <div>
+              <h2 className="text-sm font-semibold text-gray-800">
+                {sortedClinics.length} Clinic{sortedClinics.length !== 1 ? "s" : ""}
+              </h2>
+              <p className="text-xs text-gray-500 mt-0.5">
+                {userLocation
+                  ? "Sorted by distance from you"
+                  : "Tap a clinic to view details"}
+              </p>
+            </div>
+            <button
+              onClick={() => setMobileView("map")}
+              className="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-sm font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+              </svg>
+              Map
+            </button>
+          </div>
+
+          <div className="flex-1 overflow-y-auto">
+            {sortedClinics.map((clinic) => (
+              <MapClinicCard
+                key={clinic.id}
+                clinic={clinic}
+                isActive={clinic.id === activeClinicId}
+                distanceMiles={clinicDistances.get(clinic.id)}
+                onHover={() => {}}
+                onClick={() => handleCardClick(clinic)}
+              />
+            ))}
+
+            {sortedClinics.length === 0 && (
+              <div className="p-8 text-center">
+                <p className="text-sm text-gray-500">No clinics match your filters.</p>
+                <button
+                  onClick={() => {
+                    setFilter("all");
+                    setSearchQuery("");
+                  }}
+                  className="text-sm text-blue-600 hover:text-blue-800 font-medium mt-2"
+                >
+                  Clear filters
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Desktop sidebar — unchanged */}
+        <div className="w-[380px] border-l border-gray-200 bg-white flex-col shrink-0 hidden md:flex">
           <div className="px-4 py-3 border-b border-gray-100 bg-gray-50/50">
             <h2 className="text-sm font-semibold text-gray-800">
               {sortedClinics.length} Clinic{sortedClinics.length !== 1 ? "s" : ""}

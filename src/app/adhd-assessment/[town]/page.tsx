@@ -192,7 +192,7 @@ export default function ADHDTownPage({ params }: PageProps) {
               </div>
               <p className="text-2xl font-bold text-green-600 mb-1">{stats.waitRange}</p>
               <p className="text-xs text-gray-500">Typical wait for private clinics near {town.name}</p>
-              <p className="text-sm text-gray-600 mt-3">From {stats.lowestPrice}. Diagnosis and treatment plan in a single appointment.</p>
+              <p className="text-sm text-gray-600 mt-3">{stats.lowestPrice}. Diagnosis and treatment plan in a single appointment.</p>
             </div>
           </div>
 

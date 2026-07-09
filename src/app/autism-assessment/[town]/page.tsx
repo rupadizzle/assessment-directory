@@ -184,7 +184,7 @@ export default function AutismTownPage({ params }: PageProps) {
               </div>
               <p className="text-2xl font-bold text-green-600 mb-1">4-8 weeks</p>
               <p className="text-xs text-gray-500">Typical timeline from booking to report</p>
-              <p className="text-sm text-gray-600 mt-3">From {stats.lowestPrice}. ADOS-2 assessment with comprehensive diagnostic report.</p>
+              <p className="text-sm text-gray-600 mt-3">{stats.lowestPrice}. ADOS-2 assessment with comprehensive diagnostic report.</p>
             </div>
           </div>
         </section>
