@@ -1,11 +1,15 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import guides from "@/data/guides.json";
-import { Guide } from "@/lib/types";
+import towns from "@/data/towns.json";
+import { Guide, Town } from "@/lib/types";
 import { generateGuidePageMeta, generateArticleSchema, generateBreadcrumbSchema, SITE_URL } from "@/lib/seo";
 import Link from "next/link";
 
 const allGuides = guides as Guide[];
+const topCities = (towns as Town[])
+  .sort((a, b) => b.population - a.population)
+  .slice(0, 12);
 
 export function generateStaticParams() {
   return allGuides.map((g) => ({ slug: g.slug }));
@@ -85,6 +89,39 @@ export default function GuidePage({ params }: PageProps) {
               <p className="text-sm text-gray-500 line-clamp-2">{g.meta_description}</p>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Find Clinics Near You */}
+      <section className="mt-12">
+        <h2 className="text-xl font-semibold text-gray-900 mb-4">
+          Find {guide.condition === "autism" ? "Autism" : guide.condition === "adhd" ? "ADHD" : "Assessment"} Clinics Near You
+        </h2>
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+          {topCities.map((town) => (
+            <Link
+              key={town.slug}
+              href={`/${guide.condition === "autism" ? "autism-assessment" : "adhd-assessment"}/${town.slug}/`}
+              className={`text-sm px-3 py-2 rounded-lg border transition-colors ${
+                guide.condition === "autism"
+                  ? "text-purple-700 bg-purple-50 border-purple-100 hover:bg-purple-100"
+                  : "text-blue-700 bg-blue-50 border-blue-100 hover:bg-blue-100"
+              }`}
+            >
+              {town.name}
+            </Link>
+          ))}
+        </div>
+        <div className="mt-4">
+          <Link
+            href="/clinics/"
+            className="text-sm text-blue-600 hover:text-blue-800 font-medium inline-flex items-center gap-1"
+          >
+            Or view all clinics on the map
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
         </div>
       </section>
 

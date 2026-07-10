@@ -2,7 +2,8 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import towns from "@/data/towns.json";
 import clinics from "@/data/clinics.json";
-import { Town, Clinic, Condition } from "@/lib/types";
+import guides from "@/data/guides.json";
+import { Town, Clinic, Condition, Guide } from "@/lib/types";
 import {
   findNearbyTowns,
   findClinicsNearTownWithDistance,
@@ -22,6 +23,7 @@ import Link from "next/link";
 const condition: Condition = "adhd";
 const allTowns = towns as Town[];
 const allClinics = clinics as unknown as Clinic[];
+const allGuides = guides as Guide[];
 
 export function generateStaticParams() {
   return allTowns.map((town) => ({ town: town.slug }));
@@ -53,6 +55,9 @@ export default function ADHDTownPage({ params }: PageProps) {
   const nearbyTowns = findNearbyTowns(town, allTowns, 30, 12);
   const stats = getClinicStats(nearbyClinics, condition);
   const icb = findIcbForTown(town);
+  const relevantGuides = allGuides
+    .filter((g) => g.condition === "adhd" || g.condition === "both")
+    .slice(0, 3);
 
   // Dynamic price range from actual clinic data
   const prices = nearbyClinics
@@ -219,9 +224,20 @@ export default function ADHDTownPage({ params }: PageProps) {
 
       {/* Clinic listings with distance */}
       <section className="mb-14">
-        <h2 className="text-xl font-semibold text-gray-900 mb-5">
-          ADHD Assessment Clinics Near {town.name}
-        </h2>
+        <div className="flex items-center justify-between mb-5">
+          <h2 className="text-xl font-semibold text-gray-900">
+            ADHD Assessment Clinics Near {town.name}
+          </h2>
+          <Link
+            href="/clinics/"
+            className="text-sm text-blue-600 hover:text-blue-800 font-medium hidden sm:inline-flex items-center gap-1"
+          >
+            View map
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
+        </div>
         {clinicsWithDist.length > 0 ? (
           <div className="space-y-5">
             {clinicsWithDist.map(({ clinic, distance, driveMinutes }) => (
@@ -378,6 +394,31 @@ export default function ADHDTownPage({ params }: PageProps) {
           </svg>
         </Link>
       </section>
+
+      {/* Helpful Guides */}
+      {relevantGuides.length > 0 && (
+        <section className="mb-14">
+          <h2 className="text-xl font-semibold text-gray-900 mb-5">
+            ADHD Assessment Guides
+          </h2>
+          <div className="grid sm:grid-cols-3 gap-4">
+            {relevantGuides.map((g) => (
+              <Link
+                key={g.slug}
+                href={`/guides/${g.slug}/`}
+                className="bg-white rounded-xl border border-gray-200/60 p-5 hover:shadow-md hover:border-blue-200 transition-all group"
+              >
+                <h3 className="font-medium text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1.5">
+                  {g.title}
+                </h3>
+                <p className="text-xs text-gray-500 line-clamp-2">
+                  {g.meta_description}
+                </p>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* FAQ */}
       <section className="mb-14">

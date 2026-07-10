@@ -1,7 +1,8 @@
 import Link from "next/link";
 import SearchBar from "@/components/SearchBar";
 import towns from "@/data/towns.json";
-import { Town } from "@/lib/types";
+import guides from "@/data/guides.json";
+import { Town, Guide } from "@/lib/types";
 
 const topCities = [
   "london",
@@ -31,6 +32,8 @@ const townOptions = (towns as Town[]).map((t) => ({
   name: t.name,
   county: t.county,
 }));
+
+const allGuides = guides as Guide[];
 
 const majorTowns = (towns as Town[])
   .filter((t) => topCities.includes(t.slug))
@@ -191,6 +194,74 @@ export default function HomePage() {
               </div>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Map CTA */}
+      <section className="bg-white border-b border-gray-100 py-10 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="text-gray-600 mb-4">
+            Or explore all clinics on our interactive map
+          </p>
+          <Link
+            href="/clinics/"
+            className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-700 text-white px-6 py-3 rounded-xl font-medium hover:from-blue-700 hover:to-blue-800 transition-all shadow-sm hover:shadow-md"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+            </svg>
+            View Clinic Map
+          </Link>
+        </div>
+      </section>
+
+      {/* Helpful Guides */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="text-2xl font-bold text-gray-900 text-center mb-3">
+          Assessment Guides
+        </h2>
+        <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+          Free resources to help you understand the assessment process
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-5xl mx-auto">
+          {allGuides.slice(0, 4).map((guide) => (
+            <Link
+              key={guide.slug}
+              href={`/guides/${guide.slug}/`}
+              className="bg-white rounded-xl border border-gray-200/60 p-5 hover:shadow-md hover:border-blue-200 transition-all group"
+            >
+              <span
+                className={`inline-block text-[10px] font-medium px-2 py-0.5 rounded-full mb-3 ${
+                  guide.condition === "adhd"
+                    ? "bg-blue-100 text-blue-700"
+                    : guide.condition === "autism"
+                    ? "bg-purple-100 text-purple-700"
+                    : "bg-gray-100 text-gray-700"
+                }`}
+              >
+                {guide.condition === "both"
+                  ? "ADHD & Autism"
+                  : guide.condition.toUpperCase()}
+              </span>
+              <h3 className="font-medium text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1.5 line-clamp-2">
+                {guide.title}
+              </h3>
+              <p className="text-xs text-gray-500 line-clamp-2">
+                {guide.meta_description}
+              </p>
+            </Link>
+          ))}
+        </div>
+        <div className="text-center mt-6">
+          <Link
+            href="/guides/"
+            className="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center gap-1 transition-colors"
+          >
+            View all guides
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+            </svg>
+          </Link>
         </div>
       </section>
 
