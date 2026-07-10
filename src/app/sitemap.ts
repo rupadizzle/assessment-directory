@@ -23,6 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/about/`, lastModified: LAST_UPDATED },
     { url: `${BASE_URL}/privacy-policy/`, lastModified: LAST_UPDATED },
     { url: `${BASE_URL}/terms/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/adhd-screening/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/autism-screening/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/nhs-wait-times/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/cost-calculator/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/tools/right-to-choose-letter/`, lastModified: LAST_UPDATED },
   ];
 
   const adhdTownPages = allTowns.map((town) => ({

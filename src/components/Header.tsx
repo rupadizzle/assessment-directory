@@ -46,6 +46,12 @@ export default function Header() {
             >
               Guides
             </Link>
+            <Link
+              href="/tools/"
+              className="px-4 py-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-all text-sm"
+            >
+              Free Tools
+            </Link>
             <div className="w-px h-6 bg-gray-200 mx-2" />
             <Link
               href="/list-your-clinic/"
@@ -115,6 +121,13 @@ export default function Header() {
                 onClick={() => setMenuOpen(false)}
               >
                 Guides
+              </Link>
+              <Link
+                href="/tools/"
+                className="px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-xl font-medium transition-all"
+                onClick={() => setMenuOpen(false)}
+              >
+                Free Tools
               </Link>
               <Link
                 href="/list-your-clinic/"

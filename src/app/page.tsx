@@ -265,6 +265,79 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Free Tools */}
+      <section className="bg-gray-50 py-16 px-4">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 text-center mb-3">
+            Free Assessment Tools
+          </h2>
+          <p className="text-gray-500 text-center mb-10 max-w-xl mx-auto">
+            Screening quizzes, cost comparison, and practical tools to help you navigate the assessment process
+          </p>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-4xl mx-auto">
+            <Link
+              href="/tools/adhd-screening/"
+              className="bg-white rounded-xl border border-gray-200/60 p-5 hover:shadow-md hover:border-blue-200 transition-all group"
+            >
+              <div className="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center mb-3">
+                <svg className="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1">
+                ADHD Screening Quiz
+              </h3>
+              <p className="text-xs text-gray-500">
+                6 questions based on the WHO ASRS-v1.1
+              </p>
+            </Link>
+            <Link
+              href="/tools/autism-screening/"
+              className="bg-white rounded-xl border border-gray-200/60 p-5 hover:shadow-md hover:border-purple-200 transition-all group"
+            >
+              <div className="w-10 h-10 bg-purple-50 rounded-xl flex items-center justify-center mb-3">
+                <svg className="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 text-sm group-hover:text-purple-600 transition-colors mb-1">
+                Autism Screening Quiz
+              </h3>
+              <p className="text-xs text-gray-500">
+                10 questions based on the AQ-10
+              </p>
+            </Link>
+            <Link
+              href="/tools/nhs-wait-times/"
+              className="bg-white rounded-xl border border-gray-200/60 p-5 hover:shadow-md hover:border-gray-300 transition-all group"
+            >
+              <div className="w-10 h-10 bg-gray-100 rounded-xl flex items-center justify-center mb-3">
+                <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+              </div>
+              <h3 className="font-medium text-gray-900 text-sm group-hover:text-blue-600 transition-colors mb-1">
+                NHS Wait Time Checker
+              </h3>
+              <p className="text-xs text-gray-500">
+                Check waits in your area
+              </p>
+            </Link>
+          </div>
+          <div className="text-center mt-6">
+            <Link
+              href="/tools/"
+              className="text-blue-600 hover:text-blue-800 font-medium text-sm inline-flex items-center gap-1 transition-colors"
+            >
+              View all free tools
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* How it works */}
       <section className="bg-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
