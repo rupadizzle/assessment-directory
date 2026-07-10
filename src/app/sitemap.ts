@@ -9,29 +9,30 @@ const allTowns = towns as Town[];
 const allClinics = clinics as unknown as Clinic[];
 const allGuides = guides as Guide[];
 
-const SITE_LAUNCH = "2025-01-15T00:00:00Z";
+const LAST_UPDATED = "2026-07-09T00:00:00Z";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
-    { url: BASE_URL, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/adhd-assessment/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/autism-assessment/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/list-your-clinic/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/pricing/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/guides/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/about/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/privacy-policy/`, lastModified: SITE_LAUNCH },
-    { url: `${BASE_URL}/terms/`, lastModified: SITE_LAUNCH },
+    { url: BASE_URL, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/adhd-assessment/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/autism-assessment/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/clinics/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/list-your-clinic/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/pricing/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/guides/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/about/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/privacy-policy/`, lastModified: LAST_UPDATED },
+    { url: `${BASE_URL}/terms/`, lastModified: LAST_UPDATED },
   ];
 
   const adhdTownPages = allTowns.map((town) => ({
     url: `${BASE_URL}/adhd-assessment/${town.slug}/`,
-    lastModified: SITE_LAUNCH,
+    lastModified: LAST_UPDATED,
   }));
 
   const autismTownPages = allTowns.map((town) => ({
     url: `${BASE_URL}/autism-assessment/${town.slug}/`,
-    lastModified: SITE_LAUNCH,
+    lastModified: LAST_UPDATED,
   }));
 
   const clinicPages = allClinics.map((clinic) => ({

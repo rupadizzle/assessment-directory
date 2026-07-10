@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/about/",
   },
+  openGraph: {
+    title: "About Us — UK Assessment Directory",
+    description:
+      "Learn about UK Assessment Directory, how we verify clinics, and our mission to help people access private ADHD and autism assessments across the UK.",
+    url: "https://assessmentdirectory.co.uk/about/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function AboutPage() {

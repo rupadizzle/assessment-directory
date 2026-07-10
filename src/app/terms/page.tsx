@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/terms/",
   },
+  openGraph: {
+    title: "Terms of Service — UK Assessment Directory",
+    description:
+      "Terms of service for UK Assessment Directory. Terms governing use of our clinic directory and listing services.",
+    url: "https://assessmentdirectory.co.uk/terms/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function TermsPage() {

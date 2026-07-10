@@ -7,6 +7,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/privacy-policy/",
   },
+  openGraph: {
+    title: "Privacy Policy — UK Assessment Directory",
+    description:
+      "Privacy policy for UK Assessment Directory. How we collect, use, and protect your personal data under UK GDPR.",
+    url: "https://assessmentdirectory.co.uk/privacy-policy/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function PrivacyPolicyPage() {

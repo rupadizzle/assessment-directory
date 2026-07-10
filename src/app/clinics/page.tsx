@@ -23,6 +23,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/clinics/",
   },
+  openGraph: {
+    title: "Clinic Map — Find Private ADHD & Autism Assessment Clinics Near You",
+    description:
+      "Interactive map of 300+ private ADHD and Autism assessment clinics across the UK. Filter by condition, search by city, and compare prices and wait times.",
+    url: "https://assessmentdirectory.co.uk/clinics/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function ClinicsMapPage() {

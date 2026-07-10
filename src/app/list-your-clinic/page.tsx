@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/list-your-clinic/",
   },
+  openGraph: {
+    title: "List Your Clinic — Join the UK Assessment Directory",
+    description:
+      "Get your clinic in front of thousands of people searching for private ADHD and Autism assessments. Free listing available. Upgrade for priority placement.",
+    url: "https://assessmentdirectory.co.uk/list-your-clinic/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function ListYourClinicPage() {

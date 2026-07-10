@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/autism-assessment/",
   },
+  openGraph: {
+    title: "Private Autism Assessment Clinics Across the UK",
+    description:
+      "Find private autism assessment clinics near you. Comprehensive ADOS-2 diagnostic assessments for adults and children. Skip the multi-year NHS wait.",
+    url: "https://assessmentdirectory.co.uk/autism-assessment/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 const allTowns = towns as Town[];

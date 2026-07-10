@@ -9,6 +9,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/pricing/",
   },
+  openGraph: {
+    title: "Pricing — Clinic Listing Plans",
+    description:
+      "Choose a plan for your clinic listing. Free basic listing, Featured from £49/mo, Premium from £149/mo. No long-term contracts.",
+    url: "https://assessmentdirectory.co.uk/pricing/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function PricingPage() {

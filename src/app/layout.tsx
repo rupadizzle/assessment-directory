@@ -22,6 +22,21 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/",
   },
+  openGraph: {
+    title: "UK Assessment Directory — Find Private ADHD & Autism Assessments",
+    description:
+      "Find trusted private ADHD and Autism assessment clinics across the UK. Compare prices, waiting times and book your assessment today.",
+    url: "https://assessmentdirectory.co.uk/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+    locale: "en_GB",
+  },
+  twitter: {
+    card: "summary",
+    title: "UK Assessment Directory — Find Private ADHD & Autism Assessments",
+    description:
+      "Find trusted private ADHD and Autism assessment clinics across the UK. Compare prices, waiting times and book your assessment today.",
+  },
 };
 
 export default function RootLayout({

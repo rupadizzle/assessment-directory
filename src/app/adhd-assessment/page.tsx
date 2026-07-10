@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/adhd-assessment/",
   },
+  openGraph: {
+    title: "Private ADHD Assessment Clinics Across the UK",
+    description:
+      "Find private ADHD assessment clinics near you. Compare prices from £495, check waiting times and book your ADHD assessment. Skip the 2+ year NHS wait.",
+    url: "https://assessmentdirectory.co.uk/adhd-assessment/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 const allTowns = towns as Town[];
