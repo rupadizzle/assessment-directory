@@ -285,7 +285,7 @@ export default function ClinicProfilePage({ params }: PageProps) {
           <div className="flex justify-between items-start">
             <div>
               {clinic.tier === "premium" && (
-                <span className="inline-block bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-semibold px-3.5 py-1 rounded-full mb-4 shadow-sm">
+                <span className="inline-block bg-gradient-to-r from-blue-700 to-blue-800 text-white text-xs font-semibold px-3.5 py-1 rounded-full mb-4 shadow-sm">
                   Premium Clinic
                 </span>
               )}
@@ -349,28 +349,28 @@ export default function ClinicProfilePage({ params }: PageProps) {
 
           {/* ===== Key Stats at a Glance ===== */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            <div className="bg-emerald-50 rounded-xl p-4 border border-emerald-100 text-center">
-              <p className="text-xs text-emerald-600 font-medium">Wait Time</p>
-              <p className="text-lg font-bold text-emerald-800 mt-1">
+            <div className="bg-blue-50 rounded-xl p-4 border border-blue-100 text-center">
+              <p className="text-xs text-blue-600 font-medium">Wait Time</p>
+              <p className="text-lg font-bold text-blue-800 mt-1">
                 {clinic.wait_time}
               </p>
             </div>
             {icbWaitAdhd && clinic.conditions.includes("adhd") && (
-              <div className="bg-red-50 rounded-xl p-4 border border-red-100 text-center">
-                <p className="text-xs text-red-600 font-medium">
+              <div className="bg-gray-50 rounded-xl p-4 border border-gray-200 text-center">
+                <p className="text-xs text-gray-500 font-medium">
                   NHS ADHD Wait
                 </p>
-                <p className="text-lg font-bold text-red-800 mt-1">
+                <p className="text-lg font-bold text-gray-800 mt-1">
                   {icbWaitAdhd}
                 </p>
               </div>
             )}
             {icbWaitAutism && clinic.conditions.includes("autism") && (
-              <div className="bg-red-50 rounded-xl p-4 border border-red-100 text-center">
-                <p className="text-xs text-red-600 font-medium">
+              <div className="bg-gray-50 rounded-xl p-4 border border-gray-200 text-center">
+                <p className="text-xs text-gray-500 font-medium">
                   NHS Autism Wait
                 </p>
-                <p className="text-lg font-bold text-red-800 mt-1">
+                <p className="text-lg font-bold text-gray-800 mt-1">
                   {icbWaitAutism}
                 </p>
               </div>
@@ -553,20 +553,20 @@ export default function ClinicProfilePage({ params }: PageProps) {
                   {icb.local_nhs_provider &&
                     `, with assessments delivered through ${icb.local_nhs_provider}`}
                   . Current NHS waiting times are approximately{" "}
-                  <strong className="text-red-700">
+                  <strong className="text-gray-800">
                     {icbWaitAdhd} for ADHD
                   </strong>
                   {icbWaitAutism && (
                     <>
                       {" "}and{" "}
-                      <strong className="text-red-700">
+                      <strong className="text-gray-800">
                         {icbWaitAutism} for autism
                       </strong>
                     </>
                   )}
                   . {clinic.name} offers a private alternative with a typical
                   wait of just{" "}
-                  <strong className="text-emerald-700">
+                  <strong className="text-blue-700">
                     {clinic.wait_time}
                   </strong>
                   .
@@ -575,11 +575,11 @@ export default function ClinicProfilePage({ params }: PageProps) {
 
               {/* Right to Choose */}
               {hasRtc && icb.rtc_status === "accepted" && (
-                <div className="bg-amber-50 rounded-2xl p-6 border border-amber-200/60">
+                <div className="bg-blue-50 rounded-2xl p-6 border border-blue-200/60">
                   <div className="flex items-start gap-3">
-                    <div className="w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
                       <svg
-                        className="w-4 h-4 text-amber-700"
+                        className="w-4 h-4 text-blue-700"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -593,10 +593,10 @@ export default function ClinicProfilePage({ params }: PageProps) {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-amber-900">
+                      <p className="text-sm font-semibold text-blue-900">
                         Right to Choose Available
                       </p>
-                      <p className="text-sm text-amber-800 mt-1 leading-relaxed">
+                      <p className="text-sm text-blue-800 mt-1 leading-relaxed">
                         {clinic.name} accepts NHS Right to Choose referrals.
                         Under NHS England guidelines, you can ask your GP to
                         refer you to this clinic for your ADHD assessment — the
@@ -611,11 +611,11 @@ export default function ClinicProfilePage({ params }: PageProps) {
 
               {/* Shared Care */}
               {hasSharedCare && (
-                <div className="bg-emerald-50 rounded-2xl p-6 border border-emerald-200/60">
+                <div className="bg-blue-50 rounded-2xl p-6 border border-blue-200/60">
                   <div className="flex items-start gap-3">
-                    <div className="w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
+                    <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5">
                       <svg
-                        className="w-4 h-4 text-emerald-700"
+                        className="w-4 h-4 text-blue-700"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -629,10 +629,10 @@ export default function ClinicProfilePage({ params }: PageProps) {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-sm font-semibold text-emerald-900">
+                      <p className="text-sm font-semibold text-blue-900">
                         Shared Care Agreement Support
                       </p>
-                      <p className="text-sm text-emerald-800 mt-1 leading-relaxed">
+                      <p className="text-sm text-blue-800 mt-1 leading-relaxed">
                         {clinic.name} supports shared care agreements with your
                         GP. After diagnosis and medication stabilisation
                         (titration), they can transfer your prescribing to your

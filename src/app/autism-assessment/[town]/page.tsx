@@ -150,7 +150,7 @@ export default function AutismTownPage({ params }: PageProps) {
           <p className="text-xs text-gray-500 mt-1.5">Private Wait</p>
         </div>
         <div className="stat-card">
-          <p className="text-2xl font-bold text-red-500">{nhsWaitText}</p>
+          <p className="text-2xl font-bold text-gray-700">{nhsWaitText}</p>
           <p className="text-xs text-gray-500 mt-1.5">NHS Wait</p>
         </div>
       </div>
@@ -165,29 +165,29 @@ export default function AutismTownPage({ params }: PageProps) {
             Your local NHS services are provided by {icb.local_nhs_provider} ({icb.short_name} area).
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="bg-gradient-to-br from-red-50 to-orange-50/50 rounded-xl p-5 border border-red-100/50">
+            <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <p className="font-semibold text-gray-900">NHS Pathway</p>
               </div>
-              <p className="text-2xl font-bold text-red-600 mb-1">{nhsWaitText}</p>
+              <p className="text-2xl font-bold text-gray-700 mb-1">{nhsWaitText}</p>
               <p className="text-xs text-gray-500">Average waiting time in {icb.short_name}</p>
               <p className="text-sm text-gray-600 mt-3">Free but very long waits. Multi-disciplinary team assessment via GP referral.</p>
             </div>
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50/50 rounded-xl p-5 border border-green-100/50">
+            <div className="bg-purple-50 rounded-xl p-5 border border-purple-100">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Private Assessment</p>
               </div>
-              <p className="text-2xl font-bold text-green-600 mb-1">4-8 weeks</p>
+              <p className="text-2xl font-bold text-purple-600 mb-1">4-8 weeks</p>
               <p className="text-xs text-gray-500">Typical timeline from booking to report</p>
               <p className="text-sm text-gray-600 mt-3">{stats.lowestPrice}. ADOS-2 assessment with comprehensive diagnostic report.</p>
             </div>

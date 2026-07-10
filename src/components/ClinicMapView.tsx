@@ -14,7 +14,7 @@ interface ClinicMapViewProps {
 type FilterCondition = "all" | "adhd" | "autism";
 
 function getPinColor(conditions: ("adhd" | "autism")[]): string {
-  if (conditions.includes("adhd") && conditions.includes("autism")) return "#0d9488"; // teal
+  if (conditions.includes("adhd") && conditions.includes("autism")) return "#4f46e5"; // indigo (blend of blue+purple)
   if (conditions.includes("adhd")) return "#2563eb"; // blue
   return "#9333ea"; // purple
 }
@@ -116,11 +116,11 @@ function MapClinicCard({
             {CONDITIONS[c].name}
           </span>
         ))}
-        <span className="text-[10px] px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-700 font-medium">
+        <span className="text-[10px] px-2 py-0.5 rounded-md bg-gray-100 text-gray-600 font-medium">
           {clinic.wait_time}
         </span>
         {distanceMiles !== undefined && (
-          <span className="text-[10px] px-2 py-0.5 rounded-md bg-orange-50 text-orange-700 font-medium">
+          <span className="text-[10px] px-2 py-0.5 rounded-md bg-blue-50 text-blue-700 font-medium">
             {distanceMiles < 1
               ? "< 1 mile"
               : `${Math.round(distanceMiles)} mile${Math.round(distanceMiles) !== 1 ? "s" : ""}`}
@@ -246,7 +246,7 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
 
         const dist = clinicDistances.get(clinic.id);
         const distText = dist !== undefined
-          ? `<span style="font-size:11px;color:#c2410c;font-weight:500">${Math.round(dist)} miles away</span><br/>`
+          ? `<span style="font-size:11px;color:#2563eb;font-weight:500">${Math.round(dist)} miles away</span><br/>`
           : "";
 
         marker.bindPopup(
@@ -255,7 +255,7 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
             <span style="font-size:11px;color:#666">${clinic.city} · ${clinic.postcode}</span><br/>
             ${distText}
             ${clinic.pricing.adhd_adult ? `<span style="font-size:12px;font-weight:600">From ${formatPrice(clinic.pricing.adhd_adult)}</span><br/>` : ""}
-            <span style="font-size:11px;color:#059669">Wait: ${clinic.wait_time}</span><br/>
+            <span style="font-size:11px;color:#6b7280">Wait: ${clinic.wait_time}</span><br/>
             <a href="/clinic/${clinic.slug}/" style="font-size:11px;color:#2563eb;text-decoration:none;font-weight:500">View profile →</a>
           </div>`,
           { closeButton: false, offset: [0, -5] }
@@ -421,10 +421,10 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
             userLocation
               ? "bg-blue-600 text-white shadow-sm"
               : locatingState === "denied"
-              ? "bg-red-50 text-red-600 border border-red-200"
+              ? "bg-gray-100 text-gray-500 border border-gray-200"
               : locatingState === "loading"
               ? "bg-gray-100 text-gray-400 cursor-wait"
-              : "bg-orange-50 text-orange-700 hover:bg-orange-100 border border-orange-200"
+              : "bg-blue-50 text-blue-700 hover:bg-blue-100 border border-blue-200"
           }`}
         >
           {locatingState === "loading" ? (
@@ -491,7 +491,7 @@ export default function ClinicMapView({ clinics }: ClinicMapViewProps) {
                 <span className="text-xs text-gray-600">Autism only</span>
               </div>
               <div className="flex items-center gap-2">
-                <div className="w-3 h-3 rounded-full bg-teal-600 border-2 border-white shadow-sm" />
+                <div className="w-3 h-3 rounded-full bg-indigo-600 border-2 border-white shadow-sm" />
                 <span className="text-xs text-gray-600">ADHD &amp; Autism</span>
               </div>
               {userLocation && (

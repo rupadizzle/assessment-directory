@@ -158,7 +158,7 @@ export default function ADHDTownPage({ params }: PageProps) {
           <p className="text-xs text-gray-500 mt-1.5">Private Wait</p>
         </div>
         <div className="stat-card">
-          <p className="text-2xl font-bold text-red-500">{nhsWaitText}</p>
+          <p className="text-2xl font-bold text-gray-700">{nhsWaitText}</p>
           <p className="text-xs text-gray-500 mt-1.5">NHS Wait</p>
         </div>
       </div>
@@ -173,29 +173,29 @@ export default function ADHDTownPage({ params }: PageProps) {
             Your local NHS services are provided by {icb.local_nhs_provider} ({icb.short_name} area).
           </p>
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="bg-gradient-to-br from-red-50 to-orange-50/50 rounded-xl p-5 border border-red-100/50">
+            <div className="bg-gray-50 rounded-xl p-5 border border-gray-200">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 bg-red-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </div>
                 <p className="font-semibold text-gray-900">NHS Pathway</p>
               </div>
-              <p className="text-2xl font-bold text-red-600 mb-1">{nhsWaitText}</p>
+              <p className="text-2xl font-bold text-gray-700 mb-1">{nhsWaitText}</p>
               <p className="text-xs text-gray-500">Average waiting time in {icb.short_name}</p>
               <p className="text-sm text-gray-600 mt-3">Free at point of use, but very long waiting lists. GP referral required.</p>
             </div>
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50/50 rounded-xl p-5 border border-green-100/50">
+            <div className="bg-blue-50 rounded-xl p-5 border border-blue-100">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
-                  <svg className="w-4 h-4 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+                  <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
                 <p className="font-semibold text-gray-900">Private Assessment</p>
               </div>
-              <p className="text-2xl font-bold text-green-600 mb-1">{stats.waitRange}</p>
+              <p className="text-2xl font-bold text-blue-600 mb-1">{stats.waitRange}</p>
               <p className="text-xs text-gray-500">Typical wait for private clinics near {town.name}</p>
               <p className="text-sm text-gray-600 mt-3">{stats.lowestPrice}. Diagnosis and treatment plan in a single appointment.</p>
             </div>
@@ -298,9 +298,9 @@ export default function ADHDTownPage({ params }: PageProps) {
             </div>
           </div>
           {icb?.rtc_status === "accepted" && (
-            <div className="bg-green-50 rounded-xl p-4 mt-5 not-prose border border-green-100/50">
-              <p className="text-sm text-green-800 font-medium flex items-center gap-2">
-                <svg className="w-4 h-4 text-green-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <div className="bg-blue-50 rounded-xl p-4 mt-5 not-prose border border-blue-100/50">
+              <p className="text-sm text-blue-800 font-medium flex items-center gap-2">
+                <svg className="w-4 h-4 text-blue-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
                 Right to Choose: You may be eligible for a free NHS-funded assessment through an approved private provider. Ask your GP.
@@ -362,8 +362,8 @@ export default function ADHDTownPage({ params }: PageProps) {
                   {icb.name}
                 </li>
                 {icb.rtc_status === "accepted" && (
-                  <li className="text-sm text-green-700 font-medium flex items-start gap-2">
-                    <svg className="w-3.5 h-3.5 text-green-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <li className="text-sm text-blue-700 font-medium flex items-start gap-2">
+                    <svg className="w-3.5 h-3.5 text-blue-500 mt-0.5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     Right to Choose accepted ✓

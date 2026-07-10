@@ -93,7 +93,7 @@ export default function PricingTable() {
             {tier.features.map((feature) => (
               <li key={feature} className="flex items-start gap-2.5 text-sm">
                 <svg
-                  className={`w-5 h-5 shrink-0 mt-0.5 ${tier.highlighted ? "text-blue-200" : "text-emerald-500"}`}
+                  className={`w-5 h-5 shrink-0 mt-0.5 ${tier.highlighted ? "text-blue-200" : "text-blue-500"}`}
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

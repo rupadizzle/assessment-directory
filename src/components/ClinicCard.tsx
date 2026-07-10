@@ -24,7 +24,7 @@ export default function ClinicCard({ clinic, condition }: ClinicCardProps) {
       } p-6 card-hover relative group`}
     >
       {clinic.tier === "premium" && (
-        <div className="absolute -top-3 left-5 bg-gradient-to-r from-amber-500 to-orange-500 text-white text-xs font-semibold px-3.5 py-1 rounded-full shadow-sm">
+        <div className="absolute -top-3 left-5 bg-gradient-to-r from-blue-700 to-blue-800 text-white text-xs font-semibold px-3.5 py-1 rounded-full shadow-sm">
           Premium Clinic
         </div>
       )}
@@ -78,7 +78,7 @@ export default function ClinicCard({ clinic, condition }: ClinicCardProps) {
             {CONDITIONS[c].name}
           </span>
         ))}
-        <span className="text-xs px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-700 font-medium">
+        <span className="text-xs px-2.5 py-1 rounded-lg bg-gray-100 text-gray-600 font-medium">
           {clinic.wait_time} wait
         </span>
       </div>

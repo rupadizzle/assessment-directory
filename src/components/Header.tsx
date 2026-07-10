@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
     <header className="bg-white/80 backdrop-blur-lg border-b border-gray-200/50 sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center gap-2.5 group">
             <div className="w-9 h-9 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
@@ -36,7 +36,7 @@ export default function Header() {
             </Link>
             <Link
               href="/clinics/"
-              className="px-4 py-2 text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-lg font-medium transition-all text-sm"
+              className="px-4 py-2 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-lg font-medium transition-all text-sm"
             >
               Clinic Map
             </Link>
@@ -104,7 +104,7 @@ export default function Header() {
               </Link>
               <Link
                 href="/clinics/"
-                className="px-4 py-3 text-gray-600 hover:text-teal-600 hover:bg-teal-50 rounded-xl font-medium transition-all"
+                className="px-4 py-3 text-gray-600 hover:text-blue-600 hover:bg-blue-50 rounded-xl font-medium transition-all"
                 onClick={() => setMenuOpen(false)}
               >
                 Clinic Map
