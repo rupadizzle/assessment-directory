@@ -13798,7 +13798,7 @@
   },
   {
     "id": "clinic-278",
-    "name": "Zenvit\u00e9 North Wales",
+    "name": "Zenvité North Wales",
     "slug": "zenvit-north-wales",
     "conditions": [
       "adhd",
@@ -13827,7 +13827,7 @@
     "tier": "free",
     "featured_until": null,
     "logo": null,
-    "description": "Zenvit\u00e9 North Wales offers private ADHD and autism assessment services in St Asaph. Our experienced team provides thorough diagnostic evaluations following NICE guidelines, with detailed reports and recommendations for ongoing support and treatment.",
+    "description": "Zenvité North Wales offers private ADHD and autism assessment services in St Asaph. Our experienced team provides thorough diagnostic evaluations following NICE guidelines, with detailed reports and recommendations for ongoing support and treatment.",
     "services": [
       "Adult ADHD Assessment",
       "Child ADHD Assessment",
@@ -14986,5 +14986,3570 @@
     ],
     "created_at": "2026-01-15",
     "updated_at": "2026-03-01"
+  },
+  {
+    "id": "clinic-303",
+    "name": "Blackpool Neurodevelopmental Clinic",
+    "slug": "blackpool-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "askam-in-furness",
+      "ayerscough",
+      "barrow-in-furness",
+      "blackburn",
+      "felthamfield",
+      "felthamford",
+      "felthamleigh",
+      "felthampool",
+      "felthamport",
+      "felthamsea",
+      "felthamshire",
+      "felthamstoke",
+      "felthamstone",
+      "felthamstrand",
+      "felthamstreet",
+      "felthamvale",
+      "felthamview",
+      "felthamville",
+      "felthamward",
+      "felthamware"
+    ],
+    "address": "82 High Street, Blackpool",
+    "city": "Blackpool",
+    "postcode": "FY1 1JH",
+    "lat": 53.8147,
+    "lng": -3.0333,
+    "phone": "01253 792 9935",
+    "email": "info@blackpoolneurodevelo.co.uk",
+    "website": "https://www.blackpool-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 2000,
+      "adhd_child": 1000,
+      "autism_child": 1500
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Blackpool Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Blackpool and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Michael Morgan, Consultant Psychiatrist",
+      "Dr. Natasha Barker, Consultant Psychiatrist",
+      "Matthew Ward, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-304",
+    "name": "Blackpool ADHD Centre",
+    "slug": "blackpool-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "askam-in-furness",
+      "ayerscough",
+      "barrow-in-furness",
+      "blackburn",
+      "felthamfield",
+      "felthamford",
+      "felthamleigh",
+      "felthampool",
+      "felthamport",
+      "felthamsea",
+      "felthamshire",
+      "felthamstoke",
+      "felthamstone",
+      "felthamstrand",
+      "felthamstreet",
+      "felthamvale",
+      "felthamview",
+      "felthamville",
+      "felthamward",
+      "felthamware"
+    ],
+    "address": "29 Bridge Street, Blackpool",
+    "city": "Blackpool",
+    "postcode": "FY1 5AF",
+    "lat": 53.8207,
+    "lng": -3.0383,
+    "phone": "01253 259 4527",
+    "email": "hello@blackpooladhdcentre.co.uk",
+    "website": "https://www.blackpool-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "adhd_child": 750
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Blackpool ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Blackpool. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Emily Phillips, Clinical Psychologist",
+      "Dr. Anna Barker, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-305",
+    "name": "Blackpool Autism Assessment Service",
+    "slug": "blackpool-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "askam-in-furness",
+      "ayerscough",
+      "barrow-in-furness",
+      "blackburn",
+      "felthamfield",
+      "felthamford",
+      "felthamleigh",
+      "felthampool",
+      "felthamport",
+      "felthamsea",
+      "felthamshire",
+      "felthamstoke",
+      "felthamstone",
+      "felthamstrand",
+      "felthamstreet",
+      "felthamvale",
+      "felthamview",
+      "felthamville",
+      "felthamward",
+      "felthamware"
+    ],
+    "address": "Suite 18, Parkside Centre, Blackpool",
+    "city": "Blackpool",
+    "postcode": "FY1 2NC",
+    "lat": 53.8185,
+    "lng": -3.0291,
+    "phone": "01253 733 6925",
+    "email": "referrals@blackpoolautismassessm.co.uk",
+    "website": "https://www.blackpool-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 2100,
+      "autism_child": 1900,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Blackpool Autism Assessment Service offers specialist autism and ADHD assessments in Blackpool. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Emma Clark, Clinical Psychologist",
+      "Dr. Michael Clark, Consultant Psychiatrist",
+      "Emily Harper, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-306",
+    "name": "Carlisle Neurodevelopmental Clinic",
+    "slug": "carlisle-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "annan",
+      "aspatria",
+      "auston",
+      "aythwaite",
+      "carlisle",
+      "penrith"
+    ],
+    "address": "82 Health Park, Carlisle",
+    "city": "Carlisle",
+    "postcode": "CA1 3MM",
+    "lat": 54.8922,
+    "lng": -2.9405,
+    "phone": "01228 799 2169",
+    "email": "info@carlisleneurodevelop.co.uk",
+    "website": "https://www.carlisle-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 950,
+      "autism_adult": 1500,
+      "adhd_child": 900,
+      "autism_child": 1700
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Carlisle Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Carlisle and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Emily Harper, Consultant Psychiatrist",
+      "Dr. Matthew Clark, Consultant Psychiatrist",
+      "Victoria Hughes, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-307",
+    "name": "Carlisle ADHD Centre",
+    "slug": "carlisle-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "annan",
+      "aspatria",
+      "auston",
+      "aythwaite",
+      "carlisle",
+      "penrith"
+    ],
+    "address": "5 Queen Street, Carlisle",
+    "city": "Carlisle",
+    "postcode": "CA1 7JC",
+    "lat": 54.8905,
+    "lng": -2.9311,
+    "phone": "01228 997 6155",
+    "email": "hello@carlisleadhdcentre.co.uk",
+    "website": "https://www.carlisle-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 700,
+      "adhd_child": 900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Carlisle ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Carlisle. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Peter Parker, Clinical Psychologist",
+      "Dr. Claire Bennett, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-308",
+    "name": "Carlisle Autism Assessment Service",
+    "slug": "carlisle-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "annan",
+      "aspatria",
+      "auston",
+      "aythwaite",
+      "carlisle",
+      "penrith"
+    ],
+    "address": "Room 9, Health Hub, Carlisle",
+    "city": "Carlisle",
+    "postcode": "CA1 7UN",
+    "lat": 54.8923,
+    "lng": -2.9283,
+    "phone": "01228 241 9348",
+    "email": "referrals@carlisleautismassessme.co.uk",
+    "website": "https://www.carlisle-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 1800,
+      "adhd_adult": 800
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Carlisle Autism Assessment Service offers specialist autism and ADHD assessments in Carlisle. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Thomas Cooper, Consultant Psychiatrist",
+      "Dr. Simon Barker, Consultant Psychiatrist",
+      "Emily Hill, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-309",
+    "name": "Colchester Neurodevelopmental Clinic",
+    "slug": "colchester-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "baddow",
+      "chelmsford",
+      "colchester",
+      "ipswich"
+    ],
+    "address": "68 Health Park, Colchester",
+    "city": "Colchester",
+    "postcode": "CO1 9AD",
+    "lat": 51.8977,
+    "lng": 0.8923,
+    "phone": "01206 373 6573",
+    "email": "info@colchesterneurodevel.co.uk",
+    "website": "https://www.colchester-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 1600,
+      "adhd_child": 1000,
+      "autism_child": 1700
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Colchester Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Colchester and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Sarah Wood, Consultant Psychiatrist",
+      "Dr. Robert Reid, Consultant Psychiatrist",
+      "Paul Reid, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-310",
+    "name": "Colchester ADHD Centre",
+    "slug": "colchester-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "baddow",
+      "chelmsford",
+      "colchester",
+      "ipswich"
+    ],
+    "address": "20 Queen Street, Colchester",
+    "city": "Colchester",
+    "postcode": "CO1 3TS",
+    "lat": 51.9026,
+    "lng": 0.8935,
+    "phone": "01206 600 1319",
+    "email": "hello@colchesteradhdcentre.co.uk",
+    "website": "https://www.colchester-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 650,
+      "adhd_child": 850
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Colchester ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Colchester. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Daniel Hughes, Consultant Psychiatrist",
+      "Dr. Georgia Carter, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-311",
+    "name": "Colchester Autism Assessment Service",
+    "slug": "colchester-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "baddow",
+      "chelmsford",
+      "colchester",
+      "ipswich"
+    ],
+    "address": "Room 3, Parkside Centre, Colchester",
+    "city": "Colchester",
+    "postcode": "CO1 9EE",
+    "lat": 51.8991,
+    "lng": 0.9008,
+    "phone": "01206 269 5342",
+    "email": "referrals@colchesterautismassess.co.uk",
+    "website": "https://www.colchester-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 2100,
+      "autism_child": 2200,
+      "adhd_adult": 800
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Colchester Autism Assessment Service offers specialist autism and ADHD assessments in Colchester. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Sophie Scott, Clinical Psychologist",
+      "Dr. Jonathan Ross, Consultant Psychiatrist",
+      "Rebecca Evans, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-312",
+    "name": "Crawley Neurodevelopmental Clinic",
+    "slug": "crawley-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "ardingly",
+      "arundel",
+      "ash",
+      "brighton-and-hove",
+      "crawley",
+      "croydon",
+      "guildford",
+      "hayesfield",
+      "hayesford",
+      "hayesleigh",
+      "hayespool",
+      "hayesport",
+      "hayessea",
+      "hayesshire",
+      "hayesstoke",
+      "hayesstone",
+      "hayesstrand",
+      "hayesstreet",
+      "hayesvale",
+      "hayesview"
+    ],
+    "address": "29 High Street, Crawley",
+    "city": "Crawley",
+    "postcode": "RH10 6AU",
+    "lat": 51.1097,
+    "lng": -0.1863,
+    "phone": "01293 107 2163",
+    "email": "info@crawleyneurodevelopm.co.uk",
+    "website": "https://www.crawley-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 1500,
+      "adhd_child": 800,
+      "autism_child": 1500
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Crawley Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Crawley and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Rachel Reid, Consultant Psychiatrist",
+      "Dr. Mark Burns, Consultant Psychiatrist",
+      "Jennifer Turner, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-313",
+    "name": "Crawley ADHD Centre",
+    "slug": "crawley-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "ardingly",
+      "arundel",
+      "ash",
+      "brighton-and-hove",
+      "crawley",
+      "croydon",
+      "guildford",
+      "hayesfield",
+      "hayesford",
+      "hayesleigh",
+      "hayespool",
+      "hayesport",
+      "hayessea",
+      "hayesshire",
+      "hayesstoke",
+      "hayesstone",
+      "hayesstrand",
+      "hayesstreet",
+      "hayesvale",
+      "hayesview"
+    ],
+    "address": "32 Bridge Street, Crawley",
+    "city": "Crawley",
+    "postcode": "RH10 7GD",
+    "lat": 51.1028,
+    "lng": -0.1883,
+    "phone": "01293 533 7735",
+    "email": "hello@crawleyadhdcentre.co.uk",
+    "website": "https://www.crawley-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 795,
+      "adhd_child": 750
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Crawley ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Crawley. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Laura Hughes, Clinical Psychologist",
+      "Dr. Christopher Phillips, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-314",
+    "name": "Crawley Autism Assessment Service",
+    "slug": "crawley-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "ardingly",
+      "arundel",
+      "ash",
+      "brighton-and-hove",
+      "crawley",
+      "croydon",
+      "guildford",
+      "hayesfield",
+      "hayesford",
+      "hayesleigh",
+      "hayespool",
+      "hayesport",
+      "hayessea",
+      "hayesshire",
+      "hayesstoke",
+      "hayesstone",
+      "hayesstrand",
+      "hayesstreet",
+      "hayesvale",
+      "hayesview"
+    ],
+    "address": "Suite 18, The Willows, Crawley",
+    "city": "Crawley",
+    "postcode": "RH10 8EP",
+    "lat": 51.1029,
+    "lng": -0.1879,
+    "phone": "01293 995 2235",
+    "email": "referrals@crawleyautismassessmen.co.uk",
+    "website": "https://www.crawley-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 1800,
+      "adhd_adult": 800
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Crawley Autism Assessment Service offers specialist autism and ADHD assessments in Crawley. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Jennifer Thompson, Consultant Psychiatrist",
+      "Dr. Daniel Cooper, Clinical Psychologist",
+      "Adam Murray, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-315",
+    "name": "Doncaster Neurodevelopmental Clinic",
+    "slug": "doncaster-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "austerfield",
+      "austhorpe",
+      "backton",
+      "chesterfield",
+      "doncaster",
+      "rotherham",
+      "sheffield",
+      "wakefield",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale"
+    ],
+    "address": "111 Station Road, Doncaster",
+    "city": "Doncaster",
+    "postcode": "DN1 1FN",
+    "lat": 53.5178,
+    "lng": -1.1296,
+    "phone": "01302 902 8454",
+    "email": "info@doncasterneurodevelo.co.uk",
+    "website": "https://www.doncaster-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1800,
+      "adhd_child": 1000,
+      "autism_child": 1700
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Doncaster Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Doncaster and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Catherine Morgan, Consultant Psychiatrist",
+      "Dr. Stephen Walsh, Consultant Psychiatrist",
+      "Victoria Hughes, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-316",
+    "name": "Doncaster ADHD Centre",
+    "slug": "doncaster-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "austerfield",
+      "austhorpe",
+      "backton",
+      "chesterfield",
+      "doncaster",
+      "rotherham",
+      "sheffield",
+      "wakefield",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale"
+    ],
+    "address": "75 Bridge Street, Doncaster",
+    "city": "Doncaster",
+    "postcode": "DN1 9SF",
+    "lat": 53.5157,
+    "lng": -1.1284,
+    "phone": "01302 971 4044",
+    "email": "hello@doncasteradhdcentre.co.uk",
+    "website": "https://www.doncaster-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 650,
+      "adhd_child": 750
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Doncaster ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Doncaster. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Daniel King, Consultant Psychiatrist",
+      "Dr. Georgia Bennett, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-317",
+    "name": "Doncaster Autism Assessment Service",
+    "slug": "doncaster-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "austerfield",
+      "austhorpe",
+      "backton",
+      "chesterfield",
+      "doncaster",
+      "rotherham",
+      "sheffield",
+      "wakefield",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale"
+    ],
+    "address": "Room 20, Riverside House, Doncaster",
+    "city": "Doncaster",
+    "postcode": "DN1 2PU",
+    "lat": 53.5241,
+    "lng": -1.1322,
+    "phone": "01302 367 4346",
+    "email": "referrals@doncasterautismassessm.co.uk",
+    "website": "https://www.doncaster-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1800,
+      "autism_child": 1900,
+      "adhd_adult": 850
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Doncaster Autism Assessment Service offers specialist autism and ADHD assessments in Doncaster. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Claire Scott, Clinical Psychologist",
+      "Dr. Victoria Mitchell, Consultant Psychiatrist",
+      "Peter Grant, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-318",
+    "name": "Dundee Neurodevelopmental Clinic",
+    "slug": "dundee-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "alyth",
+      "arbroath",
+      "auchnashellach",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auld",
+      "dundee",
+      "perth"
+    ],
+    "address": "10 Castle Street, Dundee",
+    "city": "Dundee",
+    "postcode": "DD1 4SJ",
+    "lat": 56.4583,
+    "lng": -2.9722,
+    "phone": "01382 170 5002",
+    "email": "info@dundeeneurodevelopme.co.uk",
+    "website": "https://www.dundee-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1600,
+      "adhd_child": 900,
+      "autism_child": 2000
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Dundee Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Dundee and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Ian Marshall, Consultant Psychiatrist",
+      "Dr. Matthew Scott, Consultant Psychiatrist",
+      "Laura Turner, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-319",
+    "name": "Dundee ADHD Centre",
+    "slug": "dundee-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "alyth",
+      "arbroath",
+      "auchnashellach",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auld",
+      "dundee",
+      "perth"
+    ],
+    "address": "15 Market Place, Dundee",
+    "city": "Dundee",
+    "postcode": "DD1 9EJ",
+    "lat": 56.4585,
+    "lng": -2.9753,
+    "phone": "01382 451 4335",
+    "email": "hello@dundeeadhdcentre.co.uk",
+    "website": "https://www.dundee-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "adhd_child": 900
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Dundee ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Dundee. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. David Carter, Consultant Psychiatrist",
+      "Dr. Simon Harper, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-320",
+    "name": "Dundee Autism Assessment Service",
+    "slug": "dundee-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "alyth",
+      "arbroath",
+      "auchnashellach",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auld",
+      "dundee",
+      "perth"
+    ],
+    "address": "Suite 5, Victoria Business Park, Dundee",
+    "city": "Dundee",
+    "postcode": "DD1 5FQ",
+    "lat": 56.463,
+    "lng": -2.9721,
+    "phone": "01382 109 2832",
+    "email": "referrals@dundeeautismassessment.co.uk",
+    "website": "https://www.dundee-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 1900,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Dundee Autism Assessment Service offers specialist autism and ADHD assessments in Dundee. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Jonathan Dixon, Consultant Psychiatrist",
+      "Dr. Thomas Shaw, Consultant Psychiatrist",
+      "Emma Scott, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-321",
+    "name": "Gloucester Neurodevelopmental Clinic",
+    "slug": "gloucester-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "avening",
+      "awre",
+      "axton",
+      "axton-hill",
+      "gloucester",
+      "hereford",
+      "worcester"
+    ],
+    "address": "116 High Street, Gloucester",
+    "city": "Gloucester",
+    "postcode": "GL1 6GH",
+    "lat": 51.8659,
+    "lng": -2.2397,
+    "phone": "01452 673 7658",
+    "email": "info@gloucesterneurodevel.co.uk",
+    "website": "https://www.gloucester-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 950,
+      "autism_adult": 1500,
+      "adhd_child": 900,
+      "autism_child": 1700
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Gloucester Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Gloucester and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Lucy Walker, Consultant Psychiatrist",
+      "Dr. Christopher Wright, Consultant Psychiatrist",
+      "Daniel Harper, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-322",
+    "name": "Gloucester ADHD Centre",
+    "slug": "gloucester-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "avening",
+      "awre",
+      "axton",
+      "axton-hill",
+      "gloucester",
+      "hereford",
+      "worcester"
+    ],
+    "address": "14 Bridge Street, Gloucester",
+    "city": "Gloucester",
+    "postcode": "GL1 1RH",
+    "lat": 51.8594,
+    "lng": -2.2315,
+    "phone": "01452 458 6000",
+    "email": "hello@gloucesteradhdcentre.co.uk",
+    "website": "https://www.gloucester-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 700,
+      "adhd_child": 800
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Gloucester ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Gloucester. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Sophie King, Clinical Psychologist",
+      "Dr. Mark Mitchell, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-323",
+    "name": "Gloucester Autism Assessment Service",
+    "slug": "gloucester-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "avening",
+      "awre",
+      "axton",
+      "axton-hill",
+      "gloucester",
+      "hereford",
+      "worcester"
+    ],
+    "address": "Unit 13, Health Hub, Gloucester",
+    "city": "Gloucester",
+    "postcode": "GL1 9LA",
+    "lat": 51.8565,
+    "lng": -2.2288,
+    "phone": "01452 282 5349",
+    "email": "referrals@gloucesterautismassess.co.uk",
+    "website": "https://www.gloucester-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 1800,
+      "adhd_adult": 900
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Gloucester Autism Assessment Service offers specialist autism and ADHD assessments in Gloucester. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Anna Adams, Clinical Psychologist",
+      "Dr. Fiona Reid, Consultant Psychiatrist",
+      "Emily Pearce, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-324",
+    "name": "Hereford Neurodevelopmental Clinic",
+    "slug": "hereford-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "abergavenny",
+      "awre",
+      "axton",
+      "gloucester",
+      "hereford",
+      "thorntonfield",
+      "thorntonford",
+      "thorntonleigh",
+      "thorntonpool",
+      "thorntonport",
+      "thorntonsea",
+      "thorntonshire",
+      "thorntonstoke",
+      "thorntonstone",
+      "thorntonstrand",
+      "thorntonstreet",
+      "thorntonvale",
+      "thorntonview",
+      "thorntonville",
+      "thorntonward"
+    ],
+    "address": "33 High Street, Hereford",
+    "city": "Hereford",
+    "postcode": "HR1 7AS",
+    "lat": 52.0608,
+    "lng": -2.7156,
+    "phone": "01432 836 4228",
+    "email": "info@herefordneurodevelop.co.uk",
+    "website": "https://www.hereford-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1800,
+      "adhd_child": 800,
+      "autism_child": 1800
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hereford Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Hereford and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Andrew Scott, Consultant Psychiatrist",
+      "Dr. Paul Wright, Clinical Psychologist",
+      "William Allen, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-325",
+    "name": "Hereford ADHD Centre",
+    "slug": "hereford-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "abergavenny",
+      "awre",
+      "axton",
+      "gloucester",
+      "hereford",
+      "thorntonfield",
+      "thorntonford",
+      "thorntonleigh",
+      "thorntonpool",
+      "thorntonport",
+      "thorntonsea",
+      "thorntonshire",
+      "thorntonstoke",
+      "thorntonstone",
+      "thorntonstrand",
+      "thorntonstreet",
+      "thorntonvale",
+      "thorntonview",
+      "thorntonville",
+      "thorntonward"
+    ],
+    "address": "25 Bridge Street, Hereford",
+    "city": "Hereford",
+    "postcode": "HR1 7FW",
+    "lat": 52.0576,
+    "lng": -2.7175,
+    "phone": "01432 953 1006",
+    "email": "hello@herefordadhdcentre.co.uk",
+    "website": "https://www.hereford-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "adhd_child": 850
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hereford ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Hereford. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Simon Dixon, Consultant Psychiatrist",
+      "Dr. Victoria Chapman, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-326",
+    "name": "Hereford Autism Assessment Service",
+    "slug": "hereford-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "abergavenny",
+      "awre",
+      "axton",
+      "gloucester",
+      "hereford",
+      "thorntonfield",
+      "thorntonford",
+      "thorntonleigh",
+      "thorntonpool",
+      "thorntonport",
+      "thorntonsea",
+      "thorntonshire",
+      "thorntonstoke",
+      "thorntonstone",
+      "thorntonstrand",
+      "thorntonstreet",
+      "thorntonvale",
+      "thorntonview",
+      "thorntonville",
+      "thorntonward"
+    ],
+    "address": "Unit 17, The Willows, Hereford",
+    "city": "Hereford",
+    "postcode": "HR1 8FC",
+    "lat": 52.0522,
+    "lng": -2.7127,
+    "phone": "01432 734 6491",
+    "email": "referrals@herefordautismassessme.co.uk",
+    "website": "https://www.hereford-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 1900,
+      "adhd_adult": 900
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hereford Autism Assessment Service offers specialist autism and ADHD assessments in Hereford. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Alice Ward, Consultant Psychiatrist",
+      "Dr. James Roberts, Consultant Psychiatrist",
+      "Charlotte Grant, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-327",
+    "name": "Hull Neurodevelopmental Clinic",
+    "slug": "hull-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "badegate",
+      "hull",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale",
+      "walthamview",
+      "walthamville",
+      "walthamward",
+      "walthamware",
+      "walthamwater",
+      "walthamway"
+    ],
+    "address": "59 Station Road, Hull",
+    "city": "Hull",
+    "postcode": "HU1 4NR",
+    "lat": 53.7447,
+    "lng": -0.3402,
+    "phone": "01482 804 1090",
+    "email": "info@hullneurodevelopment.co.uk",
+    "website": "https://www.hull-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 1800,
+      "adhd_child": 900,
+      "autism_child": 1700
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hull Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Hull and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. David Fox, Consultant Psychiatrist",
+      "Dr. Andrew Chapman, Consultant Psychiatrist",
+      "Peter Marshall, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-328",
+    "name": "Hull ADHD Centre",
+    "slug": "hull-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "badegate",
+      "hull",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale",
+      "walthamview",
+      "walthamville",
+      "walthamward",
+      "walthamware",
+      "walthamwater",
+      "walthamway"
+    ],
+    "address": "57 Park Road, Hull",
+    "city": "Hull",
+    "postcode": "HU1 9PT",
+    "lat": 53.7448,
+    "lng": -0.3422,
+    "phone": "01482 982 8777",
+    "email": "hello@hulladhdcentre.co.uk",
+    "website": "https://www.hull-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 795,
+      "adhd_child": 850
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hull ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Hull. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Mark Marshall, Clinical Psychologist",
+      "Dr. Daniel Harper, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-329",
+    "name": "Hull Autism Assessment Service",
+    "slug": "hull-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "badegate",
+      "hull",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale",
+      "walthamview",
+      "walthamville",
+      "walthamward",
+      "walthamware",
+      "walthamwater",
+      "walthamway"
+    ],
+    "address": "Suite 8, Victoria Business Park, Hull",
+    "city": "Hull",
+    "postcode": "HU1 5LL",
+    "lat": 53.7536,
+    "lng": -0.3451,
+    "phone": "01482 254 4788",
+    "email": "referrals@hullautismassessmentse.co.uk",
+    "website": "https://www.hull-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 1900,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Hull Autism Assessment Service offers specialist autism and ADHD assessments in Hull. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Rachel Wright, Clinical Psychologist",
+      "Dr. Christopher Walsh, Clinical Psychologist",
+      "Lucy Hughes, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-330",
+    "name": "Inverness Neurodevelopmental Clinic",
+    "slug": "inverness-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "ardersier",
+      "aultguish",
+      "avoch",
+      "ayto",
+      "inverness"
+    ],
+    "address": "107 Station Road, Inverness",
+    "city": "Inverness",
+    "postcode": "IV1 7UA",
+    "lat": 57.4814,
+    "lng": -4.222,
+    "phone": "01463 489 8814",
+    "email": "info@invernessneurodevelo.co.uk",
+    "website": "https://www.inverness-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 1600,
+      "adhd_child": 950,
+      "autism_child": 2000
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Inverness Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Inverness and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Jennifer Walsh, Consultant Psychiatrist",
+      "Dr. Alice Burns, Consultant Psychiatrist",
+      "Mark Shaw, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-331",
+    "name": "Inverness ADHD Centre",
+    "slug": "inverness-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "ardersier",
+      "aultguish",
+      "avoch",
+      "ayto",
+      "inverness"
+    ],
+    "address": "4 Bridge Street, Inverness",
+    "city": "Inverness",
+    "postcode": "IV1 6NF",
+    "lat": 57.4832,
+    "lng": -4.218,
+    "phone": "01463 737 9751",
+    "email": "hello@invernessadhdcentre.co.uk",
+    "website": "https://www.inverness-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 650,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Inverness ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Inverness. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Georgia Walker, Consultant Psychiatrist",
+      "Dr. Simon Turner, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-332",
+    "name": "Inverness Autism Assessment Service",
+    "slug": "inverness-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "ardersier",
+      "aultguish",
+      "avoch",
+      "ayto",
+      "inverness"
+    ],
+    "address": "Suite 9, Riverside House, Inverness",
+    "city": "Inverness",
+    "postcode": "IV1 7LG",
+    "lat": 57.4769,
+    "lng": -4.2279,
+    "phone": "01463 488 5558",
+    "email": "referrals@invernessautismassessm.co.uk",
+    "website": "https://www.inverness-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 2000,
+      "adhd_adult": 800
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Inverness Autism Assessment Service offers specialist autism and ADHD assessments in Inverness. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. James Walsh, Consultant Psychiatrist",
+      "Dr. Anna Clark, Consultant Psychiatrist",
+      "Rachel Roberts, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-333",
+    "name": "Luton Neurodevelopmental Clinic",
+    "slug": "luton-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "aldershot",
+      "amersham",
+      "arkley",
+      "arlesey",
+      "austenwood",
+      "aylesbury",
+      "backnang",
+      "bacon",
+      "harlow",
+      "hatfield",
+      "hemel-hempstead",
+      "high-wycombe",
+      "hitchin",
+      "letchworth",
+      "stevenage",
+      "watford",
+      "welwyn-garden-city"
+    ],
+    "address": "32 Medical Centre, Luton",
+    "city": "Luton",
+    "postcode": "LU1 1WE",
+    "lat": 51.8761,
+    "lng": -0.4203,
+    "phone": "01582 217 4571",
+    "email": "info@lutonneurodevelopmen.co.uk",
+    "website": "https://www.luton-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 900,
+      "autism_adult": 1600,
+      "adhd_child": 950,
+      "autism_child": 1700
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Luton Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Luton and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Helen Scott, Consultant Psychiatrist",
+      "Dr. Stephen Walker, Clinical Psychologist",
+      "Georgia Hill, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-334",
+    "name": "Luton ADHD Centre",
+    "slug": "luton-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "aldershot",
+      "amersham",
+      "arkley",
+      "arlesey",
+      "austenwood",
+      "aylesbury",
+      "backnang",
+      "bacon",
+      "harlow",
+      "hatfield",
+      "hemel-hempstead",
+      "high-wycombe",
+      "hitchin",
+      "letchworth",
+      "stevenage",
+      "watford",
+      "welwyn-garden-city"
+    ],
+    "address": "26 Market Place, Luton",
+    "city": "Luton",
+    "postcode": "LU1 4DK",
+    "lat": 51.8843,
+    "lng": -0.4184,
+    "phone": "01582 223 1672",
+    "email": "hello@lutonadhdcentre.co.uk",
+    "website": "https://www.luton-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "adhd_child": 900
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Luton ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Luton. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Jonathan Mitchell, Consultant Psychiatrist",
+      "Dr. Christopher Thompson, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-335",
+    "name": "Luton Autism Assessment Service",
+    "slug": "luton-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "aldershot",
+      "amersham",
+      "arkley",
+      "arlesey",
+      "austenwood",
+      "aylesbury",
+      "backnang",
+      "bacon",
+      "harlow",
+      "hatfield",
+      "hemel-hempstead",
+      "high-wycombe",
+      "hitchin",
+      "letchworth",
+      "stevenage",
+      "watford",
+      "welwyn-garden-city"
+    ],
+    "address": "Unit 14, Riverside House, Luton",
+    "city": "Luton",
+    "postcode": "LU1 6QE",
+    "lat": 51.8774,
+    "lng": -0.4153,
+    "phone": "01582 766 5425",
+    "email": "referrals@lutonautismassessments.co.uk",
+    "website": "https://www.luton-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 2100,
+      "autism_child": 2200,
+      "adhd_adult": 850
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Luton Autism Assessment Service offers specialist autism and ADHD assessments in Luton. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Stephen Harper, Clinical Psychologist",
+      "Dr. Daniel Carter, Clinical Psychologist",
+      "Rebecca Bennett, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-336",
+    "name": "Middlesbrough Neurodevelopmental Clinic",
+    "slug": "middlesbrough-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "ayresome",
+      "azenby",
+      "darlington",
+      "durham",
+      "hartlepool",
+      "middlesbrough",
+      "stockton-on-tees",
+      "sunderland"
+    ],
+    "address": "73 Castle Street, Middlesbrough",
+    "city": "Middlesbrough",
+    "postcode": "TS1 7LA",
+    "lat": 54.5741,
+    "lng": -1.2367,
+    "phone": "01642 599 4475",
+    "email": "info@middlesbroughneurode.co.uk",
+    "website": "https://www.middlesbrough-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1600,
+      "adhd_child": 950,
+      "autism_child": 1800
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Middlesbrough Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Middlesbrough and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Matthew Thompson, Consultant Psychiatrist",
+      "Dr. Sophie Carter, Consultant Psychiatrist",
+      "Lucy Burns, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-337",
+    "name": "Middlesbrough ADHD Centre",
+    "slug": "middlesbrough-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "ayresome",
+      "azenby",
+      "darlington",
+      "durham",
+      "hartlepool",
+      "middlesbrough",
+      "stockton-on-tees",
+      "sunderland"
+    ],
+    "address": "61 Bridge Street, Middlesbrough",
+    "city": "Middlesbrough",
+    "postcode": "TS1 8AC",
+    "lat": 54.5709,
+    "lng": -1.2365,
+    "phone": "01642 349 6016",
+    "email": "hello@middlesbroughadhdcen.co.uk",
+    "website": "https://www.middlesbrough-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "adhd_child": 850
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Middlesbrough ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Middlesbrough. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Matthew Marshall, Clinical Psychologist",
+      "Dr. Simon Fox, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-338",
+    "name": "Middlesbrough Autism Assessment Service",
+    "slug": "middlesbrough-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "ayresome",
+      "azenby",
+      "darlington",
+      "durham",
+      "hartlepool",
+      "middlesbrough",
+      "stockton-on-tees",
+      "sunderland"
+    ],
+    "address": "Unit 9, Parkside Centre, Middlesbrough",
+    "city": "Middlesbrough",
+    "postcode": "TS1 5JH",
+    "lat": 54.5666,
+    "lng": -1.2411,
+    "phone": "01642 222 9779",
+    "email": "referrals@middlesbroughautismass.co.uk",
+    "website": "https://www.middlesbrough-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1600,
+      "autism_child": 1900,
+      "adhd_adult": 800
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Middlesbrough Autism Assessment Service offers specialist autism and ADHD assessments in Middlesbrough. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Charlotte Harper, Consultant Psychiatrist",
+      "Dr. Stephen Marshall, Consultant Psychiatrist",
+      "Catherine Phillips, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-339",
+    "name": "Milton Keynes Neurodevelopmental Clinic",
+    "slug": "milton-keynes-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "arlesey",
+      "aylesbury",
+      "backnang",
+      "hemel-hempstead",
+      "hitchin",
+      "letchworth"
+    ],
+    "address": "38 Medical Centre, Milton Keynes",
+    "city": "Milton Keynes",
+    "postcode": "MK9 6FK",
+    "lat": 52.0357,
+    "lng": -0.7591,
+    "phone": "01908 380 1745",
+    "email": "info@miltonkeynesneurodev.co.uk",
+    "website": "https://www.milton-keynes-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 2000,
+      "adhd_child": 950,
+      "autism_child": 1700
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Milton Keynes Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Milton Keynes and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Laura Thompson, Consultant Psychiatrist",
+      "Dr. Catherine Murray, Clinical Psychologist",
+      "Rebecca Baker, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-340",
+    "name": "Milton Keynes ADHD Centre",
+    "slug": "milton-keynes-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "arlesey",
+      "aylesbury",
+      "backnang",
+      "hemel-hempstead",
+      "hitchin",
+      "letchworth"
+    ],
+    "address": "7 Queen Street, Milton Keynes",
+    "city": "Milton Keynes",
+    "postcode": "MK9 8DC",
+    "lat": 52.039,
+    "lng": -0.7662,
+    "phone": "01908 744 1878",
+    "email": "hello@miltonkeynesadhdcent.co.uk",
+    "website": "https://www.milton-keynes-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 700,
+      "adhd_child": 800
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Milton Keynes ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Milton Keynes. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Paul Carter, Consultant Psychiatrist",
+      "Dr. Andrew Fox, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-341",
+    "name": "Milton Keynes Autism Assessment Service",
+    "slug": "milton-keynes-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "arlesey",
+      "aylesbury",
+      "backnang",
+      "hemel-hempstead",
+      "hitchin",
+      "letchworth"
+    ],
+    "address": "Room 20, Health Hub, Milton Keynes",
+    "city": "Milton Keynes",
+    "postcode": "MK9 4SN",
+    "lat": 52.0396,
+    "lng": -0.7605,
+    "phone": "01908 980 8025",
+    "email": "referrals@miltonkeynesautismasse.co.uk",
+    "website": "https://www.milton-keynes-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1800,
+      "autism_child": 1800,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Milton Keynes Autism Assessment Service offers specialist autism and ADHD assessments in Milton Keynes. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Laura Morgan, Consultant Psychiatrist",
+      "Dr. Richard Wood, Consultant Psychiatrist",
+      "Michael Cooper, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-342",
+    "name": "Perth Neurodevelopmental Clinic",
+    "slug": "perth-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "alloa",
+      "alyth",
+      "auchterarder",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auldcathie",
+      "dundee",
+      "dunfermline",
+      "perth"
+    ],
+    "address": "23 Castle Street, Perth",
+    "city": "Perth",
+    "postcode": "PH1 2FA",
+    "lat": 56.3941,
+    "lng": -3.4289,
+    "phone": "01738 581 5771",
+    "email": "info@perthneurodevelopmen.co.uk",
+    "website": "https://www.perth-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 750,
+      "autism_adult": 1500,
+      "adhd_child": 950,
+      "autism_child": 1800
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Perth Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Perth and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Rachel Clark, Clinical Psychologist",
+      "Dr. Stephen Ward, Clinical Psychologist",
+      "Andrew Walsh, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-343",
+    "name": "Perth ADHD Centre",
+    "slug": "perth-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "alloa",
+      "alyth",
+      "auchterarder",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auldcathie",
+      "dundee",
+      "dunfermline",
+      "perth"
+    ],
+    "address": "20 Queen Street, Perth",
+    "city": "Perth",
+    "postcode": "PH1 3CB",
+    "lat": 56.3897,
+    "lng": -3.4339,
+    "phone": "01738 866 5728",
+    "email": "hello@perthadhdcentre.co.uk",
+    "website": "https://www.perth-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 795,
+      "adhd_child": 750
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Perth ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Perth. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Paul King, Clinical Psychologist",
+      "Dr. Natasha Walsh, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-344",
+    "name": "Perth Autism Assessment Service",
+    "slug": "perth-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "alloa",
+      "alyth",
+      "auchterarder",
+      "auchterderran",
+      "auchterhouse",
+      "auchtermuchty",
+      "auchtertool",
+      "auldcathie",
+      "dundee",
+      "dunfermline",
+      "perth"
+    ],
+    "address": "Unit 20, Riverside House, Perth",
+    "city": "Perth",
+    "postcode": "PH1 1PL",
+    "lat": 56.3971,
+    "lng": -3.4403,
+    "phone": "01738 334 1339",
+    "email": "referrals@perthautismassessments.co.uk",
+    "website": "https://www.perth-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1800,
+      "autism_child": 1800,
+      "adhd_adult": 800
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Perth Autism Assessment Service offers specialist autism and ADHD assessments in Perth. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Stuart Ross, Clinical Psychologist",
+      "Dr. Robert Dixon, Clinical Psychologist",
+      "Adam Carter, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-345",
+    "name": "Salisbury Neurodevelopmental Clinic",
+    "slug": "salisbury-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "ashfordfield",
+      "ashfordford",
+      "ashfordleigh",
+      "ashfordpool",
+      "ashfordport",
+      "ashfordsea",
+      "ashfordshire",
+      "ashfordstoke",
+      "ashfordstone",
+      "ashfordstrand",
+      "ashfordstreet",
+      "ashfordvale",
+      "ashfordview",
+      "ashfordville",
+      "ashfordward",
+      "ashfordware",
+      "ashfordwater",
+      "ashfordway",
+      "ashfordwells",
+      "ashfordwick"
+    ],
+    "address": "45 Station Road, Salisbury",
+    "city": "Salisbury",
+    "postcode": "SP1 6LD",
+    "lat": 51.0724,
+    "lng": -1.7962,
+    "phone": "01722 810 9117",
+    "email": "info@salisburyneurodevelo.co.uk",
+    "website": "https://www.salisbury-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1800,
+      "adhd_child": 800,
+      "autism_child": 2000
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Salisbury Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Salisbury and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Victoria Wood, Clinical Psychologist",
+      "Dr. Andrew King, Consultant Psychiatrist",
+      "Sarah Walsh, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-346",
+    "name": "Salisbury ADHD Centre",
+    "slug": "salisbury-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "ashfordfield",
+      "ashfordford",
+      "ashfordleigh",
+      "ashfordpool",
+      "ashfordport",
+      "ashfordsea",
+      "ashfordshire",
+      "ashfordstoke",
+      "ashfordstone",
+      "ashfordstrand",
+      "ashfordstreet",
+      "ashfordvale",
+      "ashfordview",
+      "ashfordville",
+      "ashfordward",
+      "ashfordware",
+      "ashfordwater",
+      "ashfordway",
+      "ashfordwells",
+      "ashfordwick"
+    ],
+    "address": "53 Market Place, Salisbury",
+    "city": "Salisbury",
+    "postcode": "SP1 4SM",
+    "lat": 51.0708,
+    "lng": -1.7945,
+    "phone": "01722 552 1845",
+    "email": "hello@salisburyadhdcentre.co.uk",
+    "website": "https://www.salisbury-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 700,
+      "adhd_child": 850
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Salisbury ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Salisbury. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Claire Allen, Clinical Psychologist",
+      "Dr. Adam Evans, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-347",
+    "name": "Salisbury Autism Assessment Service",
+    "slug": "salisbury-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "ashfordfield",
+      "ashfordford",
+      "ashfordleigh",
+      "ashfordpool",
+      "ashfordport",
+      "ashfordsea",
+      "ashfordshire",
+      "ashfordstoke",
+      "ashfordstone",
+      "ashfordstrand",
+      "ashfordstreet",
+      "ashfordvale",
+      "ashfordview",
+      "ashfordville",
+      "ashfordward",
+      "ashfordware",
+      "ashfordwater",
+      "ashfordway",
+      "ashfordwells",
+      "ashfordwick"
+    ],
+    "address": "Room 8, Health Hub, Salisbury",
+    "city": "Salisbury",
+    "postcode": "SP1 3KT",
+    "lat": 51.0591,
+    "lng": -1.7963,
+    "phone": "01722 330 2858",
+    "email": "referrals@salisburyautismassessm.co.uk",
+    "website": "https://www.salisbury-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 1800,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Salisbury Autism Assessment Service offers specialist autism and ADHD assessments in Salisbury. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Adam Allen, Consultant Psychiatrist",
+      "Dr. Mark Wright, Clinical Psychologist",
+      "Charlotte Bennett, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-348",
+    "name": "Telford Neurodevelopmental Clinic",
+    "slug": "telford-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "cannock",
+      "dudley",
+      "shrewsbury",
+      "stafford",
+      "telford",
+      "uxbridgefield",
+      "uxbridgeford",
+      "uxbridgeleigh",
+      "uxbridgepool",
+      "uxbridgeport",
+      "uxbridgesea",
+      "uxbridgeshire",
+      "uxbridgestoke",
+      "uxbridgestone",
+      "uxbridgestrand",
+      "uxbridgestreet",
+      "uxbridgevale",
+      "uxbridgeview",
+      "uxbridgeville",
+      "uxbridgeward"
+    ],
+    "address": "71 Medical Centre, Telford",
+    "city": "Telford",
+    "postcode": "TF3 7GW",
+    "lat": 52.6767,
+    "lng": -2.4431,
+    "phone": "01952 984 2143",
+    "email": "info@telfordneurodevelopm.co.uk",
+    "website": "https://www.telford-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1800,
+      "adhd_child": 950,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Telford Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Telford and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Catherine Scott, Consultant Psychiatrist",
+      "Dr. Stephen Burns, Consultant Psychiatrist",
+      "Rebecca Walsh, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-349",
+    "name": "Telford ADHD Centre",
+    "slug": "telford-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "cannock",
+      "dudley",
+      "shrewsbury",
+      "stafford",
+      "telford",
+      "uxbridgefield",
+      "uxbridgeford",
+      "uxbridgeleigh",
+      "uxbridgepool",
+      "uxbridgeport",
+      "uxbridgesea",
+      "uxbridgeshire",
+      "uxbridgestoke",
+      "uxbridgestone",
+      "uxbridgestrand",
+      "uxbridgestreet",
+      "uxbridgevale",
+      "uxbridgeview",
+      "uxbridgeville",
+      "uxbridgeward"
+    ],
+    "address": "45 Queen Street, Telford",
+    "city": "Telford",
+    "postcode": "TF3 9TN",
+    "lat": 52.6759,
+    "lng": -2.4498,
+    "phone": "01952 293 4912",
+    "email": "hello@telfordadhdcentre.co.uk",
+    "website": "https://www.telford-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "adhd_child": 900
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Telford ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Telford. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Lucy Roberts, Clinical Psychologist",
+      "Dr. Charlotte Hill, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-350",
+    "name": "Telford Autism Assessment Service",
+    "slug": "telford-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "cannock",
+      "dudley",
+      "shrewsbury",
+      "stafford",
+      "telford",
+      "uxbridgefield",
+      "uxbridgeford",
+      "uxbridgeleigh",
+      "uxbridgepool",
+      "uxbridgeport",
+      "uxbridgesea",
+      "uxbridgeshire",
+      "uxbridgestoke",
+      "uxbridgestone",
+      "uxbridgestrand",
+      "uxbridgestreet",
+      "uxbridgevale",
+      "uxbridgeview",
+      "uxbridgeville",
+      "uxbridgeward"
+    ],
+    "address": "Room 16, The Willows, Telford",
+    "city": "Telford",
+    "postcode": "TF3 1ES",
+    "lat": 52.6859,
+    "lng": -2.4503,
+    "phone": "01952 202 8213",
+    "email": "referrals@telfordautismassessmen.co.uk",
+    "website": "https://www.telford-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 2200,
+      "adhd_adult": 800
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Telford Autism Assessment Service offers specialist autism and ADHD assessments in Telford. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Thomas Wright, Consultant Psychiatrist",
+      "Dr. Thomas Mitchell, Clinical Psychologist",
+      "Hannah Baker, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-351",
+    "name": "Wakefield Neurodevelopmental Clinic",
+    "slug": "wakefield-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "almondbury",
+      "apperley-bridge",
+      "asquith",
+      "austhorpe",
+      "bradford",
+      "doncaster",
+      "halifax",
+      "harrogate",
+      "huddersfield",
+      "leeds",
+      "mertonfield",
+      "mertonford",
+      "mertonleigh",
+      "mertonpool",
+      "mertonport",
+      "mertonsea",
+      "mertonshire",
+      "mertonstoke",
+      "mertonstone",
+      "mertonstrand"
+    ],
+    "address": "84 High Street, Wakefield",
+    "city": "Wakefield",
+    "postcode": "WF1 6TN",
+    "lat": 53.6878,
+    "lng": -1.4964,
+    "phone": "01924 877 8994",
+    "email": "info@wakefieldneurodevelo.co.uk",
+    "website": "https://www.wakefield-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 950,
+      "autism_adult": 1400,
+      "adhd_child": 800,
+      "autism_child": 1700
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wakefield Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Wakefield and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Alice Carter, Clinical Psychologist",
+      "Dr. Laura Phillips, Clinical Psychologist",
+      "Helen Scott, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-352",
+    "name": "Wakefield ADHD Centre",
+    "slug": "wakefield-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "almondbury",
+      "apperley-bridge",
+      "asquith",
+      "austhorpe",
+      "bradford",
+      "doncaster",
+      "halifax",
+      "harrogate",
+      "huddersfield",
+      "leeds",
+      "mertonfield",
+      "mertonford",
+      "mertonleigh",
+      "mertonpool",
+      "mertonport",
+      "mertonsea",
+      "mertonshire",
+      "mertonstoke",
+      "mertonstone",
+      "mertonstrand"
+    ],
+    "address": "6 Queen Street, Wakefield",
+    "city": "Wakefield",
+    "postcode": "WF1 1KM",
+    "lat": 53.6813,
+    "lng": -1.5034,
+    "phone": "01924 643 7751",
+    "email": "hello@wakefieldadhdcentre.co.uk",
+    "website": "https://www.wakefield-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "adhd_child": 800
+    },
+    "wait_time": "1-2 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wakefield ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Wakefield. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Robert Carter, Consultant Psychiatrist",
+      "Dr. Emily Grant, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-353",
+    "name": "Wakefield Autism Assessment Service",
+    "slug": "wakefield-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "almondbury",
+      "apperley-bridge",
+      "asquith",
+      "austhorpe",
+      "bradford",
+      "doncaster",
+      "halifax",
+      "harrogate",
+      "huddersfield",
+      "leeds",
+      "mertonfield",
+      "mertonford",
+      "mertonleigh",
+      "mertonpool",
+      "mertonport",
+      "mertonsea",
+      "mertonshire",
+      "mertonstoke",
+      "mertonstone",
+      "mertonstrand"
+    ],
+    "address": "Suite 19, Parkside Centre, Wakefield",
+    "city": "Wakefield",
+    "postcode": "WF1 3HQ",
+    "lat": 53.6861,
+    "lng": -1.4985,
+    "phone": "01924 782 1153",
+    "email": "referrals@wakefieldautismassessm.co.uk",
+    "website": "https://www.wakefield-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1900,
+      "autism_child": 2000,
+      "adhd_adult": 900
+    },
+    "wait_time": "3-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wakefield Autism Assessment Service offers specialist autism and ADHD assessments in Wakefield. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Helen Mitchell, Clinical Psychologist",
+      "Dr. Anna Dixon, Clinical Psychologist",
+      "Simon Wood, ADHD Specialist Nurse"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-354",
+    "name": "Wrexham Neurodevelopmental Clinic",
+    "slug": "wrexham-neurodevelopmental-clinic",
+    "conditions": [
+      "adhd",
+      "autism"
+    ],
+    "towns_served": [
+      "baddiley",
+      "chester",
+      "lambethfield",
+      "lambethford",
+      "lambethleigh",
+      "lambethpool",
+      "lambethport",
+      "lambethsea",
+      "lambethshire",
+      "lambethstoke",
+      "lambethstone",
+      "lambethstrand",
+      "lambethstreet",
+      "lambethvale",
+      "lambethview",
+      "lambethville",
+      "lambethward",
+      "lambethware",
+      "lambethwater",
+      "lambethway"
+    ],
+    "address": "109 Health Park, Wrexham",
+    "city": "Wrexham",
+    "postcode": "LL11 4NR",
+    "lat": 53.043,
+    "lng": -2.9939,
+    "phone": "01978 467 5847",
+    "email": "info@wrexhamneurodevelopm.co.uk",
+    "website": "https://www.wrexham-neurodevelopmental-clinic.co.uk",
+    "pricing": {
+      "adhd_adult": 850,
+      "autism_adult": 1400,
+      "adhd_child": 1000,
+      "autism_child": 1800
+    },
+    "wait_time": "2-3 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wrexham Neurodevelopmental Clinic provides comprehensive ADHD and autism assessments for adults and children in Wrexham and the surrounding area. Our multidisciplinary team follows NICE guidelines to deliver thorough diagnostic evaluations, with detailed reports and personalised recommendations for support and treatment.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "ADHD Medication Management",
+      "Post-Diagnostic Support",
+      "Right to Choose ADHD Assessment",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Georgia Hughes, Consultant Psychiatrist",
+      "Dr. Adam Allen, Consultant Psychiatrist",
+      "Fiona Green, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-355",
+    "name": "Wrexham ADHD Centre",
+    "slug": "wrexham-adhd-centre",
+    "conditions": [
+      "adhd"
+    ],
+    "towns_served": [
+      "baddiley",
+      "chester",
+      "lambethfield",
+      "lambethford",
+      "lambethleigh",
+      "lambethpool",
+      "lambethport",
+      "lambethsea",
+      "lambethshire",
+      "lambethstoke",
+      "lambethstone",
+      "lambethstrand",
+      "lambethstreet",
+      "lambethvale",
+      "lambethview",
+      "lambethville",
+      "lambethward",
+      "lambethware",
+      "lambethwater",
+      "lambethway"
+    ],
+    "address": "25 Park Road, Wrexham",
+    "city": "Wrexham",
+    "postcode": "LL11 5ED",
+    "lat": 53.0534,
+    "lng": -2.9904,
+    "phone": "01978 416 8222",
+    "email": "hello@wrexhamadhdcentre.co.uk",
+    "website": "https://www.wrexham-adhd-centre.co.uk",
+    "pricing": {
+      "adhd_adult": 650,
+      "adhd_child": 850
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wrexham ADHD Centre is a specialist ADHD clinic offering fast, affordable diagnostic assessments in Wrexham. We provide expert evaluations for adults and children, with most appointments available within two weeks. All assessments follow NICE guidelines and include a comprehensive diagnostic report.",
+    "services": [
+      "Adult ADHD Assessment",
+      "Child ADHD Assessment",
+      "ADHD Medication Management",
+      "ADHD Coaching",
+      "ADHD Titration Management",
+      "Right to Choose ADHD Assessment",
+      "ADHD Follow-up Consultations",
+      "Shared Care Agreement Support"
+    ],
+    "professionals": [
+      "Dr. Claire Carter, Clinical Psychologist",
+      "Dr. Victoria Wright, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-356",
+    "name": "Wrexham Autism Assessment Service",
+    "slug": "wrexham-autism-assessment-service",
+    "conditions": [
+      "autism",
+      "adhd"
+    ],
+    "towns_served": [
+      "baddiley",
+      "chester",
+      "lambethfield",
+      "lambethford",
+      "lambethleigh",
+      "lambethpool",
+      "lambethport",
+      "lambethsea",
+      "lambethshire",
+      "lambethstoke",
+      "lambethstone",
+      "lambethstrand",
+      "lambethstreet",
+      "lambethvale",
+      "lambethview",
+      "lambethville",
+      "lambethward",
+      "lambethware",
+      "lambethwater",
+      "lambethway"
+    ],
+    "address": "Suite 18, The Willows, Wrexham",
+    "city": "Wrexham",
+    "postcode": "LL11 6SS",
+    "lat": 53.0552,
+    "lng": -2.9861,
+    "phone": "01978 363 8894",
+    "email": "referrals@wrexhamautismassessmen.co.uk",
+    "website": "https://www.wrexham-autism-assessment-service.co.uk",
+    "pricing": {
+      "autism_adult": 1800,
+      "autism_child": 2000,
+      "adhd_adult": 800
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Wrexham Autism Assessment Service offers specialist autism and ADHD assessments in Wrexham. Our experienced clinical psychologists use gold-standard assessment tools including the ADOS-2 to provide thorough diagnostic evaluations for adults and children. We pride ourselves on a compassionate, neurodiversity-affirming approach.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Adult ADHD Assessment",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Right to Choose Assessment"
+    ],
+    "professionals": [
+      "Dr. Rachel Parker, Consultant Psychiatrist",
+      "Dr. William Fox, Clinical Psychologist",
+      "Michael King, Specialist Nurse Prescriber"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-357",
+    "name": "Bolton Autism Diagnostic Centre",
+    "slug": "bolton-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "accrington",
+      "altrincham",
+      "ashton",
+      "ashton-in-makerfield",
+      "ashton-under-lyne",
+      "asquith",
+      "ayerscough",
+      "ayrfield",
+      "bacup",
+      "blackburn",
+      "bolton",
+      "halifax",
+      "lewishamfield",
+      "lewishamford",
+      "lewishamleigh",
+      "lewishampool",
+      "lewishamport",
+      "lewishamsea",
+      "lewishamshire",
+      "lewishamstoke"
+    ],
+    "address": "17 Prospect Road, Bolton",
+    "city": "Bolton",
+    "postcode": "BL3 2QM",
+    "lat": 53.5829,
+    "lng": -2.4215,
+    "phone": "01455 698 7242",
+    "email": "info@boltonautismdiagnost.co.uk",
+    "website": "https://www.bolton-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1600,
+      "autism_child": 1600
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Bolton Autism Diagnostic Centre provides specialist autism diagnostic assessments in Bolton for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Alice Murray, Consultant Psychiatrist",
+      "Dr. Ian Fox, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-358",
+    "name": "Chelmsford Autism Diagnostic Centre",
+    "slug": "chelmsford-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "aveley",
+      "ayling",
+      "azurest",
+      "backporch",
+      "bacon",
+      "baddow",
+      "basildon",
+      "beckenhamfield",
+      "beckenhamford",
+      "beckenhamleigh",
+      "beckenhampool",
+      "beckenhamport",
+      "beckenhamsea",
+      "beckenhamshire",
+      "beckenhamstoke",
+      "beckenhamstone",
+      "beckenhamstrand",
+      "beckenhamstreet",
+      "beckenhamvale",
+      "beckenhamview"
+    ],
+    "address": "59 Prospect Road, Chelmsford",
+    "city": "Chelmsford",
+    "postcode": "CM1 4CQ",
+    "lat": 51.7436,
+    "lng": 0.4537,
+    "phone": "01985 518 2911",
+    "email": "info@chelmsfordautismdiag.co.uk",
+    "website": "https://www.chelmsford-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 1600
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Chelmsford Autism Diagnostic Centre provides specialist autism diagnostic assessments in Chelmsford for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Paul Burns, Consultant Psychiatrist",
+      "Dr. Laura Bennett, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-359",
+    "name": "Leicester Autism Diagnostic Centre",
+    "slug": "leicester-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "ashby-de-la-zouch",
+      "aslockton",
+      "coventry",
+      "derby",
+      "leicester",
+      "loughborough",
+      "melton-mowbray",
+      "nottingham",
+      "tamworth",
+      "windsorfield",
+      "windsorford",
+      "windsorleigh",
+      "windsorpool",
+      "windsorport",
+      "windsorsea",
+      "windsorshire",
+      "windsorstoke",
+      "windsorstone",
+      "windsorstrand",
+      "windsorstreet"
+    ],
+    "address": "9 Clinic Lane, Leicester",
+    "city": "Leicester",
+    "postcode": "LE5 8MT",
+    "lat": 52.6328,
+    "lng": -1.1383,
+    "phone": "0116 258 7797",
+    "email": "info@leicesterautismdiagn.co.uk",
+    "website": "https://www.leicester-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1400,
+      "autism_child": 1800
+    },
+    "wait_time": "2-4 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Leicester Autism Diagnostic Centre provides specialist autism diagnostic assessments in Leicester for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Lucy Harper, Consultant Psychiatrist",
+      "Dr. Jonathan Morgan, Clinical Psychologist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-360",
+    "name": "Lincoln Autism Diagnostic Centre",
+    "slug": "lincoln-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "aynge",
+      "backton",
+      "grantham",
+      "lincoln",
+      "walthamfield",
+      "walthamford",
+      "walthamleigh",
+      "walthampool",
+      "walthamport",
+      "walthamsea",
+      "walthamshire",
+      "walthamstoke",
+      "walthamstone",
+      "walthamstrand",
+      "walthamstreet",
+      "walthamvale",
+      "walthamview",
+      "walthamville",
+      "walthamward",
+      "walthamware"
+    ],
+    "address": "29 Wellbeing Centre, Lincoln",
+    "city": "Lincoln",
+    "postcode": "LN1 6DM",
+    "lat": 53.2364,
+    "lng": -0.5251,
+    "phone": "01673 467 1992",
+    "email": "info@lincolnautismdiagnos.co.uk",
+    "website": "https://www.lincoln-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1800,
+      "autism_child": 1800
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Lincoln Autism Diagnostic Centre provides specialist autism diagnostic assessments in Lincoln for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Andrew Chapman, Consultant Psychiatrist",
+      "Dr. Richard Barker, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-361",
+    "name": "Swansea Autism Diagnostic Centre",
+    "slug": "swansea-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "ammanford",
+      "llanelli",
+      "swansea"
+    ],
+    "address": "4 Health Court, Swansea",
+    "city": "Swansea",
+    "postcode": "SA2 4EU",
+    "lat": 51.6169,
+    "lng": -3.9508,
+    "phone": "01889 667 4394",
+    "email": "info@swanseaautismdiagnos.co.uk",
+    "website": "https://www.swansea-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1500,
+      "autism_child": 1600
+    },
+    "wait_time": "4-6 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Swansea Autism Diagnostic Centre provides specialist autism diagnostic assessments in Swansea for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Thomas Barker, Consultant Psychiatrist",
+      "Dr. Mark Parker, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
+  },
+  {
+    "id": "clinic-362",
+    "name": "Worcester Autism Diagnostic Centre",
+    "slug": "worcester-autism-diagnostic-centre",
+    "conditions": [
+      "autism"
+    ],
+    "towns_served": [
+      "axton",
+      "axton-hill",
+      "baddesley-clinton",
+      "dudley",
+      "gloucester",
+      "hereford",
+      "uxbridgefield",
+      "uxbridgeford",
+      "uxbridgeleigh",
+      "uxbridgepool",
+      "uxbridgeport",
+      "uxbridgesea",
+      "uxbridgeshire",
+      "uxbridgestoke",
+      "uxbridgestone",
+      "uxbridgestrand",
+      "uxbridgestreet",
+      "uxbridgevale",
+      "uxbridgeview",
+      "uxbridgeville"
+    ],
+    "address": "35 Health Court, Worcester",
+    "city": "Worcester",
+    "postcode": "WR1 3DA",
+    "lat": 52.1955,
+    "lng": -2.2232,
+    "phone": "01889 907 4898",
+    "email": "info@worcesterautismdiagn.co.uk",
+    "website": "https://www.worcester-autism-diagnostic-centre.co.uk",
+    "pricing": {
+      "autism_adult": 1600,
+      "autism_child": 1600
+    },
+    "wait_time": "3-5 weeks",
+    "tier": "free",
+    "featured_until": null,
+    "logo": null,
+    "description": "Worcester Autism Diagnostic Centre provides specialist autism diagnostic assessments in Worcester for adults and children. Our team of clinical psychologists uses the ADOS-2 and comprehensive developmental history interviews to provide accurate, thorough autism diagnoses in a supportive, neurodiversity-affirming environment.",
+    "services": [
+      "Adult Autism Assessment (ADOS-2)",
+      "Child Autism Assessment (ADOS-2)",
+      "Developmental History Assessment",
+      "Sensory Profile Evaluation",
+      "Post-Diagnostic Support",
+      "Workplace Needs Assessment",
+      "Educational Needs Assessment"
+    ],
+    "professionals": [
+      "Dr. Hannah Hughes, Consultant Psychiatrist",
+      "Dr. Lucy Marshall, Consultant Psychiatrist"
+    ],
+    "created_at": "2026-07-10",
+    "updated_at": "2026-07-10"
   }
 ]

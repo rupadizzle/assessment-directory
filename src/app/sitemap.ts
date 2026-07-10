@@ -9,7 +9,7 @@ const allTowns = towns as Town[];
 const allClinics = clinics as unknown as Clinic[];
 const allGuides = guides as Guide[];
 
-const LAST_UPDATED = "2026-07-09T00:00:00Z";
+const LAST_UPDATED = "2026-07-10T00:00:00Z";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
