@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AssessmentPrepChecklist from "./AssessmentPrepChecklist";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Assessment Preparation Checklist — Get Ready for Your ADHD or Autism Assessment",
@@ -33,6 +34,7 @@ export default function Page() {
       <section className="max-w-3xl mx-auto px-4 py-10">
         <AssessmentPrepChecklist />
       </section>
+      <ToolSeoContent slug="assessment-prep" />
     </div>
   );
 }

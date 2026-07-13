@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import SharedCareLetter from "./SharedCareLetter";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Shared Care Letter Generator — Ask Your GP to Prescribe ADHD Medication",
@@ -31,6 +32,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><SharedCareLetter /></section>
+      <ToolSeoContent slug="shared-care-letter" />
     </div>
   );
 }

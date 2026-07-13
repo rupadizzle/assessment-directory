@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AdhdTaxCalculator from "./AdhdTaxCalculator";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "ADHD Tax Calculator — How Much Is ADHD Costing You?",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><AdhdTaxCalculator /></section>
+      <ToolSeoContent slug="adhd-tax-calculator" />
     </div>
   );
 }

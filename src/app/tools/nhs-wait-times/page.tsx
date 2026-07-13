@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import NhsWaitTimeChecker from "@/components/NhsWaitTimeChecker";
 import icbData from "@/data/nhs-icb.json";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "NHS ADHD & Autism Wait Times by Area — How Long Will I Wait?",
@@ -49,6 +50,7 @@ export default function NhsWaitTimesPage() {
       <section className="max-w-3xl mx-auto px-4 py-10">
         <NhsWaitTimeChecker icbData={icbData} />
       </section>
+      <ToolSeoContent slug="nhs-wait-times" />
     </div>
   );
 }

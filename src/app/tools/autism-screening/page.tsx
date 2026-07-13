@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AutismScreeningQuiz from "@/components/AutismScreeningQuiz";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Free Autism Self-Screening Quiz (AQ-10) — Am I Autistic?",
@@ -62,6 +63,7 @@ export default function AutismScreeningPage() {
 
         <AutismScreeningQuiz />
       </section>
+      <ToolSeoContent slug="autism-screening" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AssessmentTypes from "./AssessmentTypes";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Assessment Type Explainer — ADHD & Autism Assessment Formats Explained",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><AssessmentTypes /></section>
+      <ToolSeoContent slug="assessment-types" />
     </div>
   );
 }

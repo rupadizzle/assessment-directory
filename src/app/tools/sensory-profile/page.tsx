@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import SensoryProfile from "./SensoryProfile";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Sensory Profile Quiz — Understand Your Sensory Sensitivities",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><SensoryProfile /></section>
+      <ToolSeoContent slug="sensory-profile" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import WorkplaceLetter from "./WorkplaceLetter";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Workplace Adjustments Letter — Request Reasonable Adjustments for ADHD or Autism",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><WorkplaceLetter /></section>
+      <ToolSeoContent slug="workplace-adjustments" />
     </div>
   );
 }

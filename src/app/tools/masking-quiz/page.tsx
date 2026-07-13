@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import MaskingQuiz from "./MaskingQuiz";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Autism Masking Quiz — How Much Are You Masking?",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><MaskingQuiz /></section>
+      <ToolSeoContent slug="masking-quiz" />
     </div>
   );
 }

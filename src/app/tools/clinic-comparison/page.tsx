@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import ClinicComparison from "./ClinicComparison";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Clinic Comparison Tool — Compare Private ADHD & Autism Assessment Providers",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-4xl mx-auto px-4 py-10"><ClinicComparison /></section>
+      <ToolSeoContent slug="clinic-comparison" />
     </div>
   );
 }

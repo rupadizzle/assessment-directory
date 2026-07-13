@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import CostCalculator from "@/components/CostCalculator";
 import clinics from "@/data/clinics.json";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "ADHD & Autism Assessment Cost Calculator — UK Price Comparison",
@@ -59,6 +60,7 @@ export default function CostCalculatorPage() {
       <section className="max-w-3xl mx-auto px-4 py-10">
         <CostCalculator clinics={clinicData} />
       </section>
+      <ToolSeoContent slug="cost-calculator" />
     </div>
   );
 }

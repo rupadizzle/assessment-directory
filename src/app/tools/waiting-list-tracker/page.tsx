@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import WaitingListTracker from "./WaitingListTracker";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "NHS Waiting List Tracker — Track Your ADHD or Autism Referral",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><WaitingListTracker /></section>
+      <ToolSeoContent slug="waiting-list-tracker" />
     </div>
   );
 }

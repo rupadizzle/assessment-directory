@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import PostDiagnosisPlan from "./PostDiagnosisPlan";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Post-Diagnosis Action Plan — What to Do After an ADHD or Autism Diagnosis",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><PostDiagnosisPlan /></section>
+      <ToolSeoContent slug="post-diagnosis-plan" />
     </div>
   );
 }

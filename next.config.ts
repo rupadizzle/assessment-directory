@@ -6,9 +6,6 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   poweredByHeader: false,
-  typescript: {
-    ignoreBuildErrors: true,
-  },
   async headers() {
     return [
       {

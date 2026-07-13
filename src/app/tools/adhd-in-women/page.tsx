@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AdhdWomenScreener from "./AdhdWomenScreener";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "ADHD in Women Screening Quiz — Signs of ADHD in Females",
@@ -39,6 +40,7 @@ export default function Page() {
         </div>
         <AdhdWomenScreener />
       </section>
+      <ToolSeoContent slug="adhd-in-women" />
     </div>
   );
 }

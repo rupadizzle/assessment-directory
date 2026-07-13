@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import PipChecker from "./PipChecker";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "PIP Eligibility Checker — Could Your ADHD or Autism Qualify for PIP?",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><PipChecker /></section>
+      <ToolSeoContent slug="pip-checker" />
     </div>
   );
 }

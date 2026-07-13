@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import GpScriptGenerator from "./GpScriptGenerator";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "GP Appointment Script — What to Say to Your Doctor About ADHD or Autism",
@@ -34,6 +35,7 @@ export default function Page() {
       <section className="max-w-3xl mx-auto px-4 py-10">
         <GpScriptGenerator />
       </section>
+      <ToolSeoContent slug="gp-script" />
     </div>
   );
 }

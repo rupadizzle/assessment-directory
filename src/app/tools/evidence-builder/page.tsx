@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import EvidenceBuilder from "./EvidenceBuilder";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Symptom Evidence Builder — Collect Proof for Your ADHD or Autism Assessment",
@@ -31,6 +32,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><EvidenceBuilder /></section>
+      <ToolSeoContent slug="evidence-builder" />
     </div>
   );
 }

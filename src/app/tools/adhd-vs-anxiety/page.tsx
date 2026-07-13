@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AdhdVsAnxiety from "./AdhdVsAnxiety";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "ADHD vs Anxiety Checker — Which Am I Experiencing?",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><AdhdVsAnxiety /></section>
+      <ToolSeoContent slug="adhd-vs-anxiety" />
     </div>
   );
 }

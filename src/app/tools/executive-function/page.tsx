@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import ExecutiveFunction from "./ExecutiveFunction";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Executive Function Assessment — How Are Your Executive Functions?",
@@ -28,6 +29,7 @@ export default function Page() {
         </div>
       </section>
       <section className="max-w-3xl mx-auto px-4 py-10"><ExecutiveFunction /></section>
+      <ToolSeoContent slug="executive-function" />
     </div>
   );
 }

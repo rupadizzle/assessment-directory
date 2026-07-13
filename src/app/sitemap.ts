@@ -10,7 +10,14 @@ const allTowns = towns as Town[];
 const allClinics = clinics as unknown as Clinic[];
 const allGuides = guides as Guide[];
 
-const LAST_UPDATED = "2026-07-10T00:00:00Z";
+// Static and town pages render from clinic/guide data, so their last
+// meaningful change is the most recent data update.
+const LAST_UPDATED = [
+  ...allClinics.map((c) => c.updated_at),
+  ...allGuides.map((g) => g.created_at),
+]
+  .sort()
+  .at(-1)!;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [

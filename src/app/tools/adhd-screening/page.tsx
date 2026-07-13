@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import AdhdScreeningQuiz from "@/components/AdhdScreeningQuiz";
+import ToolSeoContent from "@/components/ToolSeoContent";
 
 export const metadata: Metadata = {
   title: "Free ADHD Self-Screening Quiz (ASRS-v1.1) — Do I Have ADHD?",
@@ -61,6 +62,7 @@ export default function AdhdScreeningPage() {
 
         <AdhdScreeningQuiz />
       </section>
+      <ToolSeoContent slug="adhd-screening" />
     </div>
   );
 }
