@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Assessment Type Explainer — ADHD & Autism Assessment Formats Explained",
   description: "Understand the different types of ADHD and autism assessments — NHS vs private, online vs in-person, NICE-compliant vs screening. Make an informed choice.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/assessment-types/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Assessment Type Explainer — ADHD & Autism Assessment Formats Explained",
+    description:
+      "Understand the different types of ADHD and autism assessments — NHS vs private, online vs in-person, NICE-compliant vs screening. Make an informed choice.",
+    url: "https://assessmentdirectory.co.uk/tools/assessment-types/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "PIP Eligibility Checker — Could Your ADHD or Autism Qualify for PIP?",
   description: "Check whether your ADHD or autism symptoms might qualify you for Personal Independence Payment (PIP). Free informational tool covering all 12 PIP activities.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/pip-checker/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "PIP Eligibility Checker — Could Your ADHD or Autism Qualify for PIP?",
+    description:
+      "Check whether your ADHD or autism symptoms might qualify you for Personal Independence Payment (PIP). Free informational tool covering all 12 PIP activities.",
+    url: "https://assessmentdirectory.co.uk/tools/pip-checker/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

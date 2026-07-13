@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/tools/nhs-wait-times/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "NHS ADHD & Autism Wait Times by Area — How Long Will I Wait?",
     description:
       "Check estimated NHS waiting times for ADHD and autism assessments in your area. Compare NHS waits with private assessment options.",

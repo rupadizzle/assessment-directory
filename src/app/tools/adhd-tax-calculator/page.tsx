@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "ADHD Tax Calculator — How Much Is ADHD Costing You?",
   description: "Calculate the hidden financial cost of ADHD — from impulse spending and late fees to forgotten subscriptions and lost items. Free interactive calculator.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/adhd-tax-calculator/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "ADHD Tax Calculator — How Much Is ADHD Costing You?",
+    description:
+      "Calculate the hidden financial cost of ADHD — from impulse spending and late fees to forgotten subscriptions and lost items. Free interactive calculator.",
+    url: "https://assessmentdirectory.co.uk/tools/adhd-tax-calculator/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

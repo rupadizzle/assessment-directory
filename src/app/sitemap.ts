@@ -2,7 +2,8 @@ import { MetadataRoute } from "next";
 import towns from "@/data/towns.json";
 import clinics from "@/data/clinics.json";
 import guides from "@/data/guides.json";
-import { Town, Clinic, Guide } from "@/lib/types";
+import { Town, Clinic, Guide, Condition } from "@/lib/types";
+import { findClinicsNearTownWithDistance } from "@/lib/utils";
 
 const BASE_URL = "https://assessmentdirectory.co.uk";
 const allTowns = towns as Town[];
@@ -50,15 +51,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tools/adhd-vs-anxiety/`, lastModified: LAST_UPDATED },
   ];
 
-  const adhdTownPages = allTowns.map((town) => ({
-    url: `${BASE_URL}/adhd-assessment/${town.slug}/`,
-    lastModified: LAST_UPDATED,
-  }));
+  // Town pages with no clinics within 50 miles are noindexed (see
+  // generateMetadata in the town pages) — keep them out of the sitemap too.
+  const hasClinics = (town: Town, condition: Condition) =>
+    findClinicsNearTownWithDistance(town, allClinics, condition, 50, 1).length > 0;
 
-  const autismTownPages = allTowns.map((town) => ({
-    url: `${BASE_URL}/autism-assessment/${town.slug}/`,
-    lastModified: LAST_UPDATED,
-  }));
+  const adhdTownPages = allTowns
+    .filter((town) => hasClinics(town, "adhd"))
+    .map((town) => ({
+      url: `${BASE_URL}/adhd-assessment/${town.slug}/`,
+      lastModified: LAST_UPDATED,
+    }));
+
+  const autismTownPages = allTowns
+    .filter((town) => hasClinics(town, "autism"))
+    .map((town) => ({
+      url: `${BASE_URL}/autism-assessment/${town.slug}/`,
+      lastModified: LAST_UPDATED,
+    }));
 
   const clinicPages = allClinics.map((clinic) => ({
     url: `${BASE_URL}/clinic/${clinic.slug}/`,

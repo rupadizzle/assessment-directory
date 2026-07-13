@@ -4,6 +4,16 @@ import { Clinic, Condition, CONDITIONS } from "./types";
 const SITE_NAME = "UK Assessment Directory";
 const SITE_URL = "https://assessmentdirectory.co.uk";
 
+// Default social sharing image (served by src/app/opengraph-image.tsx).
+// Pages that define their own `openGraph` metadata replace the root
+// file-based image, so it must be re-attached explicitly.
+const OG_IMAGE = {
+  url: `${SITE_URL}/opengraph-image`,
+  width: 1200,
+  height: 630,
+  alt: "UK Assessment Directory — Find Private ADHD & Autism Assessments",
+};
+
 // ---------------------------------------------------------------------------
 // Page metadata generators
 // ---------------------------------------------------------------------------
@@ -27,6 +37,7 @@ export function generateTownPageMeta(
       url: `${SITE_URL}/${config.slug}/${townSlug}/`,
       siteName: SITE_NAME,
       type: "website",
+      images: [OG_IMAGE],
     },
     alternates: {
       canonical: `${SITE_URL}/${config.slug}/${townSlug}/`,
@@ -55,6 +66,7 @@ export function generateClinicPageMeta(
       url: `${SITE_URL}/clinic/${clinicSlug}/`,
       siteName: SITE_NAME,
       type: "website",
+      images: [OG_IMAGE],
     },
     alternates: {
       canonical: `${SITE_URL}/clinic/${clinicSlug}/`,
@@ -76,6 +88,7 @@ export function generateGuidePageMeta(
       url: `${SITE_URL}/guides/${slug}/`,
       siteName: SITE_NAME,
       type: "article",
+      images: [OG_IMAGE],
     },
     alternates: {
       canonical: `${SITE_URL}/guides/${slug}/`,
@@ -229,6 +242,11 @@ export function generateArticleSchema(
     url: `${SITE_URL}/guides/${slug}/`,
     datePublished,
     dateModified: datePublished,
+    author: {
+      "@type": "Organization",
+      name: SITE_NAME,
+      url: SITE_URL,
+    },
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,

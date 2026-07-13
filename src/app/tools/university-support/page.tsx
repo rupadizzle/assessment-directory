@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "University Support Letter — Request Disability Adjustments for ADHD or Autism",
   description: "Generate a letter requesting disability support at university after ADHD or autism diagnosis. Covers exam adjustments, DSA, and reasonable adjustments under the Equality Act.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/university-support/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "University Support Letter — Request Disability Adjustments for ADHD or Autism",
+    description:
+      "Generate a letter requesting disability support at university after ADHD or autism diagnosis. Covers exam adjustments, DSA, and reasonable adjustments under the Equality Act.",
+    url: "https://assessmentdirectory.co.uk/tools/university-support/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

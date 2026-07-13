@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Workplace Adjustments Letter — Request Reasonable Adjustments for ADHD or Autism",
   description: "Generate a letter requesting reasonable adjustments at work under the Equality Act 2010 for ADHD or autism. Free template for UK employees.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/workplace-adjustments/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Workplace Adjustments Letter — Request Reasonable Adjustments for ADHD or Autism",
+    description:
+      "Generate a letter requesting reasonable adjustments at work under the Equality Act 2010 for ADHD or autism. Free template for UK employees.",
+    url: "https://assessmentdirectory.co.uk/tools/workplace-adjustments/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

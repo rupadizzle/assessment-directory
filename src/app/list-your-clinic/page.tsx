@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/list-your-clinic/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "List Your Clinic — Join the UK Assessment Directory",
     description:
       "Get your clinic in front of thousands of people searching for private ADHD and Autism assessments. Free listing available. Upgrade for priority placement.",

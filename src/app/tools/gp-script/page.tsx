@@ -7,6 +7,15 @@ export const metadata: Metadata = {
   description:
     "Generate a personalised script for your GP appointment about ADHD or autism concerns. Know exactly what to say to get taken seriously and get a referral.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/gp-script/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "GP Appointment Script — What to Say to Your Doctor About ADHD or Autism",
+    description:
+      "Generate a personalised script for your GP appointment about ADHD or autism concerns. Know exactly what to say to get taken seriously and get a referral.",
+    url: "https://assessmentdirectory.co.uk/tools/gp-script/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

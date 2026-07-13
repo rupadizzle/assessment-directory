@@ -12,6 +12,7 @@ export const metadata: Metadata = {
       "https://assessmentdirectory.co.uk/tools/right-to-choose-letter/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title:
       "Free Right to Choose Letter Generator — ADHD Assessment Referral",
     description:

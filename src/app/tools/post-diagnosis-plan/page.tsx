@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Post-Diagnosis Action Plan — What to Do After an ADHD or Autism Diagnosis",
   description: "Create a personalised action plan after receiving an ADHD or autism diagnosis. Covers medication, workplace rights, GP shared care, PIP, and more.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/post-diagnosis-plan/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Post-Diagnosis Action Plan — What to Do After an ADHD or Autism Diagnosis",
+    description:
+      "Create a personalised action plan after receiving an ADHD or autism diagnosis. Covers medication, workplace rights, GP shared care, PIP, and more.",
+    url: "https://assessmentdirectory.co.uk/tools/post-diagnosis-plan/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

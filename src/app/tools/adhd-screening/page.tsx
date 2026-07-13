@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/tools/adhd-screening/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Free ADHD Self-Screening Quiz (ASRS-v1.1) — Do I Have ADHD?",
     description:
       "Take the free adult ADHD self-screening quiz based on the WHO ASRS-v1.1. 6 quick questions to help you decide whether to seek a formal ADHD assessment.",

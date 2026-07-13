@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/tools/cost-calculator/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "ADHD & Autism Assessment Cost Calculator — UK Price Comparison",
     description:
       "Compare private ADHD and autism assessment costs across UK clinics. See price ranges, averages, and find affordable options.",

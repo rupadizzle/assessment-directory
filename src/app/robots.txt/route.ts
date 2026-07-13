@@ -3,6 +3,7 @@ export const dynamic = "force-static";
 export async function GET() {
   const body = `User-agent: *
 Allow: /
+Disallow: /api/
 
 User-agent: GPTBot
 Allow: /

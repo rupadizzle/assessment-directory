@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "ADHD Medication Comparison — UK Medications Guide",
   description: "Compare ADHD medications available in the UK. See how stimulant and non-stimulant options differ in type, duration, common side effects, and typical dosing.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/medication-comparison/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "ADHD Medication Comparison — UK Medications Guide",
+    description:
+      "Compare ADHD medications available in the UK. See how stimulant and non-stimulant options differ in type, duration, common side effects, and typical dosing.",
+    url: "https://assessmentdirectory.co.uk/tools/medication-comparison/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

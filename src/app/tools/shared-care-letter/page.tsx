@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Shared Care Letter Generator — Ask Your GP to Prescribe ADHD Medication",
   description: "Generate a letter requesting your GP enter a shared care agreement to prescribe ADHD medication after private diagnosis. Free template for UK patients.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/shared-care-letter/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Shared Care Letter Generator — Ask Your GP to Prescribe ADHD Medication",
+    description:
+      "Generate a letter requesting your GP enter a shared care agreement to prescribe ADHD medication after private diagnosis. Free template for UK patients.",
+    url: "https://assessmentdirectory.co.uk/tools/shared-care-letter/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

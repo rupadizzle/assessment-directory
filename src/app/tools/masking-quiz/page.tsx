@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Autism Masking Quiz — How Much Are You Masking?",
   description: "Explore how much you might be masking your autistic traits. Free self-reflection quiz covering social camouflaging, burnout, and authentic self-expression.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/masking-quiz/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Autism Masking Quiz — How Much Are You Masking?",
+    description:
+      "Explore how much you might be masking your autistic traits. Free self-reflection quiz covering social camouflaging, burnout, and authentic self-expression.",
+    url: "https://assessmentdirectory.co.uk/tools/masking-quiz/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

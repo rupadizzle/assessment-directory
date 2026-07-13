@@ -19,14 +19,15 @@ const ClinicMapView = dynamic(() => import("@/components/ClinicMapView"), {
 export const metadata: Metadata = {
   title: "Clinic Map — Find Private ADHD & Autism Assessment Clinics Near You",
   description:
-    "Interactive map of 300+ private ADHD and Autism assessment clinics across the UK. Filter by condition, search by city, and compare prices and wait times.",
+    "Interactive map of 360+ private ADHD and Autism assessment clinics across the UK. Filter by condition, search by city, and compare prices and wait times.",
   alternates: {
     canonical: "https://assessmentdirectory.co.uk/clinics/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Clinic Map — Find Private ADHD & Autism Assessment Clinics Near You",
     description:
-      "Interactive map of 300+ private ADHD and Autism assessment clinics across the UK. Filter by condition, search by city, and compare prices and wait times.",
+      "Interactive map of 360+ private ADHD and Autism assessment clinics across the UK. Filter by condition, search by city, and compare prices and wait times.",
     url: "https://assessmentdirectory.co.uk/clinics/",
     siteName: "UK Assessment Directory",
     type: "website",
@@ -36,5 +37,21 @@ export const metadata: Metadata = {
 export default function ClinicsMapPage() {
   const clinics = clinicsData as unknown as Clinic[];
 
-  return <ClinicMapView clinics={clinics} />;
+  return (
+    <>
+      {/* Server-rendered heading for crawlers — the map itself is client-only */}
+      <div className="sr-only">
+        <h1>
+          Clinic Map — Private ADHD &amp; Autism Assessment Clinics Across the
+          UK
+        </h1>
+        <p>
+          Browse {clinics.length} private ADHD and autism assessment clinics on
+          an interactive map of the UK. Filter by condition, search by city,
+          and compare prices and waiting times.
+        </p>
+      </div>
+      <ClinicMapView clinics={clinics} />
+    </>
+  );
 }

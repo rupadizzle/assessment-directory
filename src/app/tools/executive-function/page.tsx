@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Executive Function Assessment — How Are Your Executive Functions?",
   description: "Self-assess your executive function skills across working memory, planning, emotional regulation, task initiation, and more. Free interactive assessment.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/executive-function/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Executive Function Assessment — How Are Your Executive Functions?",
+    description:
+      "Self-assess your executive function skills across working memory, planning, emotional regulation, task initiation, and more. Free interactive assessment.",
+    url: "https://assessmentdirectory.co.uk/tools/executive-function/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

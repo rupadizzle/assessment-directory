@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Assessment Preparation Checklist — Get Ready for Your ADHD or Autism Assessment",
   description: "Interactive checklist to help you prepare for your ADHD or autism assessment. Know what to bring, what to expect, and how to get the most accurate result.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/assessment-prep/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Assessment Preparation Checklist — Get Ready for Your ADHD or Autism Assessment",
+    description:
+      "Interactive checklist to help you prepare for your ADHD or autism assessment. Know what to bring, what to expect, and how to get the most accurate result.",
+    url: "https://assessmentdirectory.co.uk/tools/assessment-prep/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/terms/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Terms of Service — UK Assessment Directory",
     description:
       "Terms of service for UK Assessment Directory. Terms governing use of our clinic directory and listing services.",

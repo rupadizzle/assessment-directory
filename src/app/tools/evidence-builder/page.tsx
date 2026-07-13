@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Symptom Evidence Builder — Collect Proof for Your ADHD or Autism Assessment",
   description: "Build a structured evidence document of your ADHD or autism symptoms. Organised by life area to help clinicians understand how symptoms affect your daily life.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/evidence-builder/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Symptom Evidence Builder — Collect Proof for Your ADHD or Autism Assessment",
+    description:
+      "Build a structured evidence document of your ADHD or autism symptoms. Organised by life area to help clinicians understand how symptoms affect your daily life.",
+    url: "https://assessmentdirectory.co.uk/tools/evidence-builder/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

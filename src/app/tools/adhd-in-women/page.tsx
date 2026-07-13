@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "ADHD in Women Screening Quiz — Signs of ADHD in Females",
   description: "ADHD often presents differently in women and girls. Take this screening quiz focused on how ADHD commonly manifests in females — including inattentive symptoms often missed by standard tests.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/adhd-in-women/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "ADHD in Women Screening Quiz — Signs of ADHD in Females",
+    description:
+      "ADHD often presents differently in women and girls. Take this screening quiz focused on how ADHD commonly manifests in females — including inattentive symptoms often missed by standard tests.",
+    url: "https://assessmentdirectory.co.uk/tools/adhd-in-women/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

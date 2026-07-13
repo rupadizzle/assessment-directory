@@ -10,6 +10,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/tools/autism-screening/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Free Autism Self-Screening Quiz (AQ-10) — Am I Autistic?",
     description:
       "Take the free autism self-screening quiz based on the AQ-10. 10 quick questions used by GPs as a referral tool for autism assessment.",

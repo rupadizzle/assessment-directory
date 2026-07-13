@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "NHS Waiting List Tracker — Track Your ADHD or Autism Referral",
   description: "Track your NHS ADHD or autism assessment waiting time. Log key dates, calculate how long you've waited, and know your rights including Right to Choose.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/waiting-list-tracker/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "NHS Waiting List Tracker — Track Your ADHD or Autism Referral",
+    description:
+      "Track your NHS ADHD or autism assessment waiting time. Log key dates, calculate how long you've waited, and know your rights including Right to Choose.",
+    url: "https://assessmentdirectory.co.uk/tools/waiting-list-tracker/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

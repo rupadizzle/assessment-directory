@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "ADHD-Friendly Daily Planner — Plan Your Day in a Way That Works",
   description: "An ADHD-friendly daily planner with energy-based scheduling, time blocking, and built-in breaks. Plan your day around how your brain actually works.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/adhd-planner/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "ADHD-Friendly Daily Planner — Plan Your Day in a Way That Works",
+    description:
+      "An ADHD-friendly daily planner with energy-based scheduling, time blocking, and built-in breaks. Plan your day around how your brain actually works.",
+    url: "https://assessmentdirectory.co.uk/tools/adhd-planner/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

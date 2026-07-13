@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "ADHD vs Anxiety Checker — Which Am I Experiencing?",
   description: "ADHD and anxiety share many symptoms but have different causes. This interactive tool helps you explore which might be driving your difficulties.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/adhd-vs-anxiety/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "ADHD vs Anxiety Checker — Which Am I Experiencing?",
+    description:
+      "ADHD and anxiety share many symptoms but have different causes. This interactive tool helps you explore which might be driving your difficulties.",
+    url: "https://assessmentdirectory.co.uk/tools/adhd-vs-anxiety/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

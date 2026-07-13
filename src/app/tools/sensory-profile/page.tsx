@@ -6,6 +6,15 @@ export const metadata: Metadata = {
   title: "Sensory Profile Quiz — Understand Your Sensory Sensitivities",
   description: "Explore your sensory profile across sight, sound, touch, taste, smell, and movement. Understand your sensitivities and get practical coping strategies.",
   alternates: { canonical: "https://assessmentdirectory.co.uk/tools/sensory-profile/" },
+  openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    title: "Sensory Profile Quiz — Understand Your Sensory Sensitivities",
+    description:
+      "Explore your sensory profile across sight, sound, touch, taste, smell, and movement. Understand your sensitivities and get practical coping strategies.",
+    url: "https://assessmentdirectory.co.uk/tools/sensory-profile/",
+    siteName: "UK Assessment Directory",
+    type: "website",
+  },
 };
 
 export default function Page() {

@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/adhd-assessment/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Private ADHD Assessment Clinics Across the UK",
     description:
       "Find private ADHD assessment clinics near you. Compare prices from £495, check waiting times and book your ADHD assessment. Skip the 2+ year NHS wait.",

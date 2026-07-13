@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/tools/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Free ADHD & Autism Tools — UK Assessment Directory",
     description:
       "24 free tools including screening quizzes, NHS wait time checker, cost calculator, and more. Navigate ADHD and autism assessments in the UK.",

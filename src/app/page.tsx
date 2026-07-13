@@ -54,7 +54,7 @@ export default function HomePage() {
             <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            60+ Verified Clinics Across the UK
+            360+ Verified Clinics Across the UK
           </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-5 leading-tight tracking-tight">
             Find Private ADHD & Autism
@@ -73,7 +73,7 @@ export default function HomePage() {
       <section className="bg-white border-b border-gray-100 py-10 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center">
           <div className="p-4">
-            <p className="text-3xl font-bold text-gray-900 tracking-tight">60+</p>
+            <p className="text-3xl font-bold text-gray-900 tracking-tight">360+</p>
             <p className="text-sm text-gray-500 mt-1">Verified Clinics</p>
           </div>
           <div className="p-4">

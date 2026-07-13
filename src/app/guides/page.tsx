@@ -11,6 +11,7 @@ export const metadata: Metadata = {
     canonical: "https://assessmentdirectory.co.uk/guides/",
   },
   openGraph: {
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
     title: "Assessment Guides — ADHD & Autism Resources",
     description:
       "Free guides about private ADHD and autism assessments in the UK. Learn about costs, processes, Right to Choose, and what to expect from your assessment.",
